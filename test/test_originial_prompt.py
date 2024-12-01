@@ -38,6 +38,9 @@ for split, path in test_files.items():
     test_datasets[split] = load_dataset("json", data_files=path)["train"]
 
 def preprocess_example(example, dataset_name):
+    """
+    Preprocess each example by structuring it into a conversation format.
+    """
     if dataset_name in ["test_l1", "test_l1_future"]:
         system_content = ("You are a date calculation expert. "
                           "Solve the following problem step-by-step and provide the final answer in 'Mon, YYYY' format.")
@@ -55,35 +58,39 @@ def preprocess_example(example, dataset_name):
     example["messages"] = messages
     return example
 
-
 for split in test_datasets:
     print(f"Preprocessing {split}...")
-    test_datasets[split] = test_datasets[split].map(preprocess_example)
+    test_datasets[split] = test_datasets[split].map(
+        lambda example: preprocess_example(example, split)
+    )
+    # Optional: Print the first preprocessed example for verification
+    print(f"First preprocessed example in {split}: {test_datasets[split][0]}")
 
 # ------------------------------
 # 3. Define Inference Functions
 # ------------------------------
-def generate_prompts(dataset, dataset_name):
+def generate_prompts(dataset):
+    """
+    Generate prompts by combining the system prompt and user question in a simple format.
+    """
     prompts = []
     for example in dataset:
         system_prompt = example["messages"][0]["content"]
         user_message = example["messages"][1]["content"]
-        if dataset_name in ["test_l2", "test_l3"]:
-            context = example.get("fact_context", example.get("context", ""))
-            prompt = f"{system_prompt}\n\nContext:\n{context}\n\nQuestion: {user_message}\n\nAnswer:"
-        else:
-            prompt = f"{system_prompt}\n\nQuestion: {user_message}\n\nAnswer:"
+        prompt = f"{system_prompt}\n\nQuestion: {user_message}\nAnswer:"
         prompts.append(prompt)
     return prompts
 
-
-def batch_generate_responses_vllm(prompts, batch_size=32, max_length=256):
+def batch_generate_responses_vllm(prompts, batch_size=32, max_length=100):
+    """
+    Generate responses in batches using vLLM.
+    """
     responses = []
     sampling_params = SamplingParams(
         max_tokens=max_length,
         temperature=0.0,
         top_k=-1,
-        stop=["Final Answer:"]
+        stop=["Question:", "Answer:", "\n\n"]
     )
 
     for i in tqdm(range(0, len(prompts), batch_size), desc="Generating responses"):
@@ -94,20 +101,13 @@ def batch_generate_responses_vllm(prompts, batch_size=32, max_length=256):
 
     return responses
 
-def extract_final_answer(response):
-    # Look for 'Final Answer:' and extract the text that follows
-    match = re.search(r"Final Answer:\s*(.*)", response, re.IGNORECASE)
-    if match:
-        return match.group(1).strip()
-    else:
-        # If 'Final Answer:' is not found, return the entire response or handle accordingly
-        return response.strip()
-
 # ------------------------------
 # 4. Define Evaluation Metrics
 # ------------------------------
 def normalize_text(s):
     """Lowercase, remove punctuation, and extra whitespace."""
+    if not isinstance(s, str):
+        return ""
     s = s.lower()
     s = s.translate(str.maketrans('', '', string.punctuation))
     s = ' '.join(s.split())
@@ -160,6 +160,8 @@ def extract_all_dates(text):
     - Year Only (e.g., '1474')
     - Full Dates with Time (e.g., '2035-07-05 00:00:00')
     """
+    if not isinstance(text, str):
+        return []
     # Regex patterns for different date formats
     pattern_month_year = r'\b(?:January|February|March|April|May|June|July|August|September|October|November|December|' \
                          r'Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[.,]?\s*\d{4}\b'
@@ -201,19 +203,22 @@ def extract_answer_date(prediction):
     """
     Extract the calculated answer's date from the model's prediction.
     """
+    if prediction is None:
+        return None
     dates = extract_all_dates(prediction)
     if not dates:
         return None
     # Identify the date that is likely the answer
-    # We can assume the date that is the result of the calculation
-    # If the prediction contains '=', we can take the date after '='
+    # Strategy:
+    # 1. If the response contains '=', take the date after '='
+    # 2. Else, take the latest date (assuming it's the calculated result)
     if '=' in prediction:
         parts = prediction.split('=')
         after_equal = parts[-1]
         dates_after_equal = extract_all_dates(after_equal)
         if dates_after_equal:
             return clean_prediction(dates_after_equal[-1])
-    # Otherwise, take the date that is farthest in time (latest date)
+    # Else, take the latest date
     parsed_dates = []
     for date_str in dates:
         parsed_date = parse_date(date_str)
@@ -234,6 +239,7 @@ def compute_exact_match_date(prediction, ground_truth):
     gt_date_str = clean_prediction(gt_dates[0]) if gt_dates else None
 
     if pred_date_str is None or gt_date_str is None:
+        print("One of the dates could not be extracted.")
         return False  # If extraction fails
 
     pred_date = parse_date(pred_date_str)
@@ -241,7 +247,10 @@ def compute_exact_match_date(prediction, ground_truth):
 
     if pred_date and gt_date:
         # Compare only year and month
-        return (pred_date.year == gt_date.year) and (pred_date.month == gt_date.month)
+        is_match = (pred_date.year == gt_date.year) and (pred_date.month == gt_date.month)
+        print(f"Exact Match: {is_match}")
+        return is_match
+    print("Date parsing failed for one of the dates.")
     return False  # If parsing fails
 
 def compute_mae(prediction, ground_truth):
@@ -284,6 +293,21 @@ def compute_trend_acc(prediction, ground_truth):
         return (pred_date > gt_date)
     return False  # If parsing fails
 
+def compute_average_metrics_text(predictions, ground_truths):
+    """
+    Compute average EM and F1 for text-based datasets.
+    """
+    em_scores = []
+    f1_scores = []
+    for pred, gt in zip(predictions, ground_truths):
+        em = compute_exact_match_text(pred, gt)
+        f1 = compute_token_f1_text(pred, gt)
+        em_scores.append(em)
+        f1_scores.append(f1)
+    avg_em = np.mean(em_scores) * 100
+    avg_f1 = np.mean(f1_scores) * 100
+    return avg_em, avg_f1, em_scores, f1_scores
+
 def compute_average_metrics_date(predictions, ground_truths):
     """
     Compute per-example Exact Match, MAE, and Trend Accuracy for date-based datasets.
@@ -292,6 +316,9 @@ def compute_average_metrics_date(predictions, ground_truths):
     mae_scores = []
     trend_acc_scores = []
     for pred, gt in zip(predictions, ground_truths):
+        print(f"\nEvaluating Example:")
+        print(f"Prediction: {pred}")
+        print(f"Ground Truth: {gt}")
         em = compute_exact_match_date(pred, gt)
         mae = compute_mae(pred, gt)
         trend = compute_trend_acc(pred, gt)
@@ -333,10 +360,10 @@ def save_predictions(dataset, predictions, ground_truths, metrics, split_name, m
         raise ValueError("Unsupported metric type.")
 
     # Ensure output directory exists
-    os.makedirs("results", exist_ok=True)
+    os.makedirs("results_sprompt", exist_ok=True)
     
     # Save all predictions
-    all_preds_path = os.path.join("results", f"{split_name}_predictions.csv")
+    all_preds_path = os.path.join("results_sprompt", f"{split_name}_predictions.csv")
     df.to_csv(all_preds_path, index=False)
     print(f"Saved all predictions to {all_preds_path}")
 
@@ -349,7 +376,7 @@ def save_predictions(dataset, predictions, ground_truths, metrics, split_name, m
         failed_df = df[~df["Exact Match"]]
     
     if not failed_df.empty:
-        failed_preds_path = os.path.join("results", f"{split_name}_failed_predictions.csv")
+        failed_preds_path = os.path.join("results_sprompt", f"{split_name}_failed_predictions.csv")
         failed_df.to_csv(failed_preds_path, index=False)
         print(f"Saved failed predictions to {failed_preds_path}")
     else:
@@ -367,7 +394,6 @@ def evaluate_f1_em_dataset(dataset, split_name):
     predictions = batch_generate_responses_vllm(prompts, batch_size=32)
     
     ground_truths = [example["text_answers"]["text"][0] for example in dataset]
-    predictions = [extract_final_answer(pred) for pred in predictions]
 
     # Compute EM and F1 scores using the new functions
     avg_em, avg_f1, em_scores, f1_scores = compute_average_metrics_text(predictions, ground_truths)

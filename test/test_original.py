@@ -42,7 +42,7 @@ def preprocess_example(example):
     Preprocess each example by structuring it into a conversation format.
     """
     messages = [
-        {"role": "system", "content": "You are a helpful assistant. Please provide only the resulting answer without any additional text."},
+        {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": example["question"]},
     ]
     example["messages"] = messages
@@ -50,7 +50,8 @@ def preprocess_example(example):
 
 for split in test_datasets:
     print(f"Preprocessing {split}...")
-    test_datasets[split] = test_datasets[split].map(preprocess_example)
+    test_datasets[split] = test_datasets[split].map(lambda example: preprocess_example(example))
+
 
 # ------------------------------
 # 3. Define Inference Functions
