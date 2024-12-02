@@ -1,0 +1,284 @@
+Question,Ground Truth,Prediction,Exact Match,MAE (Months),Trend Acc (%)
+"What is the time 9 year after Apr, 1416","Apr, 1425",".Sep, 1425",False,5.0,True
+"What is the time 4 year after May, 1470","May, 1474",".Sep, 1474",False,4.0,True
+"What is the time 2 month after Aug, 1232","Oct, 1232",".Sep, 1232",False,1.0,False
+"What is the time 10 year after Nov, 1900","Nov, 1910","A year after Nov, 1900 is Nov, 1910",False,120.0,False
+"What is the time 5 month after Jul, 1195","Dec, 1195",".Sep, 1195",False,3.0,False
+"What is the time 9 month after May, 1125","Feb, 1126",".Sep, 1125",False,5.0,False
+"What is the time 1 month after Oct, 1091","Nov, 1091","A question: What is the time 1 month after Oct, 1091",False,1.0,False
+"What is the time 4 month after Oct, 1503","Feb, 1504",".Sep, 1504",False,7.0,True
+"What is the time 1 month after Feb, 1322","Mar, 1322","A pr, 1322",False,2.0,False
+"What is the time 11 month after Jul, 1359","Jun, 1360",".Sep, 1360",False,3.0,True
+"What is the time 5 month after Nov, 1360","Apr, 1361",".Sep, 1361",False,5.0,True
+"What is the time 2 year after Jan, 1640","Jan, 1642","A year after Jan, 1640 is Jan, 1642",False,24.0,False
+"What is the time 8 month after Oct, 1336","Jun, 1337",".Sep, 1337",False,3.0,True
+"What is the time 1 year after Nov, 1268","Nov, 1269",".Sep, 1269",False,2.0,False
+"What is the time 5 month after May, 1170","Oct, 1170",".Sep, 1170",False,1.0,False
+"What is the time 1 year after Feb, 1736","Feb, 1737","A year after Feb, 1736 is Feb, 1737",False,12.0,False
+"What is the time 4 year after Dec, 1614","Dec, 1618","A year after Dec, 1614 is Dec, 1618",False,48.0,False
+"What is the time 1 month after Jun, 1483","Jul, 1483",".Sep, 1483",False,2.0,True
+"What is the time 7 year after Jul, 1371","Jul, 1378",".Sep, 1378",False,2.0,True
+"What is the time 12 month after Jan, 1675","Jan, 1676","A year after Jan, 1675 is Jan, 1676",False,12.0,False
+"What is the time 5 month after Oct, 1665","Mar, 1666",".Sep, 1666",False,6.0,True
+"What is the time 7 month after Jan, 1251","Aug, 1251",".Sep, 1251",False,1.0,True
+"What is the time 1 month after Sep, 1050","Oct, 1050",".Sep, 1051",False,11.0,True
+"What is the time 6 year after May, 1762","May, 1768","A year after May, 1762 is May, 1763",False,72.0,False
+"What is the time 10 month after Feb, 1305","Dec, 1305",".Sep, 1305",False,3.0,False
+"What is the time 6 year after Jan, 1556","Jan, 1562","A year after Jan, 1556 is Jan, 1557
+Jan, 1556 was a Monday.",False,72.0,False
+"What is the time 8 month after Apr, 1793","Dec, 1793",".Sep, 1793",False,3.0,False
+"What is the time 12 month after Nov, 1790","Nov, 1791","A question: What is the time 12 month after Nov, 1790",False,12.0,False
+"What is the time 4 month after Aug, 1109","Dec, 1109",".Sep, 1109",False,3.0,False
+"What is the time 9 year after Nov, 1731","Nov, 1740","A question: What is the time 9 year after Nov, 1731",False,108.0,False
+"What is the time 12 month after Oct, 1401","Oct, 1402",".Sep, 1402",False,1.0,False
+"What is the time 11 month after Oct, 1312","Sep, 1313","AUG, 1313",False,1.0,False
+"What is the time 9 month after Oct, 1026","Jul, 1027",".Sep, 1027",False,2.0,True
+"What is the time 9 year after Apr, 1227","Apr, 1236",".Sep, 1236",False,5.0,True
+"What is the time 2 month after Aug, 1392","Oct, 1392",".Sep, 1392",False,1.0,False
+"What is the time 6 month after Jan, 1170","Jul, 1170",".Sep, 1170",False,2.0,True
+"What is the time 5 year after Feb, 1517","Feb, 1522",A,False,,False
+"What is the time 7 month after Jun, 1236","Jan, 1237",".Sep, 1236",False,4.0,False
+"What is the time 2 month after Nov, 1564","Jan, 1565",".Sep, 1565",False,8.0,True
+"What is the time 10 month after May, 1237","Mar, 1238",".Sep, 1237",False,6.0,False
+"What is the time 6 month after Jun, 1216","Dec, 1216",".Sep, 1216",False,3.0,False
+"What is the time 2 month after Feb, 1476","Apr, 1476",".Sep, 1476",False,5.0,True
+"What is the time 10 month after Jan, 1355","Nov, 1355",".Sep, 1355",False,2.0,False
+"What is the time 3 month after Oct, 1612","Jan, 1613","A month after Oct, 1612 is Nov, 1612",False,3.0,False
+"What is the time 10 month after Aug, 1120","Jun, 1121",".Sep, 1121",False,3.0,True
+"What is the time 1 month after Sep, 1578","Oct, 1578",".Sep, 1578",False,1.0,False
+"What is the time 6 year after May, 1751","May, 1757",A,False,,False
+"What is the time 6 year after Jul, 1112","Jul, 1118",".Sep, 1118",False,2.0,True
+"What is the time 1 month after Sep, 1392","Oct, 1392","Agrahayana, 1392",False,9.0,False
+"What is the time 8 month after Aug, 1362","Apr, 1363",".Sep, 1362",False,7.0,False
+"What is the time 4 month after Feb, 1743","Jun, 1743",".Sep, 1743",False,3.0,True
+"What is the time 7 month after Sep, 1121","Apr, 1122",".Sep, 1122",False,5.0,True
+"What is the time 9 month after May, 1021","Feb, 1022",".Sep, 1021",False,5.0,False
+"What is the time 1 year after Jun, 1559","Jun, 1560","A year after Jun, 1559 is Jun, 1560",False,12.0,False
+"What is the time 4 month after Dec, 1481","Apr, 1482",".Sep, 1482",False,5.0,True
+"What is the time 1 month after Dec, 1300","Jan, 1301",".Sep, 1301",False,8.0,True
+"What is the time 5 year after Jan, 1335","Jan, 1340",".Sep, 1340",False,8.0,True
+"What is the time 3 month after Aug, 1043","Nov, 1043",".Sep, 1043",False,2.0,False
+"What is the time 6 month after Feb, 1394","Aug, 1394",".Sep, 1394",False,1.0,True
+"What is the time 2 year after Nov, 1361","Nov, 1363",".Sep, 1363",False,2.0,False
+"What is the time 9 month after Jan, 1942","Oct, 1942","Aft, 1942",False,9.0,False
+"What is the time 12 month after May, 1500","May, 1501",".Sep, 1501",False,4.0,True
+"What is the time 12 month after Oct, 1623","Oct, 1624","Aft, 1624",False,9.0,False
+"What is the time 4 month after Jan, 1652","May, 1652",".Sep, 1652",False,4.0,True
+"What is the time 9 year after May, 1554","May, 1563",A,False,,False
+"What is the time 7 year after Oct, 1642","Oct, 1649","Aft, 1649",False,9.0,False
+"What is the time 7 year after Oct, 1672","Oct, 1679",".Sep, 1679",False,1.0,False
+"What is the time 12 month after Oct, 1512","Oct, 1513","Aft, 1513",False,9.0,False
+"What is the time 1 month after Jan, 1109","Feb, 1109","Aft, 1109",False,1.0,False
+"What is the time 10 year after Nov, 1899","Nov, 1909","A year after Nov, 1899 is Nov, 1900",False,120.0,False
+"What is the time 2 year after Dec, 1375","Dec, 1377",".Sep, 1377",False,3.0,False
+"What is the time 6 month after Jul, 1285","Jan, 1286",".Sep, 1285",False,4.0,False
+"What is the time 9 month after Jan, 1684","Oct, 1684",".Sep, 1684",False,1.0,False
+"What is the time 10 month after Feb, 1341","Dec, 1341",".Sep, 1341",False,3.0,False
+"What is the time 11 month after Jan, 1597","Dec, 1597",".Sep, 1597",False,3.0,False
+"What is the time 5 year after Jun, 1605","Jun, 1610","A year after Jun, 1605 is Jun, 1610",False,60.0,False
+"What is the time 5 month after Sep, 1559","Feb, 1560","Sar, 1559",False,13.0,False
+"What is the time 4 month after Jul, 1396","Nov, 1396",".Sep, 1396",False,2.0,False
+"What is the time 7 month after Jun, 1641","Jan, 1642",".Sep, 1641",False,4.0,False
+"What is the time 1 month after Feb, 1851","Mar, 1851",A,False,,False
+"What is the time 4 month after Jun, 1720","Oct, 1720","Aft, 1720",False,9.0,False
+"What is the time 11 month after Feb, 1475","Jan, 1476",".Sep, 1475",False,4.0,False
+"What is the time 5 year after Feb, 1667","Feb, 1672","A year after Feb, 1667 is Feb, 1672
+Feb, 1667 was a Monday
+Feb, 1672 was a Monday",False,60.0,False
+"What is the time 3 month after Apr, 1502","Jul, 1502",".Sep, 1502",False,2.0,True
+"What is the time 12 month after Jul, 1687","Jul, 1688",".Sep, 1688",False,2.0,True
+"What is the time 7 year after Oct, 1359","Oct, 1366",".Sep, 1366",False,1.0,False
+"What is the time 2 month after Nov, 1589","Jan, 1590",".Sep, 1590",False,8.0,True
+"What is the time 7 year after Jan, 1132","Jan, 1139",".Sep, 1139",False,8.0,True
+"What is the time 7 year after Apr, 1547","Apr, 1554",".Sep, 1554",False,5.0,True
+"What is the time 2 month after Jun, 1398","Aug, 1398",".Sep, 1398",False,1.0,True
+"What is the time 3 year after Apr, 1659","Apr, 1662","A pr, 1662",False,3.0,False
+"What is the time 6 year after May, 1340","May, 1346",".Sep, 1346",False,4.0,True
+"What is the time 2 month after Aug, 1408","Oct, 1408",".Sep, 1408",False,1.0,False
+"What is the time 1 year after Jun, 1571","Jun, 1572","A year after Jun, 1571 is Jun, 1572",False,12.0,False
+"What is the time 6 month after Apr, 1378","Oct, 1378",".Sep, 1378",False,1.0,False
+"What is the time 6 month after Apr, 1677","Oct, 1677",".Sep, 1677",False,1.0,False
+"What is the time 2 month after Jan, 1161","Mar, 1161",".Sep, 1161",False,6.0,True
+"What is the time 10 month after Oct, 1562","Aug, 1563",".Sep, 1563",False,1.0,True
+"What is the time 9 month after May, 1568","Feb, 1569",".Sep, 1568",False,5.0,False
+"What is the time 1 year after Feb, 1164","Feb, 1165","A year after Feb, 1164 is Feb, 1165",False,12.0,False
+"What is the time 1 month after Sep, 1467","Oct, 1467",".Sep, 1467",False,1.0,False
+"What is the time 11 month after Sep, 1199","Aug, 1200",".Sep, 1200",False,1.0,True
+"What is the time 1 year after Oct, 1506","Oct, 1507","A year after Oct, 1506 was Oct, 1507",False,12.0,False
+"What is the time 6 year after Feb, 1756","Feb, 1762","Seph, 1762",False,1.0,False
+"What is the time 4 month after Nov, 1433","Mar, 1434",".Sep, 1434",False,6.0,True
+"What is the time 2 month after Apr, 1475","Jun, 1475",".Sep, 1475",False,3.0,True
+"What is the time 9 year after Jun, 1309","Jun, 1318","A year after Jun, 1309 is Jul, 1318",False,108.0,False
+"What is the time 3 month after May, 1411","Aug, 1411",".Sep, 1411",False,1.0,True
+"What is the time 1 month after Jan, 1436","Feb, 1436",".Sep, 1436",False,7.0,True
+"What is the time 10 month after May, 1182","Mar, 1183",".Sep, 1182",False,6.0,False
+"What is the time 1 year after Apr, 1754","Apr, 1755","A pr, 1755",False,3.0,False
+"What is the time 9 month after Aug, 1646","May, 1647",".Sep, 1647",False,4.0,True
+"What is the time 5 month after Feb, 1904","Jul, 1904","AUG, 1904",False,1.0,True
+"What is the time 5 year after Jun, 1633","Jun, 1638",".Sep, 1638",False,3.0,True
+"What is the time 1 year after Dec, 1267","Dec, 1268",".Sep, 1268",False,3.0,False
+"What is the time 11 month after Aug, 1331","Jul, 1332",".Sep, 1332",False,2.0,True
+"What is the time 11 month after Jul, 1378","Jun, 1379",".Sep, 1378",False,9.0,False
+"What is the time 3 year after Apr, 1712","Apr, 1715","A pr, 1715",False,3.0,False
+"What is the time 7 month after Oct, 1631","May, 1632",".Sep, 1632",False,4.0,True
+"What is the time 10 month after Jan, 1528","Nov, 1528",".Sep, 1528",False,2.0,False
+"What is the time 8 year after Jul, 1499","Jul, 1507","AUG, 1507",False,1.0,True
+"What is the time 6 month after Jan, 1344","Jul, 1344",".Sep, 1344",False,2.0,True
+"What is the time 5 year after May, 1906","May, 1911","A year after May, 1906 is May, 1911",False,60.0,False
+"What is the time 10 year after Apr, 1552","Apr, 1562","Safar, 1562",False,3.0,False
+"What is the time 1 year after Aug, 1369","Aug, 1370",".Sep, 1370",False,1.0,True
+"What is the time 10 month after Apr, 1205","Feb, 1206",".Sep, 1205",False,5.0,False
+"What is the time 12 month after Mar, 1423","Mar, 1424","A year after Mar, 1423 is Mar, 1424",False,12.0,False
+"What is the time 2 month after May, 1278","Jul, 1278",".Sep, 1278",False,2.0,True
+"What is the time 2 month after Aug, 1943","Oct, 1943","Aft, 1943",False,9.0,False
+"What is the time 12 month after Jul, 1634","Jul, 1635",".Sep, 1635",False,2.0,True
+"What is the time 11 month after Jan, 1166","Dec, 1166",".Sep, 1167",False,9.0,True
+"What is the time 7 year after Dec, 1414","Dec, 1421",".Sep, 1421",False,3.0,False
+"What is the time 5 year after Oct, 1516","Oct, 1521","Aft, 1521",False,9.0,False
+"What is the time 2 month after Feb, 1475","Apr, 1475",".Sep, 1475",False,5.0,True
+"What is the time 9 years before Jul, 1582","Jul, 1573","AUG, 1573",False,1.0,True
+"What is the time 1 month before Aug, 1955","Jul, 1955","A, 1955",False,6.0,False
+"What is the time 11 months before Jul, 1469","Aug, 1468",".Sep, 1468",False,1.0,True
+"What is the time 6 months before Oct, 1920","Apr, 1920","Sav, 1920",False,3.0,False
+"What is the time 1 year before Aug, 1223","Aug, 1222",".Sep, 1222
+Answer: Aug, 1222
+Answer: Jul, 1222
+Answer: Jun, 1222
+Answer: May, 1222
+Answer: Apr, 1222
+Answer: Mar, 1222
+Answer: Feb, 1222
+Answer: Jan, 1222",False,1.0,True
+"What is the time 2 years before Nov, 1598","Nov, 1596","Sep, 1596",False,2.0,False
+"What is the time 2 years before Sep, 1396","Sep, 1394","AUG, 1394",False,1.0,False
+"What is the time 4 months before Jul, 1562","Mar, 1562","AUG, 1561",False,7.0,False
+"What is the time 6 months before Nov, 1626","May, 1626","AUG, 1626",False,3.0,True
+"What is the time 1 year before Jul, 1759","Jul, 1758","A year before Jul, 1759 is Jul, 1758",False,12.0,True
+"What is the time 6 months before Sep, 1055","Mar, 1055",".Sep, 1054
+Answer: Sep, 1054",False,6.0,False
+"What is the time 6 years before Nov, 1510","Nov, 1504","Savoy, France",False,,False
+"What is the time 7 months before Nov, 1514","Apr, 1514",Savonarola's death,False,,False
+"What is the time 7 years before May, 1005","May, 998",":// May, 998",False,,False
+"What is the time 5 months before Mar, 1995","Oct, 1994","Sep, 1994",False,1.0,False
+"What is the time 5 months before Dec, 1500","Jul, 1500","AUG, 1500",False,1.0,True
+"What is the time 4 months before Jun, 1113","Feb, 1113",".Sep, 1112",False,5.0,False
+"What is the time 10 years before Aug, 1814","Aug, 1804",S,False,,False
+"What is the time 1 year before Apr, 1961","Apr, 1960","A pr, 1960",False,3.0,False
+"What is the time 4 months before Jun, 1023","Feb, 1023","Aft, 1022",False,13.0,False
+"What is the time 3 months before Apr, 1422","Jan, 1422",".Sep, 1421",False,4.0,False
+"What is the time 10 years before Aug, 1756","Aug, 1746","A ug, 1746",False,7.0,False
+"What is the time 3 months before Oct, 1478","Jul, 1478",".Sep, 1478",False,2.0,True
+"What is the time 7 months before Apr, 1642","Sep, 1641","AUG, 1641",False,1.0,False
+"What is the time 2 months before Apr, 1099","Feb, 1099","Savage 2, 1099
+Answer: Apr, 1099",False,2.0,True
+"What is the time 9 years before Aug, 1337","Aug, 1328","A ug, 1328",False,7.0,False
+"What is the time 4 year and 6 month before Jan, 1000","Jul, 995","Jul, 995",False,,False
+"What is the time 6 years before Apr, 1491","Apr, 1485","A pr, 1485",False,3.0,False
+"What is the time 10 months before Oct, 1421","Dec, 1420",".Sep, 1420",False,3.0,False
+"What is the time 5 years before Jun, 1855","Jun, 1850",S,False,,False
+"What is the time 11 months before Apr, 1930","May, 1929","Sep, 1929",False,4.0,True
+"What is the time 9 years before Feb, 1137","Feb, 1128","A question: What is the time 9 years before Feb, 1137
+Answer: Feb, 1128",False,108.0,True
+"What is the time 10 months before Jul, 1750","Sep, 1749","AUG, 1749",False,1.0,False
+"What is the time 8 months before Jul, 1851","Nov, 1850","Sov, 1850",False,10.0,False
+"What is the time 9 months before Mar, 1729","Jun, 1728","AUG, 1728",False,2.0,True
+"What is the time 1 month before Apr, 1461","Mar, 1461",".Sep, 1460",False,6.0,False
+"What is the time 6 years before Oct, 1177","Oct, 1171",A,False,,False
+"What is the time 10 months before Jan, 1028","Mar, 1027",".Sep, 1027",False,6.0,True
+"What is the time 3 years before Sep, 1268","Sep, 1265","Seph, 1265",False,8.0,False
+"What is the time 2 years before Nov, 1049","Nov, 1047",Sage: 1047,False,10.0,False
+"What is the time 11 months before Apr, 1660","May, 1659",".Sep, 1659",False,4.0,True
+"What is the time 9 months before Jul, 1293","Oct, 1292",".Sep, 1292",False,1.0,False
+"What is the time 9 years before Jan, 1360","Jan, 1351",".Sep, 1351",False,8.0,True
+"What is the time 8 year and 5 month before Oct, 1007","May, 999","May, 999",False,,False
+"What is the time 10 years before May, 1296","May, 1286",A,False,,False
+"What is the time 2 months before May, 1825","Mar, 1825","Saros 1, 1825",False,2.0,False
+"What is the time 12 months before Jul, 1937","Jul, 1936","AUG, 1936",False,1.0,True
+"What is the time 3 months before Jun, 1690","Mar, 1690","AUG, 1689",False,7.0,False
+"What is the time 5 years before Feb, 1975","Feb, 1970","Seph, 1970",False,1.0,False
+"What is the time 10 years before Nov, 1049","Nov, 1039","Sov, 1039",False,10.0,False
+"What is the time 1 month before Jun, 1709","May, 1709","Apl, 1709",False,4.0,False
+"What is the time 4 months before May, 1474","Jan, 1474",A,False,,False
+"What is the time 1 month before May, 1286","Apr, 1286",".Sep, 1285",False,7.0,False
+"What is the time 6 year and 6 month before Apr, 1000","Oct, 993","Oct, 993",False,,False
+"What is the time 7 years before Oct, 1504","Oct, 1497","A question: What is the time 7 years before Oct, 1504",False,84.0,True
+"What is the time 6 months before Feb, 1608","Aug, 1607","Saw 10, 1607",False,7.0,False
+"What is the time 5 months before Nov, 1946","Jun, 1946","Savvy, 1946",False,5.0,False
+"What is the time 9 year and 6 month before Sep, 1006","Mar, 997","Mar, 997",False,,False
+"What is the time 9 years before Dec, 1434","Dec, 1425","Saros 1, 1425",False,11.0,False
+"What is the time 4 months before May, 1694","Jan, 1694",A,False,,False
+"What is the time 12 months before Mar, 1563","Mar, 1562","AUG, 1562",False,5.0,True
+"What is the time 10 years before Nov, 1942","Nov, 1932",Soviet Union,False,,False
+"What is the time 9 months before Oct, 1332","Jan, 1332","AUG, 1331",False,5.0,False
+"What is the time 10 year and 12 month before Apr, 1000","Apr, 989","Apr, 989",False,,False
+"What is the time 12 months before Jun, 1022","Jun, 1021","A, 1021",False,5.0,False
+"What is the time 2 months before Apr, 1404","Feb, 1404","Aft, 1403",False,13.0,False
+"What is the time 10 years before Apr, 1642","Apr, 1632","A pr, 1632",False,3.0,False
+"What is the time 7 months before Aug, 1228","Jan, 1228",".Sep, 1227",False,4.0,False
+"What is the time 3 months before Jan, 1221","Oct, 1220","Aug, 1220",False,2.0,False
+"What is the time 10 months before Sep, 1110","Nov, 1109",".Sep, 1109",False,2.0,False
+"What is the time 9 months before Feb, 1169","May, 1168","Sav, 1168",False,4.0,False
+"What is the time 6 months before Jun, 1608","Dec, 1607","Savas, 1607",False,11.0,False
+"What is the time 7 years before Jan, 1388","Jan, 1381","Sep, 1381",False,8.0,True
+"What is the time 7 years before Nov, 1604","Nov, 1597","Seph, 1597",False,10.0,False
+"What is the time 12 months before Jun, 1395","Jun, 1394","Sic, 1394",False,5.0,False
+"What is the time 10 years before Aug, 1499","Aug, 1489",S,False,,False
+"What is the time 10 months before Feb, 1031","Apr, 1030",".Sep, 1030",False,5.0,True
+"What is the time 9 months before Nov, 1611","Feb, 1611","AUG, 1611",False,6.0,True
+"What is the time 9 months before Nov, 1594","Feb, 1594","AUG, 1594",False,6.0,True
+"What is the time 9 months before Feb, 1114","May, 1113","S
+Answer: Feb, 1113",False,3.0,False
+"What is the time 7 months before Aug, 1541","Jan, 1541",".Sep, 1540",False,4.0,False
+"What is the time 1 year before Jan, 1867","Jan, 1866","A year before Jan, 1867 is Jan, 1866",False,12.0,True
+"What is the time 2 years before Oct, 1851","Oct, 1849","Sep, 1849",False,1.0,False
+"What is the time 5 months before Jul, 1498","Feb, 1498",Savonarola's execution,False,,False
+"What is the time 7 months before Jun, 1852","Nov, 1851","A year before Jun, 1852",False,7.0,True
+"What is the time 10 months before Oct, 1358","Dec, 1357","Slo, 1357",False,11.0,False
+"What is the time 10 months before May, 1654","Jul, 1653",S,False,,False
+"What is the time 1 year and 12 month before Apr, 1222","Apr, 1220","Apr, 1200",False,240.0,False
+"What is the time 3 months before Apr, 1334","Jan, 1334","Apl, 1333",False,12.0,False
+"What is the time 5 years before Aug, 1743","Aug, 1738","A ug, 1738",False,7.0,False
+"What is the time 1 year before Feb, 1959","Feb, 1958","Seph, 1958",False,1.0,False
+"What is the time 11 months before Oct, 1565","Nov, 1564","Sov, 1564",False,10.0,False
+"What is the time 11 months before Apr, 1300","May, 1299",".Sep, 1299",False,4.0,True
+"What is the time 6 months before Jun, 1119","Dec, 1118",".Sep, 1118",False,3.0,False
+"What is the time 7 years before May, 1158","May, 1151",".Sep, 1151",False,4.0,True
+"What is the time 6 months before May, 1408","Nov, 1407",".Sep, 1407",False,2.0,False
+"What is the time 6 months before May, 1327","Nov, 1326",A,False,,False
+"What is the time 8 months before Jun, 1198","Oct, 1197","Soc, 1197",False,9.0,False
+"What is the time 1 year before Apr, 1649","Apr, 1648","A pr, 1648",False,3.0,False
+"What is the time 12 months before Jul, 1567","Jul, 1566","AUG, 1566",False,1.0,True
+"What is the time 4 months before Sep, 1501","May, 1501","AUG, 1501",False,3.0,True
+"What is the time 3 months before Nov, 1655","Aug, 1655","Saw the time 3 months before Nov, 1655",False,3.0,True
+"What is the time 11 months before Feb, 1724","Mar, 1723","Sav, 1723",False,2.0,False
+"What is the time 1 month before Dec, 1507","Nov, 1507","A month before Dec, 1507 is Nov, 1507",False,1.0,True
+"What is the time 9 years before Mar, 1176","Mar, 1167",".Sep, 1167",False,6.0,True
+"What is the time 5 months before Sep, 1174","Apr, 1174","A, 1174",False,3.0,False
+"What is the time 8 years before Sep, 1065","Sep, 1057","S e p, 1057
+Answer: Sep, 1065",False,96.0,True
+"What is the time 8 years before Aug, 1565","Aug, 1557",S,False,,False
+"What is the time 9 months before Sep, 1993","Dec, 1992","S, 1992",False,11.0,False
+"What is the time 6 months before Aug, 1857","Feb, 1857","AUG, 1856",False,6.0,False
+"What is the time 9 months before Aug, 1835","Nov, 1834","Sov, 1834",False,10.0,False
+"What is the time 9 years before Oct, 1412","Oct, 1403","A question: What is the time 9 years before Oct, 1412",False,108.0,True
+"What is the time 9 months before May, 1365","Aug, 1364",".Sep, 1364",False,1.0,True
+"What is the time 2 year and 7 month before Jun, 1000","Nov, 997","Nov, 997",False,,False
+"What is the time 3 months before Jan, 1999","Oct, 1998","Sep, 1998",False,1.0,False
+"What is the time 5 year and 7 month before Jan, 1002","Jun, 996","Jun, 996",False,,False
+"What is the time 3 months before Mar, 1852","Dec, 1851","Savvy, 1851",False,11.0,False
+"What is the time 3 months before Apr, 1382","Jan, 1382","Apl, 1381",False,12.0,False
+"What is the time 8 years before Dec, 1501","Dec, 1493","AUG, 1493",False,4.0,False
+"What is the time 9 months before Jan, 1966","Apr, 1965","Sep, 1965",False,5.0,True
+"What is the time 9 months before Jan, 1651","Apr, 1650","Sep, 1650",False,5.0,True
+"What is the time 5 months before Apr, 1579","Nov, 1578","Aft, 1578",False,10.0,False
+"What is the time 6 months before Jul, 1296","Jan, 1296",".Sep, 1295",False,4.0,False
+"What is the time 2 years before Nov, 1339","Nov, 1337","Seph, 1337",False,10.0,False
+"What is the time 2 months before May, 1339","Mar, 1339",A,False,,False
+"What is the time 4 years before Nov, 1569","Nov, 1565","Augs, 1565",False,10.0,False
+"What is the time 2 months before Jun, 1284","Apr, 1284","A pr, 1284",False,3.0,False
+"What is the time 7 years before May, 1740","May, 1733",A,False,,False
+"What is the time 12 months before May, 1372","May, 1371",A,False,,False
+"What is the time 12 months before Oct, 1976","Oct, 1975","Sep, 1975",False,1.0,False
+"What is the time 1 year and 12 month before May, 1000","May, 998","May, 998",False,,False
+"What is the time 4 months before Jun, 1042","Feb, 1042","Sar, 1042",False,1.0,False
+"What is the time 9 year and 12 month before Mar, 1002","Mar, 992","Mar, 992",False,,False

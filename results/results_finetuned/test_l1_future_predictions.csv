@@ -1,0 +1,2003 @@
+Question,Ground Truth,Prediction,Exact Match,MAE (Months),Trend Acc (%)
+"What is the time 3 year and 3 month after Sep, 2038","Dec, 2041","Dec, 2041",True,0.0,False
+"What is the time 1 year and 9 month after Dec, 2025","Sep, 2027","Sep, 2027",True,0.0,False
+"What is the time 4 year and 6 month after Jan, 2025","Jul, 2029","Jul, 2029",True,0.0,False
+"What is the time 4 year and 6 month after Jun, 2038","Dec, 2042","Dec, 2042",True,0.0,False
+"What is the time 10 year after Aug, 2029","Aug, 2039",":// Aug, 2039",True,0.0,False
+"What is the time 9 year and 3 month after Aug, 2023","Nov, 2032","Nov, 2032",True,0.0,False
+"What is the time 4 year and 6 month after Oct, 2035","Apr, 2040","Apr, 2040",True,0.0,False
+"What is the time 8 year after Aug, 2035","Aug, 2043",":// Aug, 2043",True,0.0,False
+"What is the time 1 year and 3 month after Aug, 2040","Nov, 2041","Nov, 2041",True,0.0,False
+"What is the time 4 year and 3 month after Feb, 2035","May, 2039","May, 2039",True,0.0,False
+"What is the time 8 year and 4 month after May, 2022","Sep, 2030","Sep, 2030",True,0.0,False
+"What is the time 5 year and 10 month after Feb, 2020","Dec, 2025","Dec, 2025",True,0.0,False
+"What is the time 12 month after Oct, 2026","Oct, 2027",":// Oct, 2027",True,0.0,False
+"What is the time 4 year and 8 month after Nov, 2021","Jul, 2026","Jul, 2026",True,0.0,False
+"What is the time 6 year after Jul, 2039","Jul, 2045","A year after Jul, 2039 is Jul, 2040",False,72.0,False
+"What is the time 2 year and 5 month after Mar, 2030","Aug, 2032","Aug, 2032",True,0.0,False
+"What is the time 8 year and 3 month after Sep, 2033","Dec, 2041","Dec, 2041",True,0.0,False
+"What is the time 1 year and 10 month after Apr, 2021","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 1 year and 6 month after Jun, 2033","Dec, 2034","Dec, 2034",True,0.0,False
+"What is the time 5 year and 8 month after Aug, 2030","Apr, 2036","Apr, 2036",True,0.0,False
+"What is the time 5 year and 1 month after Jul, 2035","Aug, 2040","Aug, 2040",True,0.0,False
+"What is the time 7 year and 12 month after Sep, 2031","Sep, 2039","Sep, 2039",True,0.0,False
+"What is the time 9 year and 12 month after Apr, 2034","Apr, 2044","Apr, 2044",True,0.0,False
+"What is the time 1 year and 3 month after Jul, 2022","Oct, 2023","Oct, 2023",True,0.0,False
+"What is the time 5 year and 12 month after Feb, 2031","Feb, 2037","Feb, 2037",True,0.0,False
+"What is the time 6 month after Jun, 2036","Dec, 2036",".Sep, 2036",False,3.0,False
+"What is the time 1 year and 6 month after Nov, 2038","May, 2040","May, 2040",True,0.0,False
+"What is the time 5 year and 5 month after Jan, 2027","Jun, 2032","Jun, 2032",True,0.0,False
+"What is the time 7 year and 9 month after Aug, 2036","May, 2044","May, 2044",True,0.0,False
+"What is the time 3 year after Sep, 2040","Sep, 2043",":// Sep, 2043",True,0.0,False
+"What is the time 8 year and 3 month after Feb, 2035","May, 2043","May, 2043",True,0.0,False
+"What is the time 8 year and 8 month after Mar, 2024","Nov, 2032","Nov, 2032",True,0.0,False
+"What is the time 10 year and 12 month after Nov, 2031","Nov, 2042","Nov, 2042",True,0.0,False
+"What is the time 2 year and 9 month after Apr, 2024","Jan, 2027","Jan, 2027",True,0.0,False
+"What is the time 2 year and 4 month after Jul, 2023","Nov, 2025","Nov, 2025",True,0.0,False
+"What is the time 2 month after Dec, 2023","Feb, 2024",":// Feb, 2024",True,0.0,False
+"What is the time 8 year and 5 month after Jul, 2036","Dec, 2044","Dec, 2044",True,0.0,False
+"What is the time 3 month after Jul, 2030","Oct, 2030",":// Oct, 2030",True,0.0,False
+"What is the time 9 month after Feb, 2031","Nov, 2031",":// Nov, 2031",True,0.0,False
+"What is the time 6 year and 11 month after Dec, 2037","Nov, 2044","Nov, 2044",True,0.0,False
+"What is the time 9 year and 7 month after Feb, 2039","Sep, 2048","Sep, 2048",True,0.0,False
+"What is the time 3 year and 8 month after Jun, 2038","Feb, 2042","Feb, 2042",True,0.0,False
+"What is the time 7 month after Jan, 2025","Aug, 2025",":// Aug, 2025",True,0.0,False
+"What is the time 3 year and 12 month after Aug, 2039","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 2 year and 10 month after May, 2024","Mar, 2027","Mar, 2027",True,0.0,False
+"What is the time 4 year after Feb, 2028","Feb, 2032",":// Feb, 2032",True,0.0,False
+"What is the time 9 year and 3 month after Jun, 2024","Sep, 2033","Sep, 2033",True,0.0,False
+"What is the time 5 year and 10 month after Dec, 2020","Oct, 2026","Oct, 2026",True,0.0,False
+"What is the time 10 year and 9 month after Dec, 2039","Sep, 2050","Sep, 2050",True,0.0,False
+"What is the time 3 year and 3 month after Jul, 2033","Oct, 2036","Oct, 2036",True,0.0,False
+"What is the time 4 year and 6 month after Apr, 2038","Oct, 2042","Oct, 2042",True,0.0,False
+"What is the time 10 year and 12 month after Jan, 2028","Jan, 2039","Jan, 2039",True,0.0,False
+"What is the time 5 year and 6 month after Jun, 2038","Dec, 2043","Dec, 2043",True,0.0,False
+"What is the time 2 year and 5 month after Jun, 2023","Nov, 2025","Nov, 2025",True,0.0,False
+"What is the time 9 year and 2 month after Jan, 2032","Mar, 2041","Mar, 2041",True,0.0,False
+"What is the time 3 year after Jul, 2038","Jul, 2041",":// Jul, 2041",True,0.0,False
+"What is the time 4 year and 4 month after Apr, 2026","Aug, 2030","Aug, 2030",True,0.0,False
+"What is the time 6 year and 2 month after May, 2038","Jul, 2044","Jul, 2044",True,0.0,False
+"What is the time 7 year and 12 month after May, 2034","May, 2042","May, 2042",True,0.0,False
+"What is the time 3 year and 1 month after Jan, 2025","Feb, 2028","Feb, 2028",True,0.0,False
+"What is the time 10 year and 9 month after Aug, 2037","May, 2048","May, 2048",True,0.0,False
+"What is the time 2 year and 6 month after Jun, 2035","Dec, 2037","Dec, 2037",True,0.0,False
+"What is the time 5 year and 12 month after Jun, 2028","Jun, 2034","Jun, 2034",True,0.0,False
+"What is the time 7 year and 3 month after Jun, 2038","Sep, 2045","Sep, 2045",True,0.0,False
+"What is the time 1 year and 1 month after Aug, 2022","Sep, 2023","Sep, 2023",True,0.0,False
+"What is the time 10 year and 10 month after Apr, 2040","Feb, 2051","Feb, 2051",True,0.0,False
+"What is the time 10 year and 10 month after Oct, 2030","Aug, 2041","Aug, 2041",True,0.0,False
+"What is the time 5 year and 6 month after Dec, 2028","Jun, 2034","Jun, 2034",True,0.0,False
+"What is the time 2 year and 1 month after May, 2040","Jun, 2042","Jun, 2042",True,0.0,False
+"What is the time 4 year and 12 month after Dec, 2025","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 7 year and 12 month after Jul, 2036","Jul, 2044","Jul, 2044",True,0.0,False
+"What is the time 9 year and 2 month after Aug, 2032","Oct, 2041","Oct, 2041",True,0.0,False
+"What is the time 5 year and 1 month after Mar, 2025","Apr, 2030","Apr, 2030",True,0.0,False
+"What is the time 1 year and 11 month after Jul, 2033","Jun, 2035","Jun, 2035",True,0.0,False
+"What is the time 1 year and 5 month after Apr, 2030","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 9 year and 7 month after Feb, 2023","Sep, 2032","Sep, 2032",True,0.0,False
+"What is the time 8 year and 4 month after Nov, 2026","Mar, 2035","Mar, 2035",True,0.0,False
+"What is the time 6 year and 10 month after Sep, 2021","Jul, 2028","Jul, 2028",True,0.0,False
+"What is the time 2 year and 10 month after Aug, 2038","Jun, 2041","Jun, 2041",True,0.0,False
+"What is the time 4 year and 2 month after Jun, 2040","Aug, 2044","Aug, 2044",True,0.0,False
+"What is the time 2 year and 11 month after Feb, 2039","Jan, 2042","Jan, 2042",True,0.0,False
+"What is the time 6 year and 7 month after Sep, 2033","Apr, 2040","Apr, 2040",True,0.0,False
+"What is the time 5 year and 10 month after Aug, 2030","Jun, 2036","Jun, 2036",True,0.0,False
+"What is the time 1 year and 5 month after Dec, 2029","May, 2031","May, 2031",True,0.0,False
+"What is the time 5 year and 3 month after Dec, 2031","Mar, 2037","Mar, 2037",True,0.0,False
+"What is the time 1 year and 10 month after Jan, 2034","Nov, 2035","Nov, 2035",True,0.0,False
+"What is the time 1 year and 4 month after Nov, 2037","Mar, 2039","Mar, 2039",True,0.0,False
+"What is the time 5 year and 2 month after Nov, 2030","Jan, 2036","Jan, 2036",True,0.0,False
+"What is the time 2 year and 2 month after Jan, 2025","Mar, 2027","Mar, 2027",True,0.0,False
+"What is the time 9 year after May, 2027","May, 2036",":// May, 2036",True,0.0,False
+"What is the time 10 year and 1 month after Dec, 2039","Jan, 2050","Jan, 2050",True,0.0,False
+"What is the time 7 year and 10 month after Dec, 2026","Oct, 2034","Oct, 2034",True,0.0,False
+"What is the time 8 year and 6 month after Dec, 2020","Jun, 2029","Jun, 2029",True,0.0,False
+"What is the time 3 year and 8 month after Feb, 2029","Oct, 2032","Oct, 2032",True,0.0,False
+"What is the time 10 year and 8 month after Mar, 2025","Nov, 2035","Nov, 2035",True,0.0,False
+"What is the time 5 year and 3 month after Apr, 2032","Jul, 2037","Jul, 2037",True,0.0,False
+"What is the time 5 year and 3 month after Aug, 2036","Nov, 2041","Nov, 2041",True,0.0,False
+"What is the time 10 year and 1 month after Jul, 2036","Aug, 2046","Aug, 2046",True,0.0,False
+"What is the time 2 year and 6 month after Feb, 2030","Aug, 2032","Aug, 2032",True,0.0,False
+"What is the time 4 month after Apr, 2032","Aug, 2032",".Sep, 2032",False,1.0,True
+"What is the time 5 year and 12 month after Sep, 2038","Sep, 2044","Sep, 2044",True,0.0,False
+"What is the time 5 year after Sep, 2022","Sep, 2027",":// Sep, 2027",True,0.0,False
+"What is the time 11 month after Dec, 2024","Nov, 2025",":// Nov, 2025",True,0.0,False
+"What is the time 2 year and 8 month after May, 2027","Jan, 2030","Jan, 2030",True,0.0,False
+"What is the time 6 year and 4 month after May, 2028","Sep, 2034","Sep, 2034",True,0.0,False
+"What is the time 7 year and 7 month after Oct, 2023","May, 2031","May, 2031",True,0.0,False
+"What is the time 10 year and 6 month after Jun, 2037","Dec, 2047","Dec, 2047",True,0.0,False
+"What is the time 10 year and 7 month after Jul, 2039","Feb, 2050","Feb, 2050",True,0.0,False
+"What is the time 3 year and 9 month after Oct, 2031","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 1 year and 5 month after May, 2022","Oct, 2023","Oct, 2023",True,0.0,False
+"What is the time 2 year and 6 month after Aug, 2022","Feb, 2025","Feb, 2025",True,0.0,False
+"What is the time 9 year and 11 month after Nov, 2026","Oct, 2036","Oct, 2036",True,0.0,False
+"What is the time 3 year after Dec, 2037","Dec, 2040",":// Dec, 2040",True,0.0,False
+"What is the time 2 year and 11 month after Jun, 2030","May, 2033","May, 2033",True,0.0,False
+"What is the time 2 year and 9 month after Sep, 2038","Jun, 2041","Jun, 2041",True,0.0,False
+"What is the time 1 year and 1 month after Aug, 2024","Sep, 2025","Sep, 2025",True,0.0,False
+"What is the time 6 year and 12 month after Jul, 2024","Jul, 2031","Jul, 2031",True,0.0,False
+"What is the time 9 year and 9 month after Jun, 2036","Mar, 2046","Mar, 2046",True,0.0,False
+"What is the time 8 year and 2 month after Dec, 2028","Feb, 2037","Feb, 2037",True,0.0,False
+"What is the time 7 year and 1 month after Jan, 2039","Feb, 2046","Feb, 2046",True,0.0,False
+"What is the time 1 month after Jul, 2029","Aug, 2029",":// Aug, 2029",True,0.0,False
+"What is the time 5 year and 1 month after Mar, 2030","Apr, 2035","Apr, 2035",True,0.0,False
+"What is the time 1 year and 8 month after Dec, 2031","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 7 year and 11 month after Sep, 2037","Aug, 2045","Aug, 2045",True,0.0,False
+"What is the time 7 year and 5 month after Jul, 2024","Dec, 2031","Dec, 2031",True,0.0,False
+"What is the time 12 month after May, 2032","May, 2033","A month after May, 2032 is Jun, 2032",False,12.0,False
+"What is the time 7 year after Dec, 2031","Dec, 2038",":// Dec, 2038",True,0.0,False
+"What is the time 1 year and 6 month after Jul, 2026","Jan, 2028","Jan, 2028",True,0.0,False
+"What is the time 7 year and 6 month after Jun, 2038","Dec, 2045","Dec, 2045",True,0.0,False
+"What is the time 6 year and 2 month after Mar, 2037","May, 2043","May, 2043",True,0.0,False
+"What is the time 8 year after Apr, 2036","Apr, 2044",":// Apr, 2044",True,0.0,False
+"What is the time 4 year and 6 month after Dec, 2039","Jun, 2044","Jun, 2044",True,0.0,False
+"What is the time 8 year and 11 month after Jul, 2038","Jun, 2047","Jun, 2047",True,0.0,False
+"What is the time 3 year and 5 month after May, 2020","Oct, 2023","Oct, 2023",True,0.0,False
+"What is the time 3 year and 5 month after Aug, 2024","Jan, 2028","Jan, 2028",True,0.0,False
+"What is the time 6 year and 5 month after Dec, 2023","May, 2030","May, 2030",True,0.0,False
+"What is the time 3 year and 8 month after Jun, 2030","Feb, 2034","Feb, 2034",True,0.0,False
+"What is the time 4 year and 1 month after May, 2026","Jun, 2030","Jun, 2030",True,0.0,False
+"What is the time 7 year and 6 month after Jun, 2026","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 9 year after Sep, 2022","Sep, 2031",":// Sep, 2031",True,0.0,False
+"What is the time 8 year after Jan, 2022","Jan, 2030",":// Jan, 2030",True,0.0,False
+"What is the time 5 year and 8 month after Jun, 2031","Feb, 2037","Feb, 2037",True,0.0,False
+"What is the time 10 month after Sep, 2020","Jul, 2021",":// Jul, 2021",True,0.0,False
+"What is the time 7 year and 5 month after May, 2034","Oct, 2041","Oct, 2041",True,0.0,False
+"What is the time 2 year and 9 month after Jul, 2024","Apr, 2027","Apr, 2027",True,0.0,False
+"What is the time 9 year after Jul, 2038","Jul, 2047",":// Jul, 2047",True,0.0,False
+"What is the time 3 year and 4 month after Mar, 2024","Jul, 2027","Jul, 2027",True,0.0,False
+"What is the time 10 year and 1 month after Sep, 2040","Oct, 2050","Oct, 2050",True,0.0,False
+"What is the time 5 year after May, 2037","May, 2042",":// May, 2042",True,0.0,False
+"What is the time 8 month after Jan, 2028","Sep, 2028",":// Sep, 2028",True,0.0,False
+"What is the time 10 year and 5 month after Feb, 2033","Jul, 2043","Jul, 2043",True,0.0,False
+"What is the time 5 year and 4 month after Feb, 2030","Jun, 2035","Jun, 2035",True,0.0,False
+"What is the time 6 year and 12 month after Apr, 2026","Apr, 2033","Apr, 2027",False,72.0,False
+"What is the time 10 year after Apr, 2020","Apr, 2030",":// Apr, 2030",True,0.0,False
+"What is the time 5 year and 7 month after Feb, 2040","Sep, 2045","Sep, 2045",True,0.0,False
+"What is the time 5 year and 8 month after Aug, 2023","Apr, 2029","Apr, 2029",True,0.0,False
+"What is the time 10 year and 10 month after Jul, 2029","May, 2040","May, 2040",True,0.0,False
+"What is the time 9 year and 10 month after Jan, 2031","Nov, 2040","Nov, 2040",True,0.0,False
+"What is the time 3 year and 9 month after Mar, 2038","Dec, 2041","Dec, 2041",True,0.0,False
+"What is the time 9 month after Nov, 2035","Aug, 2036","A ug, 2036",False,7.0,False
+"What is the time 2 year and 8 month after Jun, 2027","Feb, 2030","Feb, 2030",True,0.0,False
+"What is the time 10 year after Jan, 2029","Jan, 2039",":// Jan, 2039",True,0.0,False
+"What is the time 6 year after Jul, 2022","Jul, 2028",":// Jul, 2028",True,0.0,False
+"What is the time 5 year and 3 month after Mar, 2037","Jun, 2042","Jun, 2042",True,0.0,False
+"What is the time 2 year and 3 month after Dec, 2038","Mar, 2041","Mar, 2041",True,0.0,False
+"What is the time 2 year and 12 month after May, 2030","May, 2033","May, 2033",True,0.0,False
+"What is the time 10 year and 10 month after Feb, 2020","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 1 year and 10 month after Jul, 2025","May, 2027","May, 2027",True,0.0,False
+"What is the time 5 year and 3 month after Sep, 2034","Dec, 2039","Dec, 2039",True,0.0,False
+"What is the time 7 year and 6 month after Mar, 2026","Sep, 2033","Sep, 2033",True,0.0,False
+"What is the time 4 year and 11 month after Mar, 2030","Feb, 2035","Feb, 2035",True,0.0,False
+"What is the time 10 year and 5 month after Jul, 2038","Dec, 2048","Dec, 2048",True,0.0,False
+"What is the time 6 year and 6 month after May, 2025","Nov, 2031","Nov, 2031",True,0.0,False
+"What is the time 1 year and 6 month after Apr, 2024","Oct, 2025","Oct, 2025",True,0.0,False
+"What is the time 8 year after Oct, 2022","Oct, 2030",":// Oct, 2030",True,0.0,False
+"What is the time 8 year and 11 month after Sep, 2034","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 6 year and 10 month after Aug, 2038","Jun, 2045","Jun, 2045",True,0.0,False
+"What is the time 4 year and 9 month after Dec, 2023","Sep, 2028","Sep, 2028",True,0.0,False
+"What is the time 10 year and 11 month after Oct, 2030","Sep, 2041","Sep, 2041",True,0.0,False
+"What is the time 2 year and 8 month after Apr, 2027","Dec, 2029","Dec, 2029",True,0.0,False
+"What is the time 1 year and 7 month after Jan, 2022","Aug, 2023","Aug, 2023",True,0.0,False
+"What is the time 6 month after Apr, 2036","Oct, 2036",".Sep, 2036",False,1.0,False
+"What is the time 6 year and 9 month after Oct, 2024","Jul, 2031","Jul, 2031",True,0.0,False
+"What is the time 6 year and 3 month after May, 2037","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 9 year and 8 month after Sep, 2026","May, 2036","May, 2036",True,0.0,False
+"What is the time 4 year and 1 month after Jul, 2033","Aug, 2037","Aug, 2037",True,0.0,False
+"What is the time 10 year and 5 month after Sep, 2025","Feb, 2036","Feb, 2036",True,0.0,False
+"What is the time 9 year and 12 month after Mar, 2037","Mar, 2047","Mar, 2047",True,0.0,False
+"What is the time 4 year and 8 month after Apr, 2029","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 8 year and 2 month after Apr, 2031","Jun, 2039","Jun, 2039",True,0.0,False
+"What is the time 1 month after May, 2023","Jun, 2023",":// Jun, 2023",True,0.0,False
+"What is the time 6 year and 9 month after Apr, 2038","Jan, 2045","Jan, 2045",True,0.0,False
+"What is the time 7 year and 6 month after Sep, 2026","Mar, 2034","Mar, 2034",True,0.0,False
+"What is the time 2 year and 6 month after Apr, 2038","Oct, 2040","Oct, 2040",True,0.0,False
+"What is the time 10 year and 6 month after Dec, 2029","Jun, 2040","Jun, 2040",True,0.0,False
+"What is the time 10 year and 2 month after Dec, 2026","Feb, 2037","Feb, 2037",True,0.0,False
+"What is the time 2 year and 7 month after Oct, 2021","May, 2024","May, 2024",True,0.0,False
+"What is the time 9 month after Jul, 2037","Apr, 2038",":// Apr, 2038",True,0.0,False
+"What is the time 7 year and 6 month after Sep, 2033","Mar, 2041","Mar, 2041",True,0.0,False
+"What is the time 8 year and 10 month after Jan, 2035","Nov, 2043","Nov, 2043",True,0.0,False
+"What is the time 4 year and 11 month after Aug, 2039","Jul, 2044","Jul, 2044",True,0.0,False
+"What is the time 9 year and 4 month after Mar, 2026","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 10 year and 4 month after Apr, 2035","Aug, 2045","Aug, 2045",True,0.0,False
+"What is the time 3 year and 5 month after Mar, 2021","Aug, 2024","Aug, 2024",True,0.0,False
+"What is the time 4 year and 1 month after Jul, 2034","Aug, 2038","Aug, 2038",True,0.0,False
+"What is the time 4 year and 5 month after Jun, 2024","Nov, 2028","Nov, 2028",True,0.0,False
+"What is the time 9 year and 1 month after Dec, 2039","Jan, 2049","Jan, 2049",True,0.0,False
+"What is the time 2 year and 9 month after Aug, 2038","May, 2041","May, 2041",True,0.0,False
+"What is the time 4 year and 7 month after Oct, 2034","May, 2039","May, 2039",True,0.0,False
+"What is the time 4 year and 6 month after Nov, 2021","May, 2026","May, 2026",True,0.0,False
+"What is the time 10 year after Mar, 2021","Mar, 2031",":// Mar, 2031",True,0.0,False
+"What is the time 12 month after Oct, 2022","Oct, 2023",":// Oct, 2023",True,0.0,False
+"What is the time 4 year and 6 month after Oct, 2024","Apr, 2029","Apr, 2029",True,0.0,False
+"What is the time 7 year and 4 month after Feb, 2036","Jun, 2043","Jun, 2043",True,0.0,False
+"What is the time 5 month after Jun, 2039","Nov, 2039",":// Nov, 2039",True,0.0,False
+"What is the time 8 year and 6 month after Jul, 2031","Jan, 2040","Jan, 2040",True,0.0,False
+"What is the time 9 year and 2 month after Mar, 2033","May, 2042","May, 2042",True,0.0,False
+"What is the time 9 year and 12 month after Jan, 2031","Jan, 2041","Jan, 2041",True,0.0,False
+"What is the time 3 year and 4 month after Apr, 2020","Aug, 2023","Aug, 2023",True,0.0,False
+"What is the time 7 year and 10 month after Feb, 2035","Dec, 2042","Dec, 2042",True,0.0,False
+"What is the time 8 year and 7 month after Jan, 2033","Aug, 2041","Aug, 2041",True,0.0,False
+"What is the time 2 month after Jan, 2029","Mar, 2029",":// Mar, 2029",True,0.0,False
+"What is the time 5 year and 4 month after Sep, 2037","Jan, 2043","Jan, 2043",True,0.0,False
+"What is the time 1 year and 1 month after Oct, 2020","Nov, 2021","Nov, 2021",True,0.0,False
+"What is the time 4 year and 4 month after Oct, 2037","Feb, 2042","Feb, 2042",True,0.0,False
+"What is the time 10 year and 9 month after Jan, 2020","Oct, 2030","Oct, 2030",True,0.0,False
+"What is the time 6 year and 9 month after Dec, 2031","Sep, 2038","Sep, 2038",True,0.0,False
+"What is the time 1 year and 1 month after Jun, 2031","Jul, 2032","Jul, 2032",True,0.0,False
+"What is the time 8 year and 6 month after May, 2025","Nov, 2033","Nov, 2033",True,0.0,False
+"What is the time 3 year and 4 month after Dec, 2023","Apr, 2027","Apr, 2027",True,0.0,False
+"What is the time 10 year and 9 month after Mar, 2025","Dec, 2035","Dec, 2035",True,0.0,False
+"What is the time 10 year and 9 month after Apr, 2039","Jan, 2050","Jan, 2050",True,0.0,False
+"What is the time 1 year and 1 month after Dec, 2030","Jan, 2032","Jan, 2032",True,0.0,False
+"What is the time 6 year and 3 month after Dec, 2024","Mar, 2031","Mar, 2031",True,0.0,False
+"What is the time 10 year and 12 month after Apr, 2031","Apr, 2042","Apr, 2042",True,0.0,False
+"What is the time 10 year and 10 month after Dec, 2022","Oct, 2033","Oct, 2033",True,0.0,False
+"What is the time 2 month after Aug, 2038","Oct, 2038",":// Oct, 2038",True,0.0,False
+"What is the time 2 year after May, 2024","May, 2026",":// May, 2026",True,0.0,False
+"What is the time 8 year and 1 month after Apr, 2021","May, 2029","May, 2029",True,0.0,False
+"What is the time 10 year and 10 month after Dec, 2032","Oct, 2043","Oct, 2043",True,0.0,False
+"What is the time 3 year and 4 month after Jun, 2035","Oct, 2038","Oct, 2038",True,0.0,False
+"What is the time 10 month after Dec, 2033","Oct, 2034",":// Oct, 2034",True,0.0,False
+"What is the time 3 year and 3 month after Jan, 2031","Apr, 2034","Apr, 2034",True,0.0,False
+"What is the time 5 year and 8 month after Nov, 2029","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 8 year and 5 month after Apr, 2033","Sep, 2041","Sep, 2041",True,0.0,False
+"What is the time 7 year and 8 month after Sep, 2025","May, 2033","May, 2033",True,0.0,False
+"What is the time 9 year and 10 month after Jan, 2033","Nov, 2042","Nov, 2042",True,0.0,False
+"What is the time 5 year and 2 month after Feb, 2026","Apr, 2031","Apr, 2031",True,0.0,False
+"What is the time 6 year and 9 month after Dec, 2024","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 5 year and 3 month after May, 2035","Aug, 2040","Aug, 2040",True,0.0,False
+"What is the time 3 month after Aug, 2023","Nov, 2023",":// Nov, 2023",True,0.0,False
+"What is the time 1 year and 6 month after Apr, 2036","Oct, 2037","Oct, 2037",True,0.0,False
+"What is the time 8 year and 4 month after Apr, 2033","Aug, 2041","Aug, 2041",True,0.0,False
+"What is the time 5 month after Jun, 2026","Nov, 2026",":// Nov, 2026",True,0.0,False
+"What is the time 7 year and 2 month after Mar, 2033","May, 2040","May, 2040",True,0.0,False
+"What is the time 2 year and 6 month after Feb, 2034","Aug, 2036","Aug, 2036",True,0.0,False
+"What is the time 6 year and 6 month after Feb, 2037","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 7 year and 6 month after Oct, 2033","Apr, 2041","Apr, 2041",True,0.0,False
+"What is the time 8 year and 2 month after Aug, 2024","Oct, 2032","Oct, 2032",True,0.0,False
+"What is the time 5 year after Mar, 2023","Mar, 2028",":// Mar, 2028",True,0.0,False
+"What is the time 10 year and 5 month after Jun, 2030","Nov, 2040","Nov, 2040",True,0.0,False
+"What is the time 7 year and 5 month after Aug, 2022","Jan, 2030","Jan, 2030",True,0.0,False
+"What is the time 5 year and 3 month after Jul, 2021","Oct, 2026","Oct, 2026",True,0.0,False
+"What is the time 4 year and 2 month after Dec, 2024","Feb, 2029","Feb, 2029",True,0.0,False
+"What is the time 1 year and 2 month after Jun, 2037","Aug, 2038","Aug, 2038",True,0.0,False
+"What is the time 8 year and 4 month after Mar, 2030","Jul, 2038","Jul, 2038",True,0.0,False
+"What is the time 2 year and 4 month after Jul, 2033","Nov, 2035","Nov, 2035",True,0.0,False
+"What is the time 5 year and 2 month after Nov, 2025","Jan, 2031","Jan, 2031",True,0.0,False
+"What is the time 3 year and 2 month after May, 2038","Jul, 2041","Jul, 2041",True,0.0,False
+"What is the time 3 year and 8 month after Jun, 2036","Feb, 2040","Feb, 2040",True,0.0,False
+"What is the time 1 year and 6 month after Nov, 2032","May, 2034","May, 2034",True,0.0,False
+"What is the time 5 year and 9 month after May, 2023","Feb, 2029","Feb, 2029",True,0.0,False
+"What is the time 2 year after Dec, 2026","Dec, 2028",":// Dec, 2028",True,0.0,False
+"What is the time 10 year and 8 month after Aug, 2038","Apr, 2049","Apr, 2049",True,0.0,False
+"What is the time 9 year and 2 month after Dec, 2033","Feb, 2043","Feb, 2043",True,0.0,False
+"What is the time 5 year and 6 month after Aug, 2034","Feb, 2040","Feb, 2040",True,0.0,False
+"What is the time 8 year and 6 month after Jun, 2030","Dec, 2038","Dec, 2038",True,0.0,False
+"What is the time 9 year and 5 month after Feb, 2024","Jul, 2033","Jul, 2033",True,0.0,False
+"What is the time 6 year and 1 month after Nov, 2032","Dec, 2038","Dec, 2038",True,0.0,False
+"What is the time 3 year and 1 month after Dec, 2025","Jan, 2029","Jan, 2029",True,0.0,False
+"What is the time 7 year and 11 month after Mar, 2040","Feb, 2048","Feb, 2048",True,0.0,False
+"What is the time 3 year and 7 month after May, 2021","Dec, 2024","Dec, 2024",True,0.0,False
+"What is the time 2 year and 2 month after Jun, 2035","Aug, 2037","Aug, 2037",True,0.0,False
+"What is the time 8 year and 6 month after Apr, 2035","Oct, 2043","Oct, 2043",True,0.0,False
+"What is the time 8 year and 10 month after Dec, 2031","Oct, 2040","Oct, 2040",True,0.0,False
+"What is the time 6 year and 5 month after Feb, 2032","Jul, 2038","Jul, 2038",True,0.0,False
+"What is the time 5 year and 2 month after May, 2032","Jul, 2037","Jul, 2037",True,0.0,False
+"What is the time 1 year and 12 month after Jun, 2040","Jun, 2042","Jun, 2042",True,0.0,False
+"What is the time 4 year and 12 month after Feb, 2032","Feb, 2037","Feb, 2037",True,0.0,False
+"What is the time 7 year and 9 month after Nov, 2021","Aug, 2029","Aug, 2029",True,0.0,False
+"What is the time 2 year and 10 month after Aug, 2025","Jun, 2028","Jun, 2028",True,0.0,False
+"What is the time 2 year after Mar, 2022","Mar, 2024",":// Mar, 2024",True,0.0,False
+"What is the time 5 year and 11 month after Oct, 2024","Sep, 2030","Sep, 2030",True,0.0,False
+"What is the time 11 month after Sep, 2038","Aug, 2039",":// Aug, 2039",True,0.0,False
+"What is the time 7 year after Oct, 2027","Oct, 2034",":// Oct, 2034",True,0.0,False
+"What is the time 9 year and 8 month after Nov, 2040","Jul, 2050","Jul, 2050",True,0.0,False
+"What is the time 4 year and 6 month after Jan, 2038","Jul, 2042","Jul, 2042",True,0.0,False
+"What is the time 2 year and 11 month after May, 2029","Apr, 2032","Apr, 2032",True,0.0,False
+"What is the time 9 year and 8 month after Aug, 2036","Apr, 2046","Apr, 2046",True,0.0,False
+"What is the time 4 year and 10 month after Apr, 2025","Feb, 2030","Feb, 2030",True,0.0,False
+"What is the time 7 year after Feb, 2026","Feb, 2033",":// Feb, 2033",True,0.0,False
+"What is the time 3 year and 10 month after Oct, 2040","Aug, 2044","Aug, 2044",True,0.0,False
+"What is the time 1 year and 2 month after Jun, 2024","Aug, 2025","Aug, 2025",True,0.0,False
+"What is the time 5 year and 10 month after Feb, 2034","Dec, 2039","Dec, 2039",True,0.0,False
+"What is the time 2 year and 8 month after Jan, 2032","Sep, 2034","Sep, 2034",True,0.0,False
+"What is the time 9 year and 8 month after Feb, 2029","Oct, 2038","Oct, 2038",True,0.0,False
+"What is the time 7 year and 2 month after Aug, 2025","Oct, 2032","Oct, 2032",True,0.0,False
+"What is the time 1 year after Apr, 2021","Apr, 2022",":// Apr, 2022",True,0.0,False
+"What is the time 3 year after Mar, 2030","Mar, 2033",":// Mar, 2033",True,0.0,False
+"What is the time 5 year and 11 month after Aug, 2026","Jul, 2032","Jul, 2032",True,0.0,False
+"What is the time 9 year and 9 month after Jan, 2038","Oct, 2047","Oct, 2047",True,0.0,False
+"What is the time 8 year and 1 month after Jan, 2031","Feb, 2039","Feb, 2039",True,0.0,False
+"What is the time 2 year and 8 month after May, 2031","Jan, 2034","Jan, 2034",True,0.0,False
+"What is the time 7 year and 7 month after Oct, 2020","May, 2028","May, 2028",True,0.0,False
+"What is the time 3 year and 2 month after Dec, 2034","Feb, 2038","Feb, 2038",True,0.0,False
+"What is the time 3 year and 2 month after Jul, 2040","Sep, 2043","Sep, 2043",True,0.0,False
+"What is the time 9 month after Mar, 2034","Dec, 2034",":// Dec, 2034",True,0.0,False
+"What is the time 6 year and 5 month after Mar, 2024","Aug, 2030","Aug, 2030",True,0.0,False
+"What is the time 3 year and 11 month after Mar, 2022","Feb, 2026","Feb, 2026",True,0.0,False
+"What is the time 3 year and 8 month after Dec, 2039","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 5 year and 1 month after Jan, 2032","Feb, 2037","Feb, 2037",True,0.0,False
+"What is the time 8 year and 7 month after Nov, 2028","Jun, 2037","Jun, 2037",True,0.0,False
+"What is the time 8 month after Jan, 2034","Sep, 2034",":// Sep, 2034",True,0.0,False
+"What is the time 2 year and 2 month after Jul, 2037","Sep, 2039","Sep, 2039",True,0.0,False
+"What is the time 5 year and 8 month after Apr, 2034","Dec, 2039","Dec, 2039",True,0.0,False
+"What is the time 4 year and 8 month after Dec, 2022","Aug, 2027","Aug, 2027",True,0.0,False
+"What is the time 11 month after Sep, 2030","Aug, 2031",":// Aug, 2031",True,0.0,False
+"What is the time 2 year and 6 month after Jan, 2030","Jul, 2032","Jul, 2032",True,0.0,False
+"What is the time 10 year and 12 month after Feb, 2026","Feb, 2037","Feb, 2037",True,0.0,False
+"What is the time 2 year after Oct, 2035","Oct, 2037",":// Oct, 2037",True,0.0,False
+"What is the time 7 year and 7 month after Dec, 2039","Jul, 2047","Jul, 2047",True,0.0,False
+"What is the time 2 year and 5 month after Jun, 2031","Nov, 2033","Nov, 2033",True,0.0,False
+"What is the time 2 year after Mar, 2027","Mar, 2029",":// Mar, 2029",True,0.0,False
+"What is the time 10 year and 12 month after Jan, 2022","Jan, 2033","Jan, 2033",True,0.0,False
+"What is the time 6 year and 2 month after May, 2029","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 6 year and 1 month after Jul, 2021","Aug, 2027","Aug, 2027",True,0.0,False
+"What is the time 8 month after Jun, 2026","Feb, 2027",":// Feb, 2027",True,0.0,False
+"What is the time 2 year and 11 month after Aug, 2040","Jul, 2043","Jul, 2043",True,0.0,False
+"What is the time 2 year and 3 month after Jul, 2028","Oct, 2030","Oct, 2030",True,0.0,False
+"What is the time 3 month after Jun, 2028","Sep, 2028",":// Sep, 2028",True,0.0,False
+"What is the time 10 year and 2 month after Jul, 2022","Sep, 2032","Sep, 2032",True,0.0,False
+"What is the time 2 year and 6 month after Jul, 2035","Jan, 2038","Jan, 2038",True,0.0,False
+"What is the time 8 year and 2 month after Nov, 2039","Jan, 2048","Jan, 2048",True,0.0,False
+"What is the time 6 year after May, 2030","May, 2036",":// May, 2036",True,0.0,False
+"What is the time 4 year and 4 month after Oct, 2026","Feb, 2031","Feb, 2031",True,0.0,False
+"What is the time 3 year and 7 month after Oct, 2020","May, 2024","May, 2024",True,0.0,False
+"What is the time 6 year and 5 month after Feb, 2034","Jul, 2040","Jul, 2040",True,0.0,False
+"What is the time 1 year and 10 month after May, 2039","Mar, 2041","Mar, 2041",True,0.0,False
+"What is the time 3 year after Aug, 2020","Aug, 2023",":// Aug, 2023",True,0.0,False
+"What is the time 9 year and 8 month after Apr, 2037","Dec, 2046","Dec, 2046",True,0.0,False
+"What is the time 9 year and 10 month after Nov, 2024","Sep, 2034","Sep, 2034",True,0.0,False
+"What is the time 2 year and 7 month after Jun, 2036","Jan, 2039","Jan, 2039",True,0.0,False
+"What is the time 2 year and 12 month after Sep, 2021","Sep, 2024","Sep, 2024",True,0.0,False
+"What is the time 10 year and 12 month after Jun, 2031","Jun, 2042","Jun, 2042",True,0.0,False
+"What is the time 4 year and 10 month after Nov, 2034","Sep, 2039","Sep, 2039",True,0.0,False
+"What is the time 3 year and 6 month after Nov, 2028","May, 2032","May, 2032",True,0.0,False
+"What is the time 1 year and 2 month after May, 2040","Jul, 2041","Jul, 2041",True,0.0,False
+"What is the time 9 month after Mar, 2022","Dec, 2022",":// Dec, 2022",True,0.0,False
+"What is the time 8 year and 2 month after Jan, 2020","Mar, 2028","Mar, 2028",True,0.0,False
+"What is the time 7 year and 1 month after Jun, 2036","Jul, 2043","Jul, 2043",True,0.0,False
+"What is the time 8 year and 10 month after Nov, 2023","Sep, 2032","Sep, 2032",True,0.0,False
+"What is the time 3 year and 12 month after Sep, 2021","Sep, 2025","Sep, 2025",True,0.0,False
+"What is the time 1 year and 11 month after Sep, 2023","Aug, 2025","Aug, 2025",True,0.0,False
+"What is the time 4 year and 3 month after Mar, 2029","Jun, 2033","Jun, 2033",True,0.0,False
+"What is the time 9 year and 6 month after Jul, 2031","Jan, 2041","Jan, 2041",True,0.0,False
+"What is the time 5 year and 4 month after May, 2025","Sep, 2030","Sep, 2030",True,0.0,False
+"What is the time 5 year and 2 month after Feb, 2029","Apr, 2034","Apr, 2034",True,0.0,False
+"What is the time 8 year and 9 month after Aug, 2035","May, 2044","May, 2044",True,0.0,False
+"What is the time 6 year and 12 month after Nov, 2034","Nov, 2041","Nov, 2041",True,0.0,False
+"What is the time 8 year and 8 month after Mar, 2022","Nov, 2030","Nov, 2030",True,0.0,False
+"What is the time 6 year and 9 month after Jan, 2020","Oct, 2026","Oct, 2026",True,0.0,False
+"What is the time 4 year and 8 month after May, 2022","Jan, 2027","Jan, 2027",True,0.0,False
+"What is the time 5 year and 12 month after Nov, 2040","Nov, 2046","Nov, 2046",True,0.0,False
+"What is the time 10 year and 11 month after Aug, 2024","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 12 month after Mar, 2029","Mar, 2030",":// Mar, 2030",True,0.0,False
+"What is the time 7 year and 4 month after Sep, 2028","Jan, 2036","Jan, 2036",True,0.0,False
+"What is the time 4 year after Dec, 2035","Dec, 2039",":// Dec, 2039",True,0.0,False
+"What is the time 3 month after Dec, 2035","Mar, 2036",":// Mar, 2036",True,0.0,False
+"What is the time 9 year and 7 month after Aug, 2038","Mar, 2048","Mar, 2048",True,0.0,False
+"What is the time 5 year and 3 month after May, 2021","Aug, 2026","Aug, 2026",True,0.0,False
+"What is the time 2 year and 3 month after Feb, 2021","May, 2023","May, 2023",True,0.0,False
+"What is the time 8 year and 9 month after Jan, 2026","Oct, 2034","Oct, 2034",True,0.0,False
+"What is the time 7 year and 2 month after Apr, 2035","Jun, 2042","Jun, 2042",True,0.0,False
+"What is the time 1 year and 4 month after Jan, 2028","May, 2029","May, 2029",True,0.0,False
+"What is the time 7 year and 4 month after May, 2033","Sep, 2040","Sep, 2040",True,0.0,False
+"What is the time 6 year and 7 month after Mar, 2035","Oct, 2041","Oct, 2041",True,0.0,False
+"What is the time 5 year and 9 month after Feb, 2026","Nov, 2031","Nov, 2031",True,0.0,False
+"What is the time 9 year and 12 month after Feb, 2040","Feb, 2050","Feb, 2050",True,0.0,False
+"What is the time 7 year and 1 month after Sep, 2031","Oct, 2038","Oct, 2038",True,0.0,False
+"What is the time 5 year and 11 month after Nov, 2026","Oct, 2032","Oct, 2032",True,0.0,False
+"What is the time 10 year and 8 month after Nov, 2026","Jul, 2037","Jul, 2037",True,0.0,False
+"What is the time 8 year and 7 month after Jun, 2033","Jan, 2042","Jan, 2042",True,0.0,False
+"What is the time 1 year and 5 month after Dec, 2025","May, 2027","May, 2027",True,0.0,False
+"What is the time 6 year and 2 month after Jan, 2036","Mar, 2042","Mar, 2042",True,0.0,False
+"What is the time 10 year and 7 month after May, 2024","Dec, 2034","Dec, 2034",True,0.0,False
+"What is the time 6 year and 7 month after Mar, 2040","Oct, 2046","Oct, 2046",True,0.0,False
+"What is the time 4 year and 7 month after Sep, 2038","Apr, 2043","Apr, 2043",True,0.0,False
+"What is the time 10 year and 3 month after Oct, 2030","Jan, 2041","Jan, 2041",True,0.0,False
+"What is the time 6 year and 11 month after Aug, 2031","Jul, 2038","Jul, 2038",True,0.0,False
+"What is the time 8 year and 11 month after May, 2035","Apr, 2044","Apr, 2044",True,0.0,False
+"What is the time 6 year and 9 month after Jul, 2026","Apr, 2033","Apr, 2033",True,0.0,False
+"What is the time 7 year and 11 month after Apr, 2025","Mar, 2033","Mar, 2033",True,0.0,False
+"What is the time 6 year and 9 month after Mar, 2031","Dec, 2037","Dec, 2037",True,0.0,False
+"What is the time 2 year and 5 month after Nov, 2029","Apr, 2032","Apr, 2032",True,0.0,False
+"What is the time 8 year and 9 month after Sep, 2031","Jun, 2040","Jun, 2040",True,0.0,False
+"What is the time 9 year and 1 month after May, 2026","Jun, 2035","Jun, 2035",True,0.0,False
+"What is the time 10 year and 10 month after Jun, 2033","Apr, 2044","Apr, 2044",True,0.0,False
+"What is the time 9 year and 8 month after Nov, 2037","Jul, 2047","Jul, 2047",True,0.0,False
+"What is the time 6 year and 2 month after May, 2025","Jul, 2031","Jul, 2031",True,0.0,False
+"What is the time 10 year and 2 month after Dec, 2035","Feb, 2046","Feb, 2046",True,0.0,False
+"What is the time 9 year and 9 month after Jan, 2025","Oct, 2034","Oct, 2034",True,0.0,False
+"What is the time 3 year and 1 month after Jul, 2030","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 8 year and 5 month after Feb, 2026","Jul, 2034","Jul, 2034",True,0.0,False
+"What is the time 6 year and 2 month after Mar, 2031","May, 2037","May, 2037",True,0.0,False
+"What is the time 7 year and 5 month after Apr, 2037","Sep, 2044","Sep, 2044",True,0.0,False
+"What is the time 6 year and 12 month after Jan, 2024","Jan, 2031","Jan, 2031",True,0.0,False
+"What is the time 1 year and 2 month after Apr, 2032","Jun, 2033","Jun, 2033",True,0.0,False
+"What is the time 4 year and 2 month after Apr, 2030","Jun, 2034","Jun, 2034",True,0.0,False
+"What is the time 10 year and 9 month after Sep, 2032","Jun, 2043","Jun, 2043",True,0.0,False
+"What is the time 7 year and 4 month after Dec, 2037","Apr, 2045","Apr, 2045",True,0.0,False
+"What is the time 4 year and 3 month after Feb, 2034","May, 2038","May, 2038",True,0.0,False
+"What is the time 4 month after Aug, 2026","Dec, 2026",":// Dec, 2026",True,0.0,False
+"What is the time 10 year and 5 month after Dec, 2035","May, 2046","May, 2046",True,0.0,False
+"What is the time 8 year and 8 month after Nov, 2036","Jul, 2045","Jul, 2045",True,0.0,False
+"What is the time 6 month after Nov, 2038","May, 2039",":// May, 2039",True,0.0,False
+"What is the time 9 year and 6 month after Apr, 2031","Oct, 2040","Oct, 2040",True,0.0,False
+"What is the time 3 year and 8 month after Nov, 2039","Jul, 2043","Jul, 2043",True,0.0,False
+"What is the time 1 month after Jun, 2032","Jul, 2032",".Sep, 2032",False,2.0,True
+"What is the time 10 year and 6 month after Apr, 2024","Oct, 2034","Oct, 2034",True,0.0,False
+"What is the time 4 year and 7 month after Jan, 2037","Aug, 2041","Aug, 2041",True,0.0,False
+"What is the time 5 year and 2 month after Apr, 2022","Jun, 2027","Jun, 2027",True,0.0,False
+"What is the time 9 year and 10 month after Dec, 2031","Oct, 2041","Oct, 2041",True,0.0,False
+"What is the time 3 year and 11 month after Mar, 2026","Feb, 2030","Feb, 2030",True,0.0,False
+"What is the time 5 year and 4 month after Jun, 2038","Oct, 2043","Oct, 2043",True,0.0,False
+"What is the time 2 year after Oct, 2024","Oct, 2026",":// Oct, 2026",True,0.0,False
+"What is the time 2 month after Jun, 2027","Aug, 2027",":// Aug, 2027",True,0.0,False
+"What is the time 8 year and 9 month after Jan, 2033","Oct, 2041","Oct, 2041",True,0.0,False
+"What is the time 4 year and 3 month after Aug, 2031","Nov, 2035","Nov, 2035",True,0.0,False
+"What is the time 8 year and 2 month after Sep, 2038","Nov, 2046","Nov, 2046",True,0.0,False
+"What is the time 1 year and 6 month after May, 2030","Nov, 2031","Nov, 2031",True,0.0,False
+"What is the time 7 year and 7 month after Nov, 2036","Jun, 2044","Jun, 2044",True,0.0,False
+"What is the time 1 year and 10 month after Oct, 2031","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 1 year after Dec, 2021","Dec, 2022",":// Dec, 2022",True,0.0,False
+"What is the time 1 year and 10 month after Jun, 2036","Apr, 2038","Apr, 2038",True,0.0,False
+"What is the time 5 year and 12 month after Oct, 2026","Oct, 2032","Oct, 2032",True,0.0,False
+"What is the time 5 year and 3 month after Oct, 2020","Jan, 2026","Jan, 2026",True,0.0,False
+"What is the time 7 year and 3 month after Apr, 2028","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 2 year and 9 month after Nov, 2040","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 8 year and 3 month after Apr, 2040","Jul, 2048","Jul, 2048",True,0.0,False
+"What is the time 9 year after Jun, 2036","Jun, 2045",".Sep, 2045",False,3.0,True
+"What is the time 8 month after Oct, 2026","Jun, 2027",":// Jun, 2027",True,0.0,False
+"What is the time 5 year and 7 month after Feb, 2026","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 6 month after Sep, 2021","Mar, 2022",":// Mar, 2022",True,0.0,False
+"What is the time 9 year and 2 month after Mar, 2036","May, 2045","May, 2045",True,0.0,False
+"What is the time 10 year after Nov, 2029","Nov, 2039",":// Nov, 2039",True,0.0,False
+"What is the time 2 year and 9 month after Jul, 2035","Apr, 2038","Apr, 2038",True,0.0,False
+"What is the time 1 year and 3 month after Jul, 2031","Oct, 2032","Oct, 2032",True,0.0,False
+"What is the time 3 year and 10 month after Dec, 2025","Oct, 2029","Oct, 2029",True,0.0,False
+"What is the time 6 year and 11 month after Sep, 2024","Aug, 2031","Aug, 2031",True,0.0,False
+"What is the time 5 year and 11 month after Aug, 2039","Jul, 2045","Jul, 2045",True,0.0,False
+"What is the time 3 year and 11 month after Jun, 2039","May, 2043","May, 2043",True,0.0,False
+"What is the time 9 year and 1 month after May, 2021","Jun, 2030","Jun, 2030",True,0.0,False
+"What is the time 6 year and 4 month after Jun, 2039","Oct, 2045","Oct, 2045",True,0.0,False
+"What is the time 3 year and 8 month after Jun, 2021","Feb, 2025","Feb, 2025",True,0.0,False
+"What is the time 6 year and 12 month after Jul, 2038","Jul, 2045","Jul, 2045",True,0.0,False
+"What is the time 3 year and 8 month after Apr, 2033","Dec, 2036","Dec, 2036",True,0.0,False
+"What is the time 9 year after Apr, 2025","Apr, 2034",":// Apr, 2034",True,0.0,False
+"What is the time 7 year and 7 month after Sep, 2022","Apr, 2030","Apr, 2030",True,0.0,False
+"What is the time 10 year and 12 month after May, 2020","May, 2031","May, 2031",True,0.0,False
+"What is the time 3 year and 7 month after Feb, 2029","Sep, 2032","Sep, 2032",True,0.0,False
+"What is the time 5 year and 3 month after Dec, 2029","Mar, 2035","Mar, 2035",True,0.0,False
+"What is the time 5 year and 1 month after Jan, 2034","Feb, 2039","Feb, 2039",True,0.0,False
+"What is the time 6 year after Oct, 2023","Oct, 2029",":// Oct, 2029",True,0.0,False
+"What is the time 7 year and 11 month after Sep, 2022","Aug, 2030","Aug, 2030",True,0.0,False
+"What is the time 4 year and 10 month after Oct, 2033","Aug, 2038","Aug, 2038",True,0.0,False
+"What is the time 2 year and 3 month after Apr, 2031","Jul, 2033","Jul, 2033",True,0.0,False
+"What is the time 4 year and 4 month after Feb, 2035","Jun, 2039","Jun, 2039",True,0.0,False
+"What is the time 6 year and 7 month after Jun, 2036","Jan, 2043","Jan, 2043",True,0.0,False
+"What is the time 8 year and 3 month after Jan, 2021","Apr, 2029","Apr, 2029",True,0.0,False
+"What is the time 2 year and 2 month after Mar, 2023","May, 2025","May, 2025",True,0.0,False
+"What is the time 5 year and 8 month after Jun, 2021","Feb, 2027","Feb, 2027",True,0.0,False
+"What is the time 4 year and 9 month after May, 2040","Feb, 2045","Feb, 2045",True,0.0,False
+"What is the time 5 year and 9 month after Jun, 2035","Mar, 2041","Mar, 2041",True,0.0,False
+"What is the time 3 year and 9 month after Feb, 2031","Nov, 2034","Nov, 2034",True,0.0,False
+"What is the time 9 year and 12 month after Jan, 2026","Jan, 2036","Jan, 2036",True,0.0,False
+"What is the time 6 year after Apr, 2024","Apr, 2030",":// Apr, 2030",True,0.0,False
+"What is the time 4 year and 10 month after Jul, 2032","May, 2037","May, 2037",True,0.0,False
+"What is the time 8 year and 4 month after Mar, 2036","Jul, 2044","Jul, 2044",True,0.0,False
+"What is the time 7 year and 10 month after Jul, 2038","May, 2046","May, 2046",True,0.0,False
+"What is the time 2 year and 2 month after Oct, 2021","Dec, 2023","Dec, 2023",True,0.0,False
+"What is the time 2 year and 11 month after Mar, 2028","Feb, 2031","Feb, 2031",True,0.0,False
+"What is the time 4 year and 11 month after Jun, 2036","May, 2041","May, 2041",True,0.0,False
+"What is the time 3 year and 9 month after Feb, 2022","Nov, 2025","Nov, 2025",True,0.0,False
+"What is the time 3 year and 1 month after Apr, 2022","May, 2025","May, 2025",True,0.0,False
+"What is the time 8 year and 9 month after Oct, 2035","Jul, 2044","Jul, 2044",True,0.0,False
+"What is the time 5 year and 7 month after Aug, 2032","Mar, 2038","Mar, 2038",True,0.0,False
+"What is the time 6 month after Sep, 2027","Mar, 2028",":// Mar, 2028",True,0.0,False
+"What is the time 4 year after Jan, 2029","Jan, 2033",":// Jan, 2033",True,0.0,False
+"What is the time 6 year and 2 month after Jul, 2021","Sep, 2027","Sep, 2027",True,0.0,False
+"What is the time 6 year and 2 month after May, 2040","Jul, 2046","Jul, 2046",True,0.0,False
+"What is the time 3 year and 7 month after May, 2030","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 10 year and 10 month after Sep, 2036","Jul, 2047","Jul, 2047",True,0.0,False
+"What is the time 4 year and 7 month after May, 2026","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 9 month after Jan, 2037","Oct, 2037",":// Oct, 2037",True,0.0,False
+"What is the time 3 year and 1 month after Dec, 2033","Jan, 2037","Jan, 2037",True,0.0,False
+"What is the time 5 year and 8 month after May, 2035","Jan, 2041","Jan, 2041",True,0.0,False
+"What is the time 8 year and 11 month after Feb, 2035","Jan, 2044","Jan, 2044",True,0.0,False
+"What is the time 6 year and 11 month after Mar, 2029","Feb, 2036","Feb, 2036",True,0.0,False
+"What is the time 1 year after Oct, 2036","Oct, 2037",".Sep, 2037",False,1.0,False
+"What is the time 10 year and 10 month after Mar, 2023","Jan, 2034","Jan, 2034",True,0.0,False
+"What is the time 3 year and 10 month after Jan, 2027","Nov, 2030","Nov, 2030",True,0.0,False
+"What is the time 1 year and 3 month after Oct, 2029","Jan, 2031","Jan, 2031",True,0.0,False
+"What is the time 3 year and 9 month after Jun, 2037","Mar, 2041","Mar, 2041",True,0.0,False
+"What is the time 7 year and 5 month after Jul, 2023","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 3 year and 12 month after Feb, 2025","Feb, 2029","Feb, 2029",True,0.0,False
+"What is the time 9 year and 9 month after Jan, 2032","Oct, 2041","Oct, 2041",True,0.0,False
+"What is the time 10 month after Jan, 2038","Nov, 2038",":// Nov, 2038",True,0.0,False
+"What is the time 12 month after Oct, 2038","Oct, 2039",".Sep, 2039",False,1.0,False
+"What is the time 8 year and 8 month after Mar, 2028","Nov, 2036","Nov, 2036",True,0.0,False
+"What is the time 4 year and 11 month after Jun, 2028","May, 2033","May, 2033",True,0.0,False
+"What is the time 9 year and 11 month after Jul, 2032","Jun, 2042","Jun, 2042",True,0.0,False
+"What is the time 3 year and 1 month after Mar, 2031","Apr, 2034","Apr, 2034",True,0.0,False
+"What is the time 9 year and 4 month after Nov, 2036","Mar, 2046","Mar, 2046",True,0.0,False
+"What is the time 6 year and 6 month after Jan, 2020","Jul, 2026","Jul, 2026",True,0.0,False
+"What is the time 5 year and 7 month after Feb, 2031","Sep, 2036","Sep, 2036",True,0.0,False
+"What is the time 6 year and 1 month after Nov, 2034","Dec, 2040","Dec, 2040",True,0.0,False
+"What is the time 1 year and 4 month after Jul, 2027","Nov, 2028","Nov, 2028",True,0.0,False
+"What is the time 1 year and 8 month after Oct, 2033","Jun, 2035","Jun, 2035",True,0.0,False
+"What is the time 8 year and 2 month after Jun, 2026","Aug, 2034","Aug, 2034",True,0.0,False
+"What is the time 6 month after May, 2038","Nov, 2038",":// Nov, 2038",True,0.0,False
+"What is the time 5 year and 9 month after Oct, 2037","Jul, 2043","Jul, 2043",True,0.0,False
+"What is the time 7 year and 2 month after Dec, 2030","Feb, 2038","Feb, 2038",True,0.0,False
+"What is the time 10 year and 3 month after Feb, 2024","May, 2034","May, 2034",True,0.0,False
+"What is the time 6 year and 1 month after Mar, 2023","Apr, 2029","Apr, 2029",True,0.0,False
+"What is the time 5 year and 11 month after Jul, 2033","Jun, 2039","Jun, 2039",True,0.0,False
+"What is the time 4 year and 3 month after May, 2031","Aug, 2035","Aug, 2035",True,0.0,False
+"What is the time 10 year and 1 month after Oct, 2028","Nov, 2038","Nov, 2038",True,0.0,False
+"What is the time 7 year and 9 month after Jan, 2023","Oct, 2030","Oct, 2030",True,0.0,False
+"What is the time 4 year and 7 month after May, 2040","Dec, 2044","Dec, 2044",True,0.0,False
+"What is the time 6 year and 4 month after Mar, 2029","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 9 year and 5 month after May, 2034","Oct, 2043","Oct, 2043",True,0.0,False
+"What is the time 12 month after Jun, 2033","Jun, 2034",".Sep, 2034",False,3.0,True
+"What is the time 6 year after Dec, 2035","Dec, 2041",":// Dec, 2041",True,0.0,False
+"What is the time 10 year after Jul, 2033","Jul, 2043","* Jul, 2043",True,0.0,False
+"What is the time 2 year and 3 month after Aug, 2025","Nov, 2027","Nov, 2027",True,0.0,False
+"What is the time 2 year after May, 2025","May, 2027",":// May, 2027",True,0.0,False
+"What is the time 6 month after Nov, 2029","May, 2030",":// May, 2029",False,12.0,False
+"What is the time 6 year and 8 month after Jan, 2024","Sep, 2030","Sep, 2030",True,0.0,False
+"What is the time 4 year and 7 month after Mar, 2029","Oct, 2033","Oct, 2033",True,0.0,False
+"What is the time 3 year and 11 month after Sep, 2024","Aug, 2028","Aug, 2028",True,0.0,False
+"What is the time 8 year and 1 month after May, 2026","Jun, 2034","Jun, 2034",True,0.0,False
+"What is the time 8 year after Jul, 2034","Jul, 2042",":// Jul, 2042",True,0.0,False
+"What is the time 6 year and 4 month after Dec, 2031","Apr, 2038","Apr, 2038",True,0.0,False
+"What is the time 10 year and 5 month after Sep, 2021","Feb, 2032","Feb, 2032",True,0.0,False
+"What is the time 7 year and 12 month after Feb, 2031","Feb, 2039","Feb, 2039",True,0.0,False
+"What is the time 2 year and 11 month after Aug, 2033","Jul, 2036","Jul, 2036",True,0.0,False
+"What is the time 8 year and 10 month after Aug, 2035","Jun, 2044","Jun, 2044",True,0.0,False
+"What is the time 7 year and 12 month after May, 2039","May, 2047","May, 2047",True,0.0,False
+"What is the time 8 year and 10 month after Oct, 2026","Aug, 2035","Aug, 2035",True,0.0,False
+"What is the time 9 year and 6 month after May, 2027","Nov, 2036","Nov, 2036",True,0.0,False
+"What is the time 2 year and 9 month after Apr, 2022","Jan, 2025","Jan, 2025",True,0.0,False
+"What is the time 8 month after Oct, 2025","Jun, 2026",":// Jun, 2026",True,0.0,False
+"What is the time 10 year and 9 month after Dec, 2025","Sep, 2036","Sep, 2036",True,0.0,False
+"What is the time 3 year and 7 month after Jul, 2022","Feb, 2026","Feb, 2026",True,0.0,False
+"What is the time 6 year and 9 month after Sep, 2035","Jun, 2042","Jun, 2042",True,0.0,False
+"What is the time 3 year and 4 month after Feb, 2035","Jun, 2038","Jun, 2038",True,0.0,False
+"What is the time 2 year and 12 month after Oct, 2025","Oct, 2028","Oct, 2028",True,0.0,False
+"What is the time 5 year and 3 month after Jun, 2034","Sep, 2039","Sep, 2039",True,0.0,False
+"What is the time 9 year and 11 month after Jul, 2023","Jun, 2033","Jun, 2033",True,0.0,False
+"What is the time 9 year and 4 month after Sep, 2036","Jan, 2046","Jan, 2046",True,0.0,False
+"What is the time 8 year and 1 month after Jan, 2032","Feb, 2040","Feb, 2040",True,0.0,False
+"What is the time 3 year and 1 month after Oct, 2036","Nov, 2039","Nov, 2039",True,0.0,False
+"What is the time 10 year and 9 month after Jan, 2036","Oct, 2046","Oct, 2046",True,0.0,False
+"What is the time 2 year and 9 month after Feb, 2023","Nov, 2025","Nov, 2025",True,0.0,False
+"What is the time 10 year and 12 month after May, 2029","May, 2040","May, 2040",True,0.0,False
+"What is the time 2 year and 12 month after Jul, 2029","Jul, 2032","Jul, 2032",True,0.0,False
+"What is the time 7 year and 4 month after Dec, 2022","Apr, 2030","Apr, 2030",True,0.0,False
+"What is the time 10 year and 9 month after Jan, 2033","Oct, 2043","Oct, 2043",True,0.0,False
+"What is the time 3 year and 12 month after Oct, 2026","Oct, 2030","Oct, 2030",True,0.0,False
+"What is the time 1 year and 11 month after Nov, 2035","Oct, 2037","Oct, 2037",True,0.0,False
+"What is the time 9 year and 4 month after Feb, 2036","Jun, 2045","Jun, 2045",True,0.0,False
+"What is the time 6 year and 8 month after Apr, 2038","Dec, 2044","Dec, 2044",True,0.0,False
+"What is the time 6 year and 2 month after Sep, 2020","Nov, 2026","Nov, 2026",True,0.0,False
+"What is the time 3 year and 2 month after Sep, 2038","Nov, 2041","Nov, 2041",True,0.0,False
+"What is the time 10 month after Sep, 2029","Jul, 2030",":// Jul, 2029",False,12.0,False
+"What is the time 5 year and 11 month after Sep, 2036","Aug, 2042","Aug, 2042",True,0.0,False
+"What is the time 6 year and 10 month after Nov, 2040","Sep, 2047","Sep, 2047",True,0.0,False
+"What is the time 8 year and 7 month after Oct, 2029","May, 2038","May, 2038",True,0.0,False
+"What is the time 1 year and 4 month after Jul, 2024","Nov, 2025","Nov, 2025",True,0.0,False
+"What is the time 6 year and 10 month after Jul, 2021","May, 2028","May, 2028",True,0.0,False
+"What is the time 1 year and 12 month after Jul, 2040","Jul, 2042","Jul, 2042",True,0.0,False
+"What is the time 10 year and 4 month after May, 2023","Sep, 2033","Sep, 2033",True,0.0,False
+"What is the time 5 year and 4 month after Oct, 2039","Feb, 2045","Feb, 2045",True,0.0,False
+"What is the time 5 year and 11 month after Nov, 2039","Oct, 2045","Oct, 2045",True,0.0,False
+"What is the time 5 year and 1 month after Mar, 2036","Apr, 2041","Apr, 2041",True,0.0,False
+"What is the time 5 year and 6 month after Jun, 2033","Dec, 2038","Dec, 2038",True,0.0,False
+"What is the time 8 year and 12 month after Jan, 2026","Jan, 2035","Jan, 2035",True,0.0,False
+"What is the time 7 year and 1 month after Sep, 2024","Oct, 2031","Oct, 2031",True,0.0,False
+"What is the time 10 year and 2 month after Sep, 2032","Nov, 2042","Nov, 2042",True,0.0,False
+"What is the time 4 year and 2 month after Aug, 2032","Oct, 2036","Oct, 2036",True,0.0,False
+"What is the time 8 year and 8 month after Apr, 2024","Dec, 2032","Dec, 2032",True,0.0,False
+"What is the time 7 year and 12 month after Dec, 2033","Dec, 2041","Dec, 2041",True,0.0,False
+"What is the time 5 year and 5 month after Aug, 2035","Jan, 2041","Jan, 2041",True,0.0,False
+"What is the time 10 year and 12 month after Feb, 2025","Feb, 2036","Feb, 2036",True,0.0,False
+"What is the time 6 year and 8 month after Aug, 2040","Apr, 2047","Apr, 2047",True,0.0,False
+"What is the time 5 year and 6 month after Jan, 2031","Jul, 2036","Jul, 2036",True,0.0,False
+"What is the time 2 year and 12 month after Oct, 2030","Oct, 2033","Oct, 2033",True,0.0,False
+"What is the time 1 year and 9 month after Sep, 2039","Jun, 2041","Jun, 2041",True,0.0,False
+"What is the time 10 year and 1 month after Jun, 2029","Jul, 2039","Jul, 2039",True,0.0,False
+"What is the time 1 year and 8 month after Jul, 2029","Mar, 2031","Mar, 2031",True,0.0,False
+"What is the time 6 year and 10 month after Mar, 2026","Jan, 2033","Jan, 2033",True,0.0,False
+"What is the time 8 year and 8 month after Apr, 2039","Dec, 2047","Dec, 2047",True,0.0,False
+"What is the time 1 month after Dec, 2031","Jan, 2032",".Sep, 2032",False,8.0,True
+"What is the time 5 year and 9 month after Jan, 2028","Oct, 2033","Oct, 2033",True,0.0,False
+"What is the time 6 month after Apr, 2031","Oct, 2031",":// Oct, 2031",True,0.0,False
+"What is the time 9 year after Aug, 2025","Aug, 2034",":// Aug, 2034",True,0.0,False
+"What is the time 6 year after Dec, 2023","Dec, 2029",":// Dec, 2029",True,0.0,False
+"What is the time 10 year and 9 month after Oct, 2039","Jul, 2050","Jul, 2050",True,0.0,False
+"What is the time 4 year and 8 month after May, 2033","Jan, 2038","Jan, 2038",True,0.0,False
+"What is the time 6 year and 4 month after Apr, 2025","Aug, 2031","Aug, 2031",True,0.0,False
+"What is the time 1 year and 2 month after Jun, 2036","Aug, 2037","Aug, 2037",True,0.0,False
+"What is the time 3 year and 8 month after Jun, 2026","Feb, 2030","Feb, 2030",True,0.0,False
+"What is the time 4 year and 9 month after Apr, 2038","Jan, 2043","Jan, 2043",True,0.0,False
+"What is the time 9 year after Jul, 2027","Jul, 2036",":// Jul, 2036",True,0.0,False
+"What is the time 6 year and 3 month after Sep, 2029","Dec, 2035","Dec, 2035",True,0.0,False
+"What is the time 9 year after Feb, 2027","Feb, 2036","://Feb, 2036",True,0.0,False
+"What is the time 10 year and 7 month after Aug, 2024","Mar, 2035","Mar, 2035",True,0.0,False
+"What is the time 2 year and 2 month after Dec, 2023","Feb, 2026","Feb, 2026",True,0.0,False
+"What is the time 10 year and 5 month after Apr, 2037","Sep, 2047","Sep, 2047",True,0.0,False
+"What is the time 2 year and 11 month after Jan, 2032","Dec, 2034","Dec, 2034",True,0.0,False
+"What is the time 3 month after Apr, 2021","Jul, 2021",":// Jul, 2021",True,0.0,False
+"What is the time 9 year and 12 month after Aug, 2023","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 12 month after Jul, 2030","Jul, 2031",".Sep, 2031",False,2.0,True
+"What is the time 5 month after May, 2030","Oct, 2030",":// Oct, 2030",True,0.0,False
+"What is the time 1 year and 3 month after Nov, 2021","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 5 year and 3 month after Mar, 2026","Jun, 2031","Jun, 2031",True,0.0,False
+"What is the time 4 year and 12 month after Apr, 2023","Apr, 2028","Apr, 2028",True,0.0,False
+"What is the time 2 year and 12 month after Oct, 2033","Oct, 2036","Oct, 2036",True,0.0,False
+"What is the time 5 year after Aug, 2036","Aug, 2041",":// Aug, 2041",True,0.0,False
+"What is the time 1 year and 12 month after Sep, 2024","Sep, 2026","Sep, 2026",True,0.0,False
+"What is the time 2 year and 2 month after Oct, 2032","Dec, 2034","Dec, 2034",True,0.0,False
+"What is the time 7 month after Sep, 2021","Apr, 2022",":// Apr, 2022",True,0.0,False
+"What is the time 9 year and 10 month after Feb, 2024","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 4 year and 5 month after Jul, 2020","Dec, 2024","Dec, 2024",True,0.0,False
+"What is the time 3 year and 6 month after Jul, 2030","Jan, 2034","Jan, 2034",True,0.0,False
+"What is the time 6 year and 3 month after Jan, 2039","Apr, 2045","Apr, 2045",True,0.0,False
+"What is the time 2 year and 1 month after Mar, 2033","Apr, 2035","Apr, 2035",True,0.0,False
+"What is the time 2 year and 12 month after May, 2027","May, 2030","May, 2030",True,0.0,False
+"What is the time 3 year and 6 month after Nov, 2037","May, 2041","May, 2041",True,0.0,False
+"What is the time 3 month after Mar, 2029","Jun, 2029",":// Jun, 2029",True,0.0,False
+"What is the time 6 year and 2 month after Sep, 2025","Nov, 2031","Nov, 2031",True,0.0,False
+"What is the time 5 year and 3 month after Aug, 2038","Nov, 2043","Nov, 2043",True,0.0,False
+"What is the time 1 year and 4 month after May, 2032","Sep, 2033","Sep, 2033",True,0.0,False
+"What is the time 2 year and 12 month after Jul, 2039","Jul, 2042","Jul, 2042",True,0.0,False
+"What is the time 1 year and 4 month after Feb, 2040","Jun, 2041","Jun, 2041",True,0.0,False
+"What is the time 4 year and 8 month after Jul, 2035","Mar, 2040","Mar, 2040",True,0.0,False
+"What is the time 8 year and 6 month after Jan, 2027","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 4 month after Jun, 2022","Oct, 2022",":// Oct, 2022",True,0.0,False
+"What is the time 5 year and 8 month after Jan, 2039","Sep, 2044","Sep, 2044",True,0.0,False
+"What is the time 12 month after Aug, 2022","Aug, 2023",":// Aug, 2023",True,0.0,False
+"What is the time 8 year and 4 month after Jul, 2028","Nov, 2036","Nov, 2036",True,0.0,False
+"What is the time 9 year and 12 month after Mar, 2030","Mar, 2040","Mar, 2040",True,0.0,False
+"What is the time 3 year after Jun, 2020","Jun, 2023",":// Jun, 2023",True,0.0,False
+"What is the time 2 year and 1 month after Jun, 2032","Jul, 2034","Jul, 2034",True,0.0,False
+"What is the time 5 year and 3 month after Dec, 2023","Mar, 2029","Mar, 2029",True,0.0,False
+"What is the time 6 year and 12 month after Jan, 2030","Jan, 2037","Jan, 2037",True,0.0,False
+"What is the time 8 year and 6 month after Jul, 2029","Jan, 2038","Jan, 2038",True,0.0,False
+"What is the time 2 year and 5 month after Oct, 2027","Mar, 2030","Mar, 2030",True,0.0,False
+"What is the time 9 year and 10 month after Sep, 2028","Jul, 2038","Jul, 2038",True,0.0,False
+"What is the time 2 year and 2 month after May, 2035","Jul, 2037","Jul, 2037",True,0.0,False
+"What is the time 7 year and 6 month after Dec, 2024","Jun, 2032","Jun, 2032",True,0.0,False
+"What is the time 5 year and 12 month after Jun, 2029","Jun, 2035","Jun, 2035",True,0.0,False
+"What is the time 8 year and 8 month after Feb, 2038","Oct, 2046","Oct, 2046",True,0.0,False
+"What is the time 8 year and 3 month after Feb, 2037","May, 2045","May, 2045",True,0.0,False
+"What is the time 2 year and 5 month after Mar, 2032","Aug, 2034","Aug, 2034",True,0.0,False
+"What is the time 9 year and 9 month after May, 2039","Feb, 2049","Feb, 2049",True,0.0,False
+"What is the time 4 year and 12 month after Jan, 2023","Jan, 2028","Jan, 2028",True,0.0,False
+"What is the time 9 year and 3 month after Oct, 2029","Jan, 2039","Jan, 2039",True,0.0,False
+"What is the time 8 year and 3 month after Sep, 2025","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 5 year and 5 month after Nov, 2023","Apr, 2029","Apr, 2029",True,0.0,False
+"What is the time 3 year and 1 month after Feb, 2037","Mar, 2040","Mar, 2040",True,0.0,False
+"What is the time 7 year and 9 month after Jun, 2034","Mar, 2042","Mar, 2042",True,0.0,False
+"What is the time 10 year and 12 month after Jun, 2038","Jun, 2049","Jun, 2049",True,0.0,False
+"What is the time 5 year and 4 month after Feb, 2026","Jun, 2031","Jun, 2031",True,0.0,False
+"What is the time 1 year and 8 month after Feb, 2039","Oct, 2040","Oct, 2040",True,0.0,False
+"What is the time 6 year and 8 month after Mar, 2039","Nov, 2045","Nov, 2045",True,0.0,False
+"What is the time 11 month after Dec, 2020","Nov, 2021",":// Nov, 2021",True,0.0,False
+"What is the time 9 year and 3 month after May, 2022","Aug, 2031","Aug, 2031",True,0.0,False
+"What is the time 2 year and 4 month after Sep, 2023","Jan, 2026","Jan, 2026",True,0.0,False
+"What is the time 4 year and 9 month after Dec, 2033","Sep, 2038","Sep, 2038",True,0.0,False
+"What is the time 4 year and 9 month after May, 2035","Feb, 2040","Feb, 2040",True,0.0,False
+"What is the time 4 year after Mar, 2023","Mar, 2027",":// Mar, 2027",True,0.0,False
+"What is the time 2 year and 7 month after Jun, 2030","Jan, 2033","Jan, 2033",True,0.0,False
+"What is the time 8 year and 6 month after Jun, 2040","Dec, 2048","Dec, 2048",True,0.0,False
+"What is the time 1 year and 1 month after Aug, 2030","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 4 year and 2 month after Oct, 2026","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 8 year after Jan, 2031","Jan, 2039","A year after Jan, 2031 is Feb, 2032",False,96.0,False
+"What is the time 4 year and 1 month after Mar, 2031","Apr, 2035","Apr, 2035",True,0.0,False
+"What is the time 10 year and 2 month after Oct, 2030","Dec, 2040","Dec, 2040",True,0.0,False
+"What is the time 5 year and 9 month after May, 2021","Feb, 2027","Feb, 2027",True,0.0,False
+"What is the time 6 year and 2 month after Jun, 2038","Aug, 2044","Aug, 2044",True,0.0,False
+"What is the time 2 year and 3 month after Feb, 2025","May, 2027","May, 2027",True,0.0,False
+"What is the time 1 year and 9 month after Oct, 2022","Jul, 2024","Jul, 2024",True,0.0,False
+"What is the time 1 year and 3 month after Dec, 2029","Mar, 2031","Mar, 2031",True,0.0,False
+"What is the time 7 year and 7 month after Jan, 2035","Aug, 2042","Aug, 2042",True,0.0,False
+"What is the time 3 year and 1 month after Jun, 2032","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 6 year and 10 month after Apr, 2039","Feb, 2046","Feb, 2046",True,0.0,False
+"What is the time 1 year and 9 month after Jul, 2020","Apr, 2022","Apr, 2022",True,0.0,False
+"What is the time 1 year and 4 month after Feb, 2033","Jun, 2034","Jun, 2034",True,0.0,False
+"What is the time 3 year and 12 month after Jan, 2030","Jan, 2034","Jan, 2034",True,0.0,False
+"What is the time 1 year and 4 month after Dec, 2024","Apr, 2026","Apr, 2026",True,0.0,False
+"What is the time 6 year and 9 month after Jul, 2028","Apr, 2035","Apr, 2035",True,0.0,False
+"What is the time 5 year and 1 month after Apr, 2036","May, 2041","May, 2041",True,0.0,False
+"What is the time 7 year and 2 month after Dec, 2024","Feb, 2032","Feb, 2032",True,0.0,False
+"What is the time 10 year and 8 month after Sep, 2020","May, 2031","May, 2031",True,0.0,False
+"What is the time 9 year and 5 month after Jan, 2033","Jun, 2042","Jun, 2042",True,0.0,False
+"What is the time 3 year and 4 month after Oct, 2031","Feb, 2035","Feb, 2035",True,0.0,False
+"What is the time 7 year and 1 month after May, 2025","Jun, 2032","Jun, 2032",True,0.0,False
+"What is the time 1 year and 2 month after Aug, 2021","Oct, 2022","Oct, 2022",True,0.0,False
+"What is the time 4 year and 9 month after Dec, 2038","Sep, 2043","Sep, 2043",True,0.0,False
+"What is the time 11 month after May, 2028","Apr, 2029",":// Apr, 2029",True,0.0,False
+"What is the time 2 year after May, 2032","May, 2034",":// May, 2034",True,0.0,False
+"What is the time 3 year and 4 month after Jul, 2033","Nov, 2036","Nov, 2036",True,0.0,False
+"What is the time 6 year after Sep, 2033","Sep, 2039",":// Sep, 2039",True,0.0,False
+"What is the time 4 year after May, 2030","May, 2034",":// May, 2034",True,0.0,False
+"What is the time 3 year and 9 month after Nov, 2032","Aug, 2036","Aug, 2036",True,0.0,False
+"What is the time 7 year and 2 month after May, 2038","Jul, 2045","Jul, 2045",True,0.0,False
+"What is the time 4 year and 3 month after Feb, 2040","May, 2044","May, 2044",True,0.0,False
+"What is the time 4 year and 7 month after Apr, 2024","Nov, 2028","Nov, 2028",True,0.0,False
+"What is the time 10 year and 9 month after Jan, 2038","Oct, 2048","Oct, 2048",True,0.0,False
+"What is the time 1 year and 6 month after Nov, 2035","May, 2037","May, 2037",True,0.0,False
+"What is the time 8 year and 7 month after Aug, 2039","Mar, 2048","Mar, 2048",True,0.0,False
+"What is the time 12 month after Jan, 2031","Jan, 2032",".Sep, 2032",False,8.0,True
+"What is the time 9 year and 12 month after May, 2024","May, 2034","May, 2034",True,0.0,False
+"What is the time 1 year and 10 month after Mar, 2027","Jan, 2029","Jan, 2029",True,0.0,False
+"What is the time 1 year and 8 month after Nov, 2023","Jul, 2025","Jul, 2025",True,0.0,False
+"What is the time 4 year and 7 month after Oct, 2029","May, 2034","May, 2034",True,0.0,False
+"What is the time 9 year and 3 month after Sep, 2027","Dec, 2036","Dec, 2036",True,0.0,False
+"What is the time 6 year after Apr, 2030","Apr, 2036",".Sep, 2036",False,5.0,True
+"What is the time 6 year and 2 month after Mar, 2032","May, 2038","May, 2038",True,0.0,False
+"What is the time 3 year and 6 month after Jan, 2036","Jul, 2039","Jul, 2039",True,0.0,False
+"What is the time 10 year and 10 month after Feb, 2039","Dec, 2049","Dec, 2049",True,0.0,False
+"What is the time 7 year and 9 month after May, 2035","Feb, 2043","Feb, 2043",True,0.0,False
+"What is the time 6 year and 10 month after Jan, 2036","Nov, 2042","Nov, 2042",True,0.0,False
+"What is the time 7 year and 6 month after Sep, 2024","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 2 year and 4 month after Jul, 2027","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 10 year and 3 month after Jul, 2028","Oct, 2038","Oct, 2038",True,0.0,False
+"What is the time 10 month after Aug, 2032","Jun, 2033",":// Jun, 2033",True,0.0,False
+"What is the time 9 year and 11 month after Jun, 2024","May, 2034","May, 2034",True,0.0,False
+"What is the time 3 year after Nov, 2028","Nov, 2031",":// Nov, 2031",True,0.0,False
+"What is the time 4 year and 6 month after Jan, 2033","Jul, 2037","Jul, 2037",True,0.0,False
+"What is the time 10 year and 4 month after Aug, 2023","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 10 year and 11 month after Mar, 2040","Feb, 2051","Feb, 2051",True,0.0,False
+"What is the time 5 year and 12 month after Dec, 2028","Dec, 2034","Dec, 2034",True,0.0,False
+"What is the time 2 year and 2 month after Sep, 2025","Nov, 2027","Nov, 2027",True,0.0,False
+"What is the time 3 year and 10 month after Dec, 2022","Oct, 2026","Oct, 2026",True,0.0,False
+"What is the time 5 year and 5 month after Aug, 2026","Jan, 2032","Jan, 2032",True,0.0,False
+"What is the time 1 year and 5 month after Jun, 2023","Nov, 2024","Nov, 2024",True,0.0,False
+"What is the time 4 year and 3 month after Oct, 2028","Jan, 2033","Jan, 2033",True,0.0,False
+"What is the time 5 year and 4 month after Dec, 2021","Apr, 2027","Apr, 2027",True,0.0,False
+"What is the time 2 year and 9 month after Aug, 2036","May, 2039","May, 2039",True,0.0,False
+"What is the time 4 year and 2 month after May, 2022","Jul, 2026","Jul, 2026",True,0.0,False
+"What is the time 5 year and 6 month after Apr, 2024","Oct, 2029","Oct, 2029",True,0.0,False
+"What is the time 1 year and 9 month after Jul, 2021","Apr, 2023","Apr, 2023",True,0.0,False
+"What is the time 7 year and 9 month after Dec, 2030","Sep, 2038","Sep, 2038",True,0.0,False
+"What is the time 5 year and 6 month after Feb, 2024","Aug, 2029","Aug, 2029",True,0.0,False
+"What is the time 2 year and 4 month after Feb, 2039","Jun, 2041","Jun, 2041",True,0.0,False
+"What is the time 12 month after Mar, 2031","Mar, 2032",":// Mar, 2032",True,0.0,False
+"What is the time 9 year and 4 month after May, 2039","Sep, 2048","Sep, 2048",True,0.0,False
+"What is the time 8 year and 12 month after Nov, 2037","Nov, 2046","Nov, 2046",True,0.0,False
+"What is the time 4 year and 1 month after Sep, 2025","Oct, 2029","Oct, 2029",True,0.0,False
+"What is the time 5 year and 9 month after Jul, 2021","Apr, 2027","Apr, 2027",True,0.0,False
+"What is the time 4 year and 8 month after Jul, 2036","Mar, 2041","Mar, 2041",True,0.0,False
+"What is the time 4 year after Apr, 2034","Apr, 2038",":// Apr, 2038",True,0.0,False
+"What is the time 2 year and 7 month after Aug, 2037","Mar, 2040","Mar, 2040",True,0.0,False
+"What is the time 8 year and 3 month after Feb, 2026","May, 2034","May, 2034",True,0.0,False
+"What is the time 1 year and 5 month after Apr, 2040","Sep, 2041","Sep, 2041",True,0.0,False
+"What is the time 8 year and 8 month after Dec, 2027","Aug, 2036","Aug, 2036",True,0.0,False
+"What is the time 6 month after Feb, 2022","Aug, 2022",":// Aug, 2022",True,0.0,False
+"What is the time 1 year and 10 month after Dec, 2038","Oct, 2040","Oct, 2040",True,0.0,False
+"What is the time 7 year and 1 month after Jun, 2027","Jul, 2034","Jul, 2034",True,0.0,False
+"What is the time 7 year and 8 month after May, 2036","Jan, 2044","Jan, 2044",True,0.0,False
+"What is the time 8 year and 10 month after Jul, 2020","May, 2029","May, 2029",True,0.0,False
+"What is the time 7 year and 9 month after Jul, 2040","Apr, 2048","Apr, 2048",True,0.0,False
+"What is the time 9 year and 8 month after Aug, 2022","Apr, 2032","Apr, 2032",True,0.0,False
+"What is the time 2 year and 7 month after Jul, 2025","Feb, 2028","Feb, 2028",True,0.0,False
+"What is the time 6 year and 7 month after Jun, 2028","Jan, 2035","Jan, 2035",True,0.0,False
+"What is the time 6 year and 9 month after Sep, 2040","Jun, 2047","Jun, 2047",True,0.0,False
+"What is the time 4 year and 4 month after Sep, 2036","Jan, 2041","Jan, 2041",True,0.0,False
+"What is the time 4 year and 9 month after Dec, 2031","Sep, 2036","Sep, 2036",True,0.0,False
+"What is the time 6 year and 8 month after Jun, 2027","Feb, 2034","Feb, 2034",True,0.0,False
+"What is the time 9 year and 11 month after Mar, 2024","Feb, 2034","Feb, 2034",True,0.0,False
+"What is the time 1 month after Jan, 2039","Feb, 2039","A month after Jan, 2039 is Feb, 2039",False,1.0,False
+"What is the time 2 year and 7 month after Apr, 2022","Nov, 2024","Nov, 2024",True,0.0,False
+"What is the time 3 year and 11 month after Nov, 2025","Oct, 2029","Oct, 2029",True,0.0,False
+"What is the time 6 year and 2 month after Oct, 2027","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 9 year and 2 month after Nov, 2029","Jan, 2039","Jan, 2039",True,0.0,False
+"What is the time 1 year and 8 month after Jul, 2037","Mar, 2039","Mar, 2039",True,0.0,False
+"What is the time 8 year and 4 month after Jul, 2021","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 6 year after Jan, 2039","Jan, 2045",":// Jan, 2045",True,0.0,False
+"What is the time 8 year and 10 month after Aug, 2027","Jun, 2036","Jun, 2036",True,0.0,False
+"What is the time 7 year after May, 2024","May, 2031",":// May, 2031",True,0.0,False
+"What is the time 2 year and 10 month after Sep, 2022","Jul, 2025","Jul, 2025",True,0.0,False
+"What is the time 10 year and 7 month after Mar, 2034","Oct, 2044","Oct, 2044",True,0.0,False
+"What is the time 8 year and 6 month after Feb, 2035","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 3 year and 7 month after Mar, 2027","Oct, 2030","Oct, 2030",True,0.0,False
+"What is the time 6 year and 7 month after May, 2029","Dec, 2035","Dec, 2035",True,0.0,False
+"What is the time 1 month after Oct, 2027","Nov, 2027",":// Nov, 2027",True,0.0,False
+"What is the time 12 month after Aug, 2026","Aug, 2027",":// Aug, 2027",True,0.0,False
+"What is the time 9 year and 3 month after Jul, 2039","Oct, 2048","Oct, 2048",True,0.0,False
+"What is the time 10 year and 5 month after Jan, 2029","Jun, 2039","Jun, 2039",True,0.0,False
+"What is the time 5 year and 7 month after Feb, 2032","Sep, 2037","Sep, 2037",True,0.0,False
+"What is the time 3 year and 11 month after Nov, 2024","Oct, 2028","Oct, 2028",True,0.0,False
+"What is the time 10 month after Jun, 2027","Apr, 2028",":// Apr, 2028",True,0.0,False
+"What is the time 3 year and 9 month after Jul, 2031","Apr, 2035","Apr, 2035",True,0.0,False
+"What is the time 10 month after Nov, 2033","Sep, 2034",":// Sep, 2034",True,0.0,False
+"What is the time 10 year and 5 month after Dec, 2030","May, 2041","May, 2041",True,0.0,False
+"What is the time 5 year and 3 month after Aug, 2023","Nov, 2028","Nov, 2028",True,0.0,False
+"What is the time 2 month after Feb, 2021","Apr, 2021",":// Apr, 2021",True,0.0,False
+"What is the time 7 year and 9 month after Nov, 2038","Aug, 2046","Aug, 2046",True,0.0,False
+"What is the time 2 year and 6 month after Aug, 2037","Feb, 2040","Feb, 2040",True,0.0,False
+"What is the time 2 year and 8 month after Apr, 2020","Dec, 2022","Dec, 2022",True,0.0,False
+"What is the time 10 year and 9 month after Apr, 2030","Jan, 2041","Jan, 2041",True,0.0,False
+"What is the time 1 year and 2 month after Jan, 2024","Mar, 2025","Mar, 2025",True,0.0,False
+"What is the time 2 year and 2 month after Jul, 2036","Sep, 2038","Sep, 2038",True,0.0,False
+"What is the time 9 year and 6 month after Jun, 2031","Dec, 2040","Dec, 2040",True,0.0,False
+"What is the time 2 year and 7 month after Mar, 2020","Oct, 2022","Oct, 2022",True,0.0,False
+"What is the time 9 year and 6 month after May, 2025","Nov, 2034","Nov, 2034",True,0.0,False
+"What is the time 5 year and 6 month after Sep, 2031","Mar, 2037","Mar, 2037",True,0.0,False
+"What is the time 7 year and 3 month after Sep, 2039","Dec, 2046","Dec, 2046",True,0.0,False
+"What is the time 11 month after Dec, 2038","Nov, 2039",":// Nov, 2039",True,0.0,False
+"What is the time 1 year and 2 month after Jul, 2037","Sep, 2038","Sep, 2038",True,0.0,False
+"What is the time 7 year and 9 month after Nov, 2035","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 1 month after Jul, 2036","Aug, 2036",".Sep, 2036",False,1.0,True
+"What is the time 8 year and 9 month after Jul, 2034","Apr, 2043","Apr, 2043",True,0.0,False
+"What is the time 4 year and 5 month after Feb, 2035","Jul, 2039","Jul, 2039",True,0.0,False
+"What is the time 10 year and 10 month after Mar, 2035","Jan, 2046","Jan, 2046",True,0.0,False
+"What is the time 10 year and 7 month after Apr, 2039","Nov, 2049","Nov, 2049",True,0.0,False
+"What is the time 9 month after Apr, 2036","Jan, 2037",".Sep, 2036",False,4.0,False
+"What is the time 7 year and 3 month after Feb, 2027","May, 2034","May, 2034",True,0.0,False
+"What is the time 2 year and 4 month after Dec, 2033","Apr, 2036","Apr, 2036",True,0.0,False
+"What is the time 2 year and 8 month after May, 2023","Jan, 2026","Jan, 2026",True,0.0,False
+"What is the time 4 year after May, 2031","May, 2035",":// May, 2035",True,0.0,False
+"What is the time 6 year and 2 month after Jun, 2040","Aug, 2046","Aug, 2046",True,0.0,False
+"What is the time 6 year and 3 month after Jan, 2024","Apr, 2030","Apr, 2030",True,0.0,False
+"What is the time 6 year and 3 month after May, 2023","Aug, 2029","Aug, 2029",True,0.0,False
+"What is the time 7 year and 3 month after Jan, 2034","Apr, 2041","Apr, 2041",True,0.0,False
+"What is the time 3 year and 2 month after Jan, 2021","Mar, 2024","Mar, 2024",True,0.0,False
+"What is the time 5 year and 1 month after Dec, 2034","Jan, 2040","Jan, 2040",True,0.0,False
+"What is the time 6 year after Dec, 2024","Dec, 2030",":// Dec, 2030",True,0.0,False
+"What is the time 8 year and 6 month after Jan, 2036","Jul, 2044","Jul, 2044",True,0.0,False
+"What is the time 8 month after Mar, 2033","Nov, 2033",":// Nov, 2033",True,0.0,False
+"What is the time 2 month after Jan, 2038","Mar, 2038",":// Mar, 2038",True,0.0,False
+"What is the time 6 year and 1 month after Jan, 2024","Feb, 2030","Feb, 2030",True,0.0,False
+"What is the time 7 year and 6 month after Dec, 2031","Jun, 2039","Jun, 2039",True,0.0,False
+"What is the time 5 year and 9 month after Oct, 2034","Jul, 2040","Jul, 2040",True,0.0,False
+"What is the time 4 year and 5 month after Jan, 2037","Jun, 2041","Jun, 2041",True,0.0,False
+"What is the time 6 year and 6 month after Jul, 2026","Jan, 2033","Jan, 2033",True,0.0,False
+"What is the time 5 year and 2 month after Mar, 2022","May, 2027","May, 2027",True,0.0,False
+"What is the time 4 year and 7 month after Oct, 2040","May, 2045","May, 2045",True,0.0,False
+"What is the time 7 year and 3 month after Aug, 2036","Nov, 2043","Nov, 2043",True,0.0,False
+"What is the time 6 year and 5 month after Nov, 2039","Apr, 2046","Apr, 2046",True,0.0,False
+"What is the time 6 year and 4 month after Apr, 2022","Aug, 2028","Aug, 2028",True,0.0,False
+"What is the time 3 year and 11 month after Aug, 2028","Jul, 2032","Jul, 2032",True,0.0,False
+"What is the time 9 year and 2 month after Jun, 2027","Aug, 2036","Aug, 2036",True,0.0,False
+"What is the time 1 year and 2 month after Mar, 2035","May, 2036","May, 2036",True,0.0,False
+"What is the time 7 year and 5 month after Oct, 2024","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 1 year and 2 month after Oct, 2031","Dec, 2032","Dec, 2032",True,0.0,False
+"What is the time 2 year and 9 month after Dec, 2028","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 4 year and 5 month after Dec, 2028","May, 2033","May, 2033",True,0.0,False
+"What is the time 7 year and 10 month after Jun, 2035","Apr, 2043","Apr, 2043",True,0.0,False
+"What is the time 9 year and 1 month after Jul, 2034","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 8 year and 2 month after Feb, 2020","Apr, 2028","Apr, 2028",True,0.0,False
+"What is the time 10 year and 9 month after Feb, 2025","Nov, 2035","Nov, 2035",True,0.0,False
+"What is the time 6 year after Sep, 2032","Sep, 2038","A year after Sep, 2032 is Sep, 2033",False,72.0,False
+"What is the time 1 year and 7 month after Feb, 2023","Sep, 2024","Sep, 2024",True,0.0,False
+"What is the time 6 year and 5 month after Jun, 2023","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 3 year and 8 month after Aug, 2030","Apr, 2034","Apr, 2034",True,0.0,False
+"What is the time 10 year and 2 month after Mar, 2031","May, 2041","May, 2041",True,0.0,False
+"What is the time 5 year and 6 month after Jan, 2030","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 10 year and 6 month after Mar, 2031","Sep, 2041","Sep, 2041",True,0.0,False
+"What is the time 4 year and 11 month after Nov, 2037","Oct, 2042","Oct, 2042",True,0.0,False
+"What is the time 5 year and 12 month after May, 2033","May, 2039","May, 2039",True,0.0,False
+"What is the time 12 month after Dec, 2036","Dec, 2037",".Sep, 2037",False,3.0,False
+"What is the time 6 month after May, 2033","Nov, 2033",":// Nov, 2033",True,0.0,False
+"What is the time 6 year and 4 month after Nov, 2025","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 8 year and 8 month after Feb, 2023","Oct, 2031","Oct, 2031",True,0.0,False
+"What is the time 10 year and 2 month after Jan, 2022","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 4 year and 2 month after Nov, 2024","Jan, 2029","Jan, 2029",True,0.0,False
+"What is the time 2 year and 7 month after Apr, 2020","Nov, 2022","Nov, 2022",True,0.0,False
+"What is the time 9 year and 3 month after Mar, 2037","Jun, 2046","Jun, 2046",True,0.0,False
+"What is the time 2 year and 4 month after May, 2029","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 9 year and 2 month after Jun, 2034","Aug, 2043","Aug, 2043",True,0.0,False
+"What is the time 1 year and 9 month after May, 2032","Feb, 2034","Feb, 2034",True,0.0,False
+"What is the time 2 year and 11 month after Jul, 2026","Jun, 2029","Jun, 2029",True,0.0,False
+"What is the time 3 year and 7 month after Apr, 2026","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 5 year and 11 month after Oct, 2033","Sep, 2039","Sep, 2039",True,0.0,False
+"What is the time 7 year and 4 month after Dec, 2028","Apr, 2036","Apr, 2036",True,0.0,False
+"What is the time 7 year and 2 month after Jul, 2028","Sep, 2035","Sep, 2035",True,0.0,False
+"What is the time 4 year and 7 month after Dec, 2030","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 3 year and 10 month after Jul, 2029","May, 2033","May, 2033",True,0.0,False
+"What is the time 8 year and 5 month after Sep, 2028","Feb, 2037","Feb, 2037",True,0.0,False
+"What is the time 3 year and 5 month after Oct, 2027","Mar, 2031","Mar, 2031",True,0.0,False
+"What is the time 4 year after Dec, 2028","Dec, 2032",":// Dec, 2032",True,0.0,False
+"What is the time 3 month after Jul, 2032","Oct, 2032",":// Oct, 2032",True,0.0,False
+"What is the time 5 year and 12 month after Jan, 2024","Jan, 2030","Jan, 2030",True,0.0,False
+"What is the time 3 year after Feb, 2022","Feb, 2025",":// Feb, 2025",True,0.0,False
+"What is the time 10 year and 7 month after Mar, 2023","Oct, 2033","Oct, 2033",True,0.0,False
+"What is the time 10 month after Jan, 2035","Nov, 2035",":// Nov, 2035",True,0.0,False
+"What is the time 10 year and 7 month after Nov, 2025","Jun, 2036","Jun, 2036",True,0.0,False
+"What is the time 5 year and 2 month after Oct, 2034","Dec, 2039","Dec, 2039",True,0.0,False
+"What is the time 8 year and 9 month after Dec, 2033","Sep, 2042","Sep, 2042",True,0.0,False
+"What is the time 6 year and 6 month after Jun, 2021","Dec, 2027","Dec, 2027",True,0.0,False
+"What is the time 5 year and 7 month after Apr, 2024","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 9 year and 7 month after Sep, 2024","Apr, 2034","Apr, 2034",True,0.0,False
+"What is the time 2 year and 3 month after Apr, 2033","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 6 year and 8 month after Oct, 2027","Jun, 2034","Jun, 2034",True,0.0,False
+"What is the time 6 year and 8 month after Apr, 2036","Dec, 2042","Dec, 2042",True,0.0,False
+"What is the time 1 year and 12 month after Jul, 2030","Jul, 2032","Jul, 2032",True,0.0,False
+"What is the time 4 year and 10 month after Mar, 2037","Jan, 2042","Jan, 2042",True,0.0,False
+"What is the time 9 month after Apr, 2037","Jan, 2038",".Sep, 2037",False,4.0,False
+"What is the time 10 year and 12 month after Jan, 2025","Jan, 2036","Jan, 2036",True,0.0,False
+"What is the time 10 year and 3 month after Dec, 2023","Mar, 2034","Mar, 2034",True,0.0,False
+"What is the time 8 year and 4 month after Oct, 2030","Feb, 2039","Feb, 2039",True,0.0,False
+"What is the time 3 year and 3 month after Sep, 2035","Dec, 2038","Dec, 2038",True,0.0,False
+"What is the time 4 year and 8 month after May, 2032","Jan, 2037","Jan, 2037",True,0.0,False
+"What is the time 5 year and 11 month after Jul, 2027","Jun, 2033","Jun, 2033",True,0.0,False
+"What is the time 3 year and 9 month after May, 2028","Feb, 2032","Feb, 2032",True,0.0,False
+"What is the time 5 year and 5 month after May, 2021","Oct, 2026","Oct, 2026",True,0.0,False
+"What is the time 10 year and 3 month after Nov, 2022","Feb, 2033","Feb, 2033",True,0.0,False
+"What is the time 6 year and 8 month after Jan, 2025","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 10 year and 8 month after May, 2036","Jan, 2047","Jan, 2047",True,0.0,False
+"What is the time 8 year and 8 month after Dec, 2036","Aug, 2045","Aug, 2045",True,0.0,False
+"What is the time 4 year after Feb, 2035","Feb, 2039",":// Feb, 2039",True,0.0,False
+"What is the time 10 year and 12 month after Jul, 2040","Jul, 2051","Jul, 2051",True,0.0,False
+"What is the time 9 year and 12 month after May, 2025","May, 2035","May, 2035",True,0.0,False
+"What is the time 8 year and 10 month after Mar, 2027","Jan, 2036","Jan, 2036",True,0.0,False
+"What is the time 6 year after May, 2021","May, 2027",":// May, 2027",True,0.0,False
+"What is the time 6 year and 1 month after Mar, 2038","Apr, 2044","Apr, 2044",True,0.0,False
+"What is the time 9 year and 1 month after May, 2030","Jun, 2039","Jun, 2039",True,0.0,False
+"What is the time 7 year and 1 month after Feb, 2032","Mar, 2039","Mar, 2039",True,0.0,False
+"What is the time 8 year and 2 month after Jun, 2034","Aug, 2042","Aug, 2042",True,0.0,False
+"What is the time 5 year and 4 month after Feb, 2039","Jun, 2044","Jun, 2044",True,0.0,False
+"What is the time 10 year and 4 month after May, 2038","Sep, 2048","Sep, 2048",True,0.0,False
+"What is the time 1 year and 5 month after Oct, 2028","Mar, 2030","Mar, 2030",True,0.0,False
+"What is the time 6 year and 2 month after Mar, 2022","May, 2028","May, 2028",True,0.0,False
+"What is the time 10 year and 2 month after Jun, 2035","Aug, 2045","Aug, 2045",True,0.0,False
+"What is the time 3 year and 3 month after Jun, 2033","Sep, 2036","Sep, 2036",True,0.0,False
+"What is the time 3 year and 8 month after Jul, 2024","Mar, 2028","Mar, 2028",True,0.0,False
+"What is the time 10 year and 4 month after Nov, 2020","Mar, 2031","Mar, 2031",True,0.0,False
+"What is the time 7 year and 12 month after Feb, 2035","Feb, 2043","Feb, 2043",True,0.0,False
+"What is the time 7 year and 5 month after Sep, 2021","Feb, 2029","Feb, 2029",True,0.0,False
+"What is the time 3 year and 6 month after Jan, 2038","Jul, 2041","Jul, 2041",True,0.0,False
+"What is the time 4 year after May, 2036","May, 2040",":// May, 2040",True,0.0,False
+"What is the time 10 year and 1 month after May, 2035","Jun, 2045","Jun, 2045",True,0.0,False
+"What is the time 6 year and 11 month after Jul, 2030","Jun, 2037","Jun, 2037",True,0.0,False
+"What is the time 2 year and 12 month after Sep, 2038","Sep, 2041","Sep, 2041",True,0.0,False
+"What is the time 3 year and 9 month after Sep, 2028","Jun, 2032","Jun, 2032",True,0.0,False
+"What is the time 7 year and 7 month after Jun, 2029","Jan, 2037","Jan, 2037",True,0.0,False
+"What is the time 3 year after Feb, 2031","Feb, 2034",":// Feb, 2034",True,0.0,False
+"What is the time 2 year and 9 month after Oct, 2031","Jul, 2034","Jul, 2034",True,0.0,False
+"What is the time 8 year after Nov, 2021","Nov, 2029",":// Nov, 2029",True,0.0,False
+"What is the time 5 year and 10 month after May, 2026","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 6 year and 12 month after Aug, 2035","Aug, 2042","Aug, 2042",True,0.0,False
+"What is the time 7 year and 3 month after Aug, 2040","Nov, 2047","Nov, 2047",True,0.0,False
+"What is the time 4 year after Jan, 2039","Jan, 2043","A year after Jan, 2039 is Jan, 2040",False,48.0,False
+"What is the time 7 year and 1 month after Dec, 2038","Jan, 2046","Jan, 2046",True,0.0,False
+"What is the time 2 year and 11 month after Dec, 2025","Nov, 2028","Nov, 2028",True,0.0,False
+"What is the time 7 year and 4 month after Nov, 2036","Mar, 2044","Mar, 2044",True,0.0,False
+"What is the time 4 year and 8 month after Jun, 2020","Feb, 2025","Feb, 2025",True,0.0,False
+"What is the time 9 year and 6 month after Apr, 2027","Oct, 2036","Oct, 2036",True,0.0,False
+"What is the time 2 year and 2 month after Jan, 2035","Mar, 2037","Mar, 2037",True,0.0,False
+"What is the time 5 year and 6 month after Mar, 2030","Sep, 2035","Sep, 2035",True,0.0,False
+"What is the time 7 month after Aug, 2035","Mar, 2036",":// Mar, 2036",True,0.0,False
+"What is the time 4 year and 5 month after Apr, 2024","Sep, 2028","Sep, 2028",True,0.0,False
+"What is the time 7 year after Dec, 2024","Dec, 2031",":// Dec, 2031",True,0.0,False
+"What is the time 6 year and 3 month after Feb, 2021","May, 2027","May, 2027",True,0.0,False
+"What is the time 9 year and 3 month after Aug, 2032","Nov, 2041","Nov, 2041",True,0.0,False
+"What is the time 4 year and 2 month after Jan, 2021","Mar, 2025","Mar, 2025",True,0.0,False
+"What is the time 6 year and 6 month after Jul, 2037","Jan, 2044","Jan, 2044",True,0.0,False
+"What is the time 9 year and 5 month after Jan, 2021","Jun, 2030","Jun, 2030",True,0.0,False
+"What is the time 2 year and 7 month after Jan, 2038","Aug, 2040","Aug, 2040",True,0.0,False
+"What is the time 2 year and 12 month after Feb, 2028","Feb, 2031","Feb, 2031",True,0.0,False
+"What is the time 2 year and 2 month after Jan, 2026","Mar, 2028","Mar, 2028",True,0.0,False
+"What is the time 2 year and 3 month after May, 2025","Aug, 2027","Aug, 2027",True,0.0,False
+"What is the time 4 year and 11 month after Dec, 2039","Nov, 2044","Nov, 2044",True,0.0,False
+"What is the time 3 year and 3 month after Apr, 2037","Jul, 2040","Jul, 2040",True,0.0,False
+"What is the time 2 year after Jun, 2025","Jun, 2027",":// Jun, 2027",True,0.0,False
+"What is the time 8 year and 6 month after May, 2040","Nov, 2048","Nov, 2048",True,0.0,False
+"What is the time 10 year and 3 month after Mar, 2030","Jun, 2040","Jun, 2040",True,0.0,False
+"What is the time 9 year and 6 month after Aug, 2039","Feb, 2049","Feb, 2049",True,0.0,False
+"What is the time 5 month after Apr, 2031","Sep, 2031",":// Sep, 2031",True,0.0,False
+"What is the time 2 year after Jan, 2036","Jan, 2038",".Sep, 2038",False,8.0,True
+"What is the time 2 year and 5 month after Sep, 2036","Feb, 2039","Feb, 2039",True,0.0,False
+"What is the time 8 year and 7 month after Feb, 2028","Sep, 2036","Sep, 2036",True,0.0,False
+"What is the time 3 year and 9 month after Apr, 2031","Jan, 2035","Jan, 2035",True,0.0,False
+"What is the time 1 year and 6 month after Jun, 2036","Dec, 2037","Dec, 2037",True,0.0,False
+"What is the time 10 year and 6 month after May, 2028","Nov, 2038","Nov, 2038",True,0.0,False
+"What is the time 5 year and 4 month after Nov, 2033","Mar, 2039","Mar, 2039",True,0.0,False
+"What is the time 8 year and 6 month after Oct, 2038","Apr, 2047","Apr, 2047",True,0.0,False
+"What is the time 5 year and 1 month before Feb, 2027","Jan, 2022","Jan, 2022",True,0.0,False
+"What is the time 9 year and 11 month before Jan, 2034","Feb, 2024","Feb, 2024",True,0.0,False
+"What is the time 7 years before Apr, 2026","Apr, 2019",":// Apr, 2019",True,0.0,False
+"What is the time 2 year and 7 month before Jun, 2022","Nov, 2019","Nov, 2019",True,0.0,False
+"What is the time 10 year and 1 month before Nov, 2025","Oct, 2015","Oct, 2015",True,0.0,False
+"What is the time 3 year and 4 month before Sep, 2023","May, 2020","May, 2020",True,0.0,False
+"What is the time 1 year and 5 month before Sep, 2034","Apr, 2033","Apr, 2033",True,0.0,False
+"What is the time 6 year and 10 month before Mar, 2028","May, 2021","May, 2021",True,0.0,False
+"What is the time 3 months before Mar, 2028","Dec, 2027",":// Dec, 2027",True,0.0,False
+"What is the time 10 year and 9 month before Dec, 2031","Mar, 2021","Mar, 2021",True,0.0,False
+"What is the time 8 year and 3 month before Aug, 2031","May, 2023","May, 2023",True,0.0,False
+"What is the time 2 years before Apr, 2030","Apr, 2028",":// Apr, 2028",True,0.0,False
+"What is the time 10 months before Sep, 2034","Nov, 2033","Sov, 2023",False,130.0,False
+"What is the time 7 year and 2 month before Apr, 2039","Feb, 2032","Feb, 2032",True,0.0,False
+"What is the time 6 year and 2 month before Apr, 2021","Feb, 2015","Feb, 2015",True,0.0,False
+"What is the time 1 year and 3 month before Dec, 2030","Sep, 2029","Sep, 2029",True,0.0,False
+"What is the time 9 year and 6 month before Oct, 2039","Apr, 2030","Apr, 2030",True,0.0,False
+"What is the time 1 month before May, 2033","Apr, 2033",A,False,,False
+"What is the time 2 year and 6 month before Dec, 2037","Jun, 2035","Jun, 2035",True,0.0,False
+"What is the time 3 year and 1 month before Jan, 2029","Dec, 2025","Dec, 2025",True,0.0,False
+"What is the time 10 year and 5 month before Feb, 2030","Sep, 2019","Sep, 2019",True,0.0,False
+"What is the time 7 years before Sep, 2033","Sep, 2026","A: Sep, 2026",True,0.0,False
+"What is the time 3 year and 11 month before Mar, 2038","Apr, 2034","Apr, 2034",True,0.0,False
+"What is the time 8 year and 9 month before Apr, 2038","Jul, 2029","Jul, 2029",True,0.0,False
+"What is the time 8 year and 8 month before Jan, 2021","May, 2012","May, 2012",True,0.0,False
+"What is the time 2 year and 6 month before Nov, 2026","May, 2024","May, 2024",True,0.0,False
+"What is the time 4 year and 11 month before Mar, 2038","Apr, 2033","Apr, 2033",True,0.0,False
+"What is the time 5 year and 11 month before Apr, 2027","May, 2021","May, 2021",True,0.0,False
+"What is the time 5 year and 8 month before Feb, 2027","Jun, 2021","Jun, 2021",True,0.0,False
+"What is the time 5 year and 4 month before Aug, 2036","Apr, 2031","Apr, 2031",True,0.0,False
+"What is the time 3 year and 5 month before Apr, 2023","Nov, 2019","Nov, 2019",True,0.0,False
+"What is the time 2 year and 4 month before Feb, 2039","Oct, 2036","Oct, 2036",True,0.0,False
+"What is the time 2 year and 10 month before Oct, 2034","Dec, 2031","Dec, 2031",True,0.0,False
+"What is the time 7 year and 2 month before Nov, 2023","Sep, 2016","Sep, 2016",True,0.0,False
+"What is the time 1 year and 7 month before Nov, 2022","Apr, 2021","Apr, 2021",True,0.0,False
+"What is the time 2 year and 7 month before Jul, 2040","Dec, 2037","Dec, 2037",True,0.0,False
+"What is the time 5 year and 8 month before Oct, 2035","Feb, 2030","Feb, 2030",True,0.0,False
+"What is the time 6 year and 7 month before Aug, 2029","Jan, 2023","Jan, 2023",True,0.0,False
+"What is the time 8 year and 12 month before Nov, 2032","Nov, 2023","Nov, 2023",True,0.0,False
+"What is the time 10 year and 12 month before Nov, 2040","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 10 year and 8 month before Mar, 2031","Jul, 2020","Jul, 2020",True,0.0,False
+"What is the time 9 years before Jun, 2032","Jun, 2023","A year before Jun, 2023 is Jun, 2022",True,0.0,False
+"What is the time 7 years before May, 2024","May, 2017",":// May, 2017",True,0.0,False
+"What is the time 5 year and 9 month before Jun, 2034","Sep, 2028","Sep, 2028",True,0.0,False
+"What is the time 5 year and 8 month before Dec, 2027","Apr, 2022","Apr, 2022",True,0.0,False
+"What is the time 7 year and 4 month before Jul, 2025","Mar, 2018","Mar, 2018",True,0.0,False
+"What is the time 7 months before Jul, 2027","Dec, 2026",":// Dec, 2026",True,0.0,False
+"What is the time 8 months before Jul, 2021","Nov, 2020",":// Nov, 2020",True,0.0,False
+"What is the time 3 year and 4 month before Aug, 2027","Apr, 2024","Apr, 2024",True,0.0,False
+"What is the time 2 year and 7 month before Sep, 2031","Feb, 2029","Feb, 2029",True,0.0,False
+"What is the time 7 year and 10 month before Mar, 2039","May, 2031","May, 2031",True,0.0,False
+"What is the time 4 year and 5 month before Jul, 2030","Feb, 2026","Feb, 2026",True,0.0,False
+"What is the time 9 year and 5 month before Jun, 2022","Jan, 2013","Jan, 2013",True,0.0,False
+"What is the time 9 year and 12 month before Jul, 2028","Jul, 2018","Jul, 2018",True,0.0,False
+"What is the time 7 year and 3 month before Sep, 2027","Jun, 2020","Jun, 2020",True,0.0,False
+"What is the time 4 year and 8 month before Nov, 2032","Mar, 2028","Mar, 2028",True,0.0,False
+"What is the time 3 year and 7 month before Nov, 2040","Apr, 2037","Apr, 2037",True,0.0,False
+"What is the time 10 years before Nov, 2028","Nov, 2018",":// Nov, 2018",True,0.0,False
+"What is the time 7 year and 10 month before Apr, 2030","Jun, 2022","Jun, 2022",True,0.0,False
+"What is the time 6 year and 11 month before Jul, 2040","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 4 year and 5 month before Jun, 2031","Jan, 2027","Jan, 2027",True,0.0,False
+"What is the time 10 year and 12 month before Dec, 2034","Dec, 2023","Dec, 2023",True,0.0,False
+"What is the time 1 year and 6 month before Jun, 2032","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 9 year and 2 month before Aug, 2020","Jun, 2011","Jun, 2011",True,0.0,False
+"What is the time 8 year and 9 month before Oct, 2028","Jan, 2020","Jan, 2020",True,0.0,False
+"What is the time 10 months before Jan, 2027","Mar, 2026",":// Mar, 2026",True,0.0,False
+"What is the time 7 year and 8 month before Oct, 2033","Feb, 2026","Feb, 2026",True,0.0,False
+"What is the time 6 year and 11 month before Apr, 2031","May, 2024","May, 2024",True,0.0,False
+"What is the time 3 year and 11 month before Feb, 2026","Mar, 2022","Mar, 2022",True,0.0,False
+"What is the time 1 year and 6 month before Aug, 2022","Feb, 2021","Feb, 2021",True,0.0,False
+"What is the time 3 year and 2 month before Oct, 2029","Aug, 2026","Aug, 2026",True,0.0,False
+"What is the time 3 year and 2 month before Sep, 2035","Jul, 2032","Jul, 2032",True,0.0,False
+"What is the time 1 year before Oct, 2028","Oct, 2027",":// Oct, 2027",True,0.0,False
+"What is the time 7 year and 6 month before May, 2030","Nov, 2022","Nov, 2022",True,0.0,False
+"What is the time 8 year and 8 month before Aug, 2034","Dec, 2025","Dec, 2025",True,0.0,False
+"What is the time 2 year and 6 month before Oct, 2033","Apr, 2031","Apr, 2031",True,0.0,False
+"What is the time 1 year and 10 month before Jul, 2031","Sep, 2029","Sep, 2029",True,0.0,False
+"What is the time 2 year and 8 month before Dec, 2026","Apr, 2024","Apr, 2024",True,0.0,False
+"What is the time 10 year and 5 month before Feb, 2034","Sep, 2023","Sep, 2023",True,0.0,False
+"What is the time 7 year and 8 month before May, 2034","Sep, 2026","Sep, 2026",True,0.0,False
+"What is the time 9 year and 2 month before May, 2025","Mar, 2016","Mar, 2016",True,0.0,False
+"What is the time 9 year and 3 month before Apr, 2039","Jan, 2030","Jan, 2030",True,0.0,False
+"What is the time 10 months before Sep, 2038","Nov, 2037",":// Nov, 2037",True,0.0,False
+"What is the time 2 year and 7 month before Sep, 2025","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 4 year and 9 month before Sep, 2030","Dec, 2025","Dec, 2025",True,0.0,False
+"What is the time 4 year and 2 month before Sep, 2023","Jul, 2019","Jul, 2019",True,0.0,False
+"What is the time 9 year and 6 month before May, 2040","Nov, 2030","Nov, 2030",True,0.0,False
+"What is the time 10 year and 3 month before Oct, 2030","Jul, 2020","Jul, 2020",True,0.0,False
+"What is the time 3 years before Dec, 2028","Dec, 2025",":// Dec, 2025",True,0.0,False
+"What is the time 10 months before May, 2033","Jul, 2032","AUG, 2032",False,1.0,True
+"What is the time 7 year and 10 month before Nov, 2033","Jan, 2026","Jan, 2026",True,0.0,False
+"What is the time 8 year and 1 month before Jul, 2020","Jun, 2012","Jun, 2012",True,0.0,False
+"What is the time 5 year and 2 month before Jul, 2034","May, 2029","May, 2029",True,0.0,False
+"What is the time 9 months before May, 2023","Aug, 2022",":// Aug, 2022",True,0.0,False
+"What is the time 3 year and 11 month before Feb, 2025","Mar, 2021","Mar, 2021",True,0.0,False
+"What is the time 1 year and 5 month before Nov, 2027","Jun, 2026","Jun, 2026",True,0.0,False
+"What is the time 5 years before Apr, 2032","Apr, 2027","A pr, 2027",False,3.0,False
+"What is the time 9 year and 10 month before Dec, 2036","Feb, 2027","Feb, 2027",True,0.0,False
+"What is the time 2 months before Mar, 2033","Jan, 2033",":// Jan, 2033",True,0.0,False
+"What is the time 2 year and 1 month before Aug, 2028","Jul, 2026","Jul, 2026",True,0.0,False
+"What is the time 3 year and 1 month before Feb, 2022","Jan, 2019","Jan, 2019",True,0.0,False
+"What is the time 1 year and 7 month before Jun, 2038","Nov, 2036","Nov, 2036",True,0.0,False
+"What is the time 7 year and 8 month before Oct, 2026","Feb, 2019","Feb, 2019",True,0.0,False
+"What is the time 7 year and 5 month before Oct, 2020","May, 2013","May, 2013",True,0.0,False
+"What is the time 9 months before Aug, 2024","Nov, 2023","Sov, 2023",False,10.0,False
+"What is the time 1 year and 7 month before Oct, 2022","Mar, 2021","Mar, 2021",True,0.0,False
+"What is the time 8 year and 7 month before Mar, 2040","Aug, 2031","Aug, 2031",True,0.0,False
+"What is the time 1 year and 9 month before Sep, 2032","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 7 year and 5 month before Oct, 2024","May, 2017","May, 2017",True,0.0,False
+"What is the time 6 year and 2 month before Apr, 2026","Feb, 2020","Feb, 2020",True,0.0,False
+"What is the time 2 year and 6 month before Mar, 2023","Sep, 2020","Sep, 2020",True,0.0,False
+"What is the time 3 year and 7 month before Apr, 2027","Sep, 2023","Sep, 2023",True,0.0,False
+"What is the time 1 year and 9 month before Jan, 2024","Apr, 2022","Apr, 2022",True,0.0,False
+"What is the time 9 year and 3 month before Feb, 2029","Nov, 2019","Nov, 2019",True,0.0,False
+"What is the time 2 year and 10 month before Oct, 2021","Dec, 2018","Dec, 2018",True,0.0,False
+"What is the time 10 year and 12 month before Dec, 2026","Dec, 2015","Dec, 2015",True,0.0,False
+"What is the time 9 year and 1 month before Apr, 2037","Mar, 2028","Mar, 2028",True,0.0,False
+"What is the time 6 years before Sep, 2039","Sep, 2033","Sep, 2033",True,0.0,False
+"What is the time 3 year and 2 month before Jan, 2026","Nov, 2022","Nov, 2022",True,0.0,False
+"What is the time 1 month before Jul, 2025","Jun, 2025",":// Jun, 2025",True,0.0,False
+"What is the time 1 month before Feb, 2032","Jan, 2032","A, 2031",False,12.0,False
+"What is the time 7 year and 6 month before Sep, 2020","Mar, 2013","Mar, 2013",True,0.0,False
+"What is the time 9 years before Jun, 2025","Jun, 2016",":// Jun, 2016",True,0.0,False
+"What is the time 9 year and 2 month before Aug, 2038","Jun, 2029","Jun, 2029",True,0.0,False
+"What is the time 3 year and 7 month before Dec, 2033","May, 2030","May, 2030",True,0.0,False
+"What is the time 10 year and 3 month before Aug, 2036","May, 2026","May, 2026",True,0.0,False
+"What is the time 7 months before Apr, 2024","Sep, 2023",":// Sep, 2023",True,0.0,False
+"What is the time 4 year and 6 month before May, 2022","Nov, 2017","Nov, 2017",True,0.0,False
+"What is the time 1 year and 3 month before May, 2040","Feb, 2039","Feb, 2039",True,0.0,False
+"What is the time 5 year and 7 month before Jun, 2022","Nov, 2016","Nov, 2016",True,0.0,False
+"What is the time 8 years before Mar, 2031","Mar, 2023",":// Mar, 2023",True,0.0,False
+"What is the time 3 year and 6 month before Oct, 2027","Apr, 2024","Apr, 2024",True,0.0,False
+"What is the time 1 year and 6 month before Jul, 2024","Jan, 2023","Jan, 2023",True,0.0,False
+"What is the time 6 year and 6 month before Dec, 2038","Jun, 2032","Jun, 2032",True,0.0,False
+"What is the time 6 year and 10 month before Aug, 2023","Oct, 2016","Oct, 2016",True,0.0,False
+"What is the time 10 year and 12 month before Oct, 2032","Oct, 2021","Oct, 2021",True,0.0,False
+"What is the time 5 year and 6 month before Jul, 2032","Jan, 2027","Jan, 2027",True,0.0,False
+"What is the time 10 months before Jul, 2027","Sep, 2026",":// Sep, 2026",True,0.0,False
+"What is the time 10 years before Aug, 2031","Aug, 2021","A ug, 2021",False,7.0,False
+"What is the time 6 year and 7 month before May, 2021","Oct, 2014","Oct, 2014",True,0.0,False
+"What is the time 9 years before Aug, 2037","Aug, 2028","A ug, 2028",False,7.0,False
+"What is the time 2 year and 10 month before Jul, 2033","Sep, 2030","Sep, 2030",True,0.0,False
+"What is the time 10 year and 7 month before Jun, 2040","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 7 years before Jul, 2023","Jul, 2016",":// Jul, 2016",True,0.0,False
+"What is the time 8 year and 4 month before Aug, 2030","Apr, 2022","Apr, 2022",True,0.0,False
+"What is the time 6 year and 12 month before Aug, 2021","Aug, 2014","Aug, 2014",True,0.0,False
+"What is the time 10 year and 7 month before Dec, 2029","May, 2019","May, 2019",True,0.0,False
+"What is the time 6 year and 3 month before Dec, 2031","Sep, 2025","Sep, 2025",True,0.0,False
+"What is the time 3 year and 5 month before Nov, 2035","Jun, 2032","Jun, 2032",True,0.0,False
+"What is the time 4 years before Feb, 2022","Feb, 2018",":// Feb, 2018",True,0.0,False
+"What is the time 5 year and 10 month before Oct, 2034","Dec, 2028","Dec, 2028",True,0.0,False
+"What is the time 7 year and 2 month before Nov, 2032","Sep, 2025","Sep, 2025",True,0.0,False
+"What is the time 6 year and 8 month before Jul, 2034","Nov, 2027","Nov, 2027",True,0.0,False
+"What is the time 4 year and 8 month before Nov, 2020","Mar, 2016","Mar, 2016",True,0.0,False
+"What is the time 10 year and 1 month before Aug, 2034","Jul, 2024","Jul, 2024",True,0.0,False
+"What is the time 4 year and 1 month before Dec, 2037","Nov, 2033","Nov, 2033",True,0.0,False
+"What is the time 3 years before Mar, 2037","Mar, 2034",":// Mar, 2034",True,0.0,False
+"What is the time 2 year and 6 month before Mar, 2022","Sep, 2019","Sep, 2019",True,0.0,False
+"What is the time 8 year and 9 month before Dec, 2024","Mar, 2016","Mar, 2016",True,0.0,False
+"What is the time 7 year and 3 month before Apr, 2027","Jan, 2020","Jan, 2020",True,0.0,False
+"What is the time 5 year and 10 month before Sep, 2038","Nov, 2032","Nov, 2032",True,0.0,False
+"What is the time 9 year and 5 month before Jun, 2028","Jan, 2019","Jan, 2019",True,0.0,False
+"What is the time 5 year and 6 month before Aug, 2030","Feb, 2025","Feb, 2025",True,0.0,False
+"What is the time 8 years before Jun, 2028","Jun, 2020",":// Jun, 2020",True,0.0,False
+"What is the time 1 year and 9 month before Sep, 2029","Dec, 2027","Dec, 2027",True,0.0,False
+"What is the time 10 year and 7 month before Mar, 2026","Aug, 2015","Aug, 2015",True,0.0,False
+"What is the time 5 months before Sep, 2032","Apr, 2032","Sav, 2032",False,3.0,False
+"What is the time 1 year and 2 month before Feb, 2030","Dec, 2028","Dec, 2028",True,0.0,False
+"What is the time 2 year and 1 month before Sep, 2023","Aug, 2021","Aug, 2021",True,0.0,False
+"What is the time 5 year and 1 month before Sep, 2033","Aug, 2028","Aug, 2028",True,0.0,False
+"What is the time 1 year and 5 month before Dec, 2035","Jul, 2034","Jul, 2034",True,0.0,False
+"What is the time 7 year and 11 month before Nov, 2039","Dec, 2031","Dec, 2031",True,0.0,False
+"What is the time 1 year and 5 month before May, 2036","Dec, 2034","Dec, 2034",True,0.0,False
+"What is the time 9 year and 12 month before Mar, 2028","Mar, 2018","Mar, 2018",True,0.0,False
+"What is the time 3 year and 10 month before Jun, 2022","Aug, 2018","Aug, 2018",True,0.0,False
+"What is the time 4 months before Mar, 2039","Nov, 2038",":// Nov, 2038",True,0.0,False
+"What is the time 2 year and 1 month before Mar, 2026","Feb, 2024","Feb, 2024",True,0.0,False
+"What is the time 8 year and 1 month before Jan, 2029","Dec, 2020","Dec, 2020",True,0.0,False
+"What is the time 12 months before Dec, 2037","Dec, 2036","A year before Dec, 2037 is Dec, 2036",False,12.0,True
+"What is the time 10 year and 12 month before Nov, 2030","Nov, 2019","Nov, 2019",True,0.0,False
+"What is the time 1 year and 8 month before Sep, 2020","Jan, 2019","Jan, 2019",True,0.0,False
+"What is the time 3 months before Mar, 2024","Dec, 2023",":// Dec, 2023",True,0.0,False
+"What is the time 4 months before Jan, 2024","Sep, 2023",":// Sep, 2023",True,0.0,False
+"What is the time 2 year and 8 month before Sep, 2034","Jan, 2032","Jan, 2032",True,0.0,False
+"What is the time 9 year and 9 month before Nov, 2027","Feb, 2018","Feb, 2018",True,0.0,False
+"What is the time 7 months before Nov, 2030","Apr, 2030","Savvy, 2020",False,123.0,False
+"What is the time 3 year and 11 month before Aug, 2036","Sep, 2032","Sep, 2032",True,0.0,False
+"What is the time 4 year and 10 month before Jun, 2034","Aug, 2029","Aug, 2029",True,0.0,False
+"What is the time 2 years before Jun, 2033","Jun, 2031",":// Jun, 2031",True,0.0,False
+"What is the time 8 year and 1 month before Mar, 2020","Feb, 2012","Feb, 2012",True,0.0,False
+"What is the time 2 year and 5 month before Jan, 2024","Aug, 2021","Aug, 2021",True,0.0,False
+"What is the time 7 year and 2 month before Aug, 2039","Jun, 2032","Jun, 2032",True,0.0,False
+"What is the time 4 year and 1 month before Jan, 2035","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 10 year and 4 month before Jan, 2027","Sep, 2016","Sep, 2016",True,0.0,False
+"What is the time 2 year and 2 month before Mar, 2025","Jan, 2023","Jan, 2023",True,0.0,False
+"What is the time 8 year and 5 month before Feb, 2038","Sep, 2029","Sep, 2029",True,0.0,False
+"What is the time 4 years before Jun, 2035","Jun, 2031",":// Jun, 2031",True,0.0,False
+"What is the time 2 year and 12 month before Nov, 2024","Nov, 2021","Nov, 2021",True,0.0,False
+"What is the time 1 year and 2 month before Jun, 2021","Apr, 2020","Apr, 2020",True,0.0,False
+"What is the time 7 year and 7 month before Apr, 2029","Sep, 2021","Sep, 2021",True,0.0,False
+"What is the time 3 years before Nov, 2028","Nov, 2025",":// Nov, 2025",True,0.0,False
+"What is the time 1 year and 4 month before Oct, 2035","Jun, 2034","Jun, 2034",True,0.0,False
+"What is the time 9 years before Nov, 2035","Nov, 2026","A year before Nov, 2026 is Nov, 2025",True,0.0,False
+"What is the time 2 years before Dec, 2032","Dec, 2030","S Dec, 2030",True,0.0,False
+"What is the time 3 months before May, 2020","Feb, 2020",":// Feb, 2020",True,0.0,False
+"What is the time 8 year and 12 month before Jun, 2021","Jun, 2012","Jun, 2012",True,0.0,False
+"What is the time 4 year and 3 month before Oct, 2037","Jul, 2033","Jul, 2033",True,0.0,False
+"What is the time 3 year and 11 month before Nov, 2030","Dec, 2026","Dec, 2026",True,0.0,False
+"What is the time 9 year and 10 month before May, 2027","Jul, 2017","Jul, 2017",True,0.0,False
+"What is the time 3 year and 10 month before Oct, 2040","Dec, 2036","Dec, 2036",True,0.0,False
+"What is the time 1 year and 3 month before Mar, 2029","Dec, 2027","Dec, 2027",True,0.0,False
+"What is the time 9 year and 8 month before May, 2034","Sep, 2024","Sep, 2024",True,0.0,False
+"What is the time 2 year and 8 month before Mar, 2026","Jul, 2023","Jul, 2023",True,0.0,False
+"What is the time 6 year and 3 month before Jun, 2024","Mar, 2018","Mar, 2018",True,0.0,False
+"What is the time 5 year and 1 month before Feb, 2025","Jan, 2020","Jan, 2020",True,0.0,False
+"What is the time 12 months before Mar, 2039","Mar, 2038",":// Mar, 2038",True,0.0,False
+"What is the time 2 months before Apr, 2029","Feb, 2029",":// Feb, 2029",True,0.0,False
+"What is the time 2 year and 9 month before Oct, 2022","Jan, 2020","Jan, 2020",True,0.0,False
+"What is the time 10 year and 7 month before Nov, 2020","Apr, 2010","Apr, 2010",True,0.0,False
+"What is the time 1 year and 1 month before Sep, 2029","Aug, 2028","Aug, 2028",True,0.0,False
+"What is the time 10 year and 7 month before Aug, 2037","Jan, 2027","Jan, 2027",True,0.0,False
+"What is the time 5 year and 2 month before Apr, 2027","Feb, 2022","Feb, 2022",True,0.0,False
+"What is the time 1 month before Jun, 2036","May, 2036",".Sep, 2035",False,8.0,False
+"What is the time 6 year and 10 month before Jun, 2023","Aug, 2016","Aug, 2016",True,0.0,False
+"What is the time 9 year and 4 month before Apr, 2035","Dec, 2025","Dec, 2025",True,0.0,False
+"What is the time 2 year and 9 month before Dec, 2029","Mar, 2027","Mar, 2027",True,0.0,False
+"What is the time 9 year and 3 month before Nov, 2026","Aug, 2017","Aug, 2017",True,0.0,False
+"What is the time 9 year and 8 month before Jul, 2031","Nov, 2021","Nov, 2021",True,0.0,False
+"What is the time 10 year and 11 month before Feb, 2026","Mar, 2015","Mar, 2015",True,0.0,False
+"What is the time 5 year and 1 month before Apr, 2037","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 5 year and 2 month before Oct, 2031","Aug, 2026","Aug, 2026",True,0.0,False
+"What is the time 7 year and 9 month before Jun, 2036","Sep, 2028","Sep, 2028",True,0.0,False
+"What is the time 1 year and 1 month before Oct, 2035","Sep, 2034","Sep, 2034",True,0.0,False
+"What is the time 9 year and 5 month before Feb, 2022","Sep, 2012","Sep, 2012",True,0.0,False
+"What is the time 8 year and 12 month before Mar, 2023","Mar, 2014","Mar, 2014",True,0.0,False
+"What is the time 7 year and 2 month before Jun, 2022","Apr, 2015","Apr, 2015",True,0.0,False
+"What is the time 6 year and 1 month before Jul, 2040","Jun, 2034","Jun, 2034",True,0.0,False
+"What is the time 1 year before Apr, 2020","Apr, 2019",":// Apr, 2019",True,0.0,False
+"What is the time 2 year and 7 month before Jun, 2032","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 5 year and 11 month before Jul, 2031","Aug, 2025","Aug, 2025",True,0.0,False
+"What is the time 9 year and 12 month before Sep, 2023","Sep, 2013","Sep, 2013",True,0.0,False
+"What is the time 2 months before Jun, 2027","Apr, 2027",":// Apr, 2027",True,0.0,False
+"What is the time 1 year and 10 month before May, 2036","Jul, 2034","Jul, 2034",True,0.0,False
+"What is the time 3 year and 1 month before Jul, 2031","Jun, 2028","Jun, 2028",True,0.0,False
+"What is the time 6 year and 10 month before Sep, 2027","Nov, 2020","Nov, 2020",True,0.0,False
+"What is the time 9 years before Aug, 2031","Aug, 2022",":// Aug, 2022",True,0.0,False
+"What is the time 6 year and 7 month before Apr, 2031","Sep, 2024","Sep, 2024",True,0.0,False
+"What is the time 5 year and 11 month before Mar, 2020","Apr, 2014","Apr, 2014",True,0.0,False
+"What is the time 7 year and 9 month before Feb, 2023","May, 2015","May, 2015",True,0.0,False
+"What is the time 5 year and 11 month before Feb, 2020","Mar, 2014","Mar, 2014",True,0.0,False
+"What is the time 1 year and 8 month before Nov, 2028","Mar, 2027","Mar, 2027",True,0.0,False
+"What is the time 6 year and 6 month before Jun, 2038","Dec, 2031","Dec, 2031",True,0.0,False
+"What is the time 5 year and 2 month before Nov, 2033","Sep, 2028","Sep, 2028",True,0.0,False
+"What is the time 1 year and 1 month before May, 2032","Apr, 2031","Apr, 2031",True,0.0,False
+"What is the time 5 year and 9 month before Oct, 2030","Jan, 2025","Jan, 2025",True,0.0,False
+"What is the time 5 year and 10 month before Sep, 2029","Nov, 2023","Nov, 2023",True,0.0,False
+"What is the time 2 months before Jul, 2040","May, 2040",":// May, 2040",True,0.0,False
+"What is the time 9 years before Jun, 2028","Jun, 2019",":// Jun, 2019",True,0.0,False
+"What is the time 9 year and 5 month before May, 2031","Dec, 2021","Dec, 2021",True,0.0,False
+"What is the time 7 year and 11 month before Aug, 2037","Sep, 2029","Sep, 2029",True,0.0,False
+"What is the time 7 year and 8 month before Jul, 2038","Nov, 2030","Nov, 2030",True,0.0,False
+"What is the time 7 year and 5 month before May, 2021","Dec, 2013","Dec, 2013",True,0.0,False
+"What is the time 7 year and 7 month before Oct, 2022","Mar, 2015","Mar, 2015",True,0.0,False
+"What is the time 7 year and 10 month before Jun, 2038","Aug, 2030","Aug, 2030",True,0.0,False
+"What is the time 6 year and 11 month before Apr, 2023","May, 2016","May, 2016",True,0.0,False
+"What is the time 5 year and 11 month before Jul, 2038","Aug, 2032","Aug, 2032",True,0.0,False
+"What is the time 8 year and 4 month before Jun, 2038","Feb, 2030","Feb, 2030",True,0.0,False
+"What is the time 10 year and 8 month before May, 2039","Sep, 2028","Sep, 2028",True,0.0,False
+"What is the time 7 year and 1 month before Apr, 2024","Mar, 2017","Mar, 2017",True,0.0,False
+"What is the time 8 year and 8 month before Feb, 2030","Jun, 2021","Jun, 2021",True,0.0,False
+"What is the time 8 months before Dec, 2022","Apr, 2022",":// Apr, 2022",True,0.0,False
+"What is the time 10 year and 5 month before Jan, 2025","Aug, 2014","Aug, 2014",True,0.0,False
+"What is the time 8 year and 8 month before Jul, 2025","Nov, 2016","Nov, 2016",True,0.0,False
+"What is the time 5 year and 7 month before Dec, 2027","May, 2022","May, 2022",True,0.0,False
+"What is the time 2 year and 12 month before Apr, 2028","Apr, 2025","Apr, 2025",True,0.0,False
+"What is the time 7 year and 8 month before Oct, 2021","Feb, 2014","Feb, 2014",True,0.0,False
+"What is the time 1 year and 3 month before Nov, 2038","Aug, 2037","Aug, 2037",True,0.0,False
+"What is the time 10 year and 4 month before May, 2036","Jan, 2026","Jan, 2026",True,0.0,False
+"What is the time 5 year and 6 month before Nov, 2039","May, 2034","May, 2034",True,0.0,False
+"What is the time 5 year and 1 month before Jul, 2030","Jun, 2025","Jun, 2025",True,0.0,False
+"What is the time 9 years before Aug, 2039","Aug, 2030",S,False,,False
+"What is the time 7 year and 6 month before Jul, 2025","Jan, 2018","Jan, 2018",True,0.0,False
+"What is the time 8 year and 4 month before Jun, 2026","Feb, 2018","Feb, 2018",True,0.0,False
+"What is the time 4 year and 8 month before Nov, 2021","Mar, 2017","Mar, 2017",True,0.0,False
+"What is the time 8 year and 4 month before Mar, 2032","Nov, 2023","Nov, 2023",True,0.0,False
+"What is the time 4 year and 2 month before Jan, 2038","Nov, 2033","Nov, 2033",True,0.0,False
+"What is the time 1 year and 5 month before Aug, 2021","Mar, 2020","Mar, 2020",True,0.0,False
+"What is the time 8 year and 1 month before Jun, 2032","May, 2024","May, 2024",True,0.0,False
+"What is the time 3 year and 12 month before Nov, 2032","Nov, 2028","Nov, 2028",True,0.0,False
+"What is the time 7 year and 2 month before Feb, 2023","Dec, 2015","Dec, 2015",True,0.0,False
+"What is the time 1 year and 3 month before Sep, 2020","Jun, 2019","Jun, 2019",True,0.0,False
+"What is the time 6 months before Sep, 2030","Mar, 2030",":// Mar, 2030",True,0.0,False
+"What is the time 1 month before Mar, 2026","Feb, 2026",":// Feb, 2026",True,0.0,False
+"What is the time 5 years before Nov, 2036","Nov, 2031",":// Nov, 2031",True,0.0,False
+"What is the time 5 year and 2 month before Oct, 2038","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 6 year and 9 month before May, 2038","Aug, 2031","Aug, 2031",True,0.0,False
+"What is the time 5 year and 4 month before Aug, 2032","Apr, 2027","Apr, 2027",True,0.0,False
+"What is the time 5 year and 8 month before Apr, 2040","Aug, 2034","Aug, 2034",True,0.0,False
+"What is the time 8 year and 7 month before Nov, 2025","Apr, 2017","Apr, 2017",True,0.0,False
+"What is the time 4 year and 12 month before Aug, 2037","Aug, 2032","Aug, 2032",True,0.0,False
+"What is the time 6 year and 11 month before Mar, 2040","Apr, 2033","Apr, 2033",True,0.0,False
+"What is the time 2 year and 9 month before Feb, 2032","May, 2029","May, 2029",True,0.0,False
+"What is the time 5 year and 11 month before Nov, 2032","Dec, 2026","Dec, 2026",True,0.0,False
+"What is the time 8 year and 1 month before Oct, 2025","Sep, 2017","Sep, 2017",True,0.0,False
+"What is the time 7 year and 8 month before Apr, 2034","Aug, 2026","Aug, 2026",True,0.0,False
+"What is the time 6 year and 12 month before Nov, 2033","Nov, 2026","Nov, 2026",True,0.0,False
+"What is the time 2 years before Dec, 2036","Dec, 2034","Sic, 2034",False,11.0,False
+"What is the time 4 year and 12 month before May, 2039","May, 2034","May, 2034",True,0.0,False
+"What is the time 7 year and 5 month before Feb, 2034","Sep, 2026","Sep, 2026",True,0.0,False
+"What is the time 1 year and 12 month before Oct, 2024","Oct, 2022","Oct, 2022",True,0.0,False
+"What is the time 10 year and 2 month before Mar, 2039","Jan, 2029","Jan, 2029",True,0.0,False
+"What is the time 6 year and 1 month before May, 2037","Apr, 2031","Apr, 2031",True,0.0,False
+"What is the time 5 year and 7 month before Jul, 2038","Dec, 2032","Dec, 2032",True,0.0,False
+"What is the time 10 months before Jun, 2021","Aug, 2020",":// Aug, 2020",True,0.0,False
+"What is the time 6 year and 12 month before Dec, 2026","Dec, 2019","Dec, 2019",True,0.0,False
+"What is the time 9 year and 12 month before Apr, 2030","Apr, 2020","Apr, 2020",True,0.0,False
+"What is the time 4 year and 12 month before May, 2030","May, 2025","May, 2025",True,0.0,False
+"What is the time 2 year and 5 month before Apr, 2040","Nov, 2037","Nov, 2037",True,0.0,False
+"What is the time 1 year and 10 month before Oct, 2040","Dec, 2038","Dec, 2038",True,0.0,False
+"What is the time 10 year and 12 month before Oct, 2028","Oct, 2017","Oct, 2017",True,0.0,False
+"What is the time 3 year and 6 month before Jun, 2034","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 7 year and 6 month before Jul, 2033","Jan, 2026","Jan, 2026",True,0.0,False
+"What is the time 9 year and 7 month before Jun, 2030","Nov, 2020","Nov, 2020",True,0.0,False
+"What is the time 1 year and 4 month before May, 2038","Jan, 2037","Jan, 2037",True,0.0,False
+"What is the time 6 year and 10 month before Apr, 2029","Jun, 2022","Jun, 2022",True,0.0,False
+"What is the time 9 year and 9 month before Jun, 2024","Sep, 2014","Sep, 2014",True,0.0,False
+"What is the time 7 year and 12 month before Apr, 2024","Apr, 2016","Apr, 2016",True,0.0,False
+"What is the time 9 year and 3 month before Dec, 2027","Sep, 2018","Sep, 2018",True,0.0,False
+"What is the time 7 year and 10 month before Jun, 2026","Aug, 2018","Aug, 2018",True,0.0,False
+"What is the time 10 year and 2 month before Mar, 2021","Jan, 2011","Jan, 2011",True,0.0,False
+"What is the time 9 year and 3 month before Dec, 2020","Sep, 2011","Sep, 2011",True,0.0,False
+"What is the time 10 year and 10 month before Dec, 2026","Feb, 2016","Feb, 2016",True,0.0,False
+"What is the time 10 year and 4 month before Feb, 2033","Oct, 2022","Oct, 2022",True,0.0,False
+"What is the time 9 months before Jun, 2030","Sep, 2029","Sep, 2029",True,0.0,False
+"What is the time 12 months before May, 2020","May, 2019",":// May, 2019",True,0.0,False
+"What is the time 10 year and 6 month before May, 2020","Nov, 2009","Nov, 2009",True,0.0,False
+"What is the time 8 years before Feb, 2033","Feb, 2025",":// Feb, 2025",True,0.0,False
+"What is the time 8 years before Jan, 2038","Jan, 2030","S Jan, 2030",True,0.0,False
+"What is the time 6 year and 10 month before Oct, 2039","Dec, 2032","Dec, 2032",True,0.0,False
+"What is the time 6 year and 12 month before Oct, 2025","Oct, 2018","Oct, 2018",True,0.0,False
+"What is the time 10 year and 6 month before Aug, 2033","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 5 years before Jan, 2020","Jan, 2015",":// Jan, 2015",True,0.0,False
+"What is the time 4 year and 9 month before Apr, 2035","Jul, 2030","Jul, 2030",True,0.0,False
+"What is the time 8 year and 8 month before Jul, 2036","Nov, 2027","Nov, 2027",True,0.0,False
+"What is the time 9 year and 10 month before May, 2024","Jul, 2014","Jul, 2014",True,0.0,False
+"What is the time 10 year and 5 month before Jul, 2021","Feb, 2011","Feb, 2011",True,0.0,False
+"What is the time 10 years before Jul, 2034","Jul, 2024","AUG, 2024",False,1.0,True
+"What is the time 4 year and 9 month before Jul, 2028","Oct, 2023","Oct, 2023",True,0.0,False
+"What is the time 10 years before Feb, 2039","Feb, 2029","A year before Feb, 2029 is Feb, 2028
+Feb, 2028 is a year before Feb, 2039",True,0.0,False
+"What is the time 7 months before Nov, 2024","Apr, 2024",":// Apr, 2024",True,0.0,False
+"What is the time 1 year and 9 month before Apr, 2036","Jul, 2034","Jul, 2034",True,0.0,False
+"What is the time 6 year and 11 month before Sep, 2037","Oct, 2030","Oct, 2030",True,0.0,False
+"What is the time 6 year and 7 month before Mar, 2020","Aug, 2013","Aug, 2013",True,0.0,False
+"What is the time 7 year and 5 month before Oct, 2027","May, 2020","May, 2020",True,0.0,False
+"What is the time 7 year and 10 month before Jul, 2039","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 4 year and 9 month before Mar, 2024","Jun, 2019","Jun, 2019",True,0.0,False
+"What is the time 5 years before Feb, 2023","Feb, 2018",":// Feb, 2018",True,0.0,False
+"What is the time 2 year and 10 month before Feb, 2023","Apr, 2020","Apr, 2020",True,0.0,False
+"What is the time 2 year and 3 month before Jan, 2035","Oct, 2032","Oct, 2032",True,0.0,False
+"What is the time 9 year and 11 month before Dec, 2031","Jan, 2022","Jan, 2022",True,0.0,False
+"What is the time 3 years before Feb, 2040","Feb, 2037",":// Feb, 2037",True,0.0,False
+"What is the time 2 year and 4 month before Mar, 2020","Nov, 2017","Nov, 2017",True,0.0,False
+"What is the time 2 year and 12 month before Nov, 2033","Nov, 2030","Nov, 2030",True,0.0,False
+"What is the time 8 year and 1 month before Nov, 2039","Oct, 2031","Oct, 2031",True,0.0,False
+"What is the time 9 year and 11 month before May, 2040","Jun, 2030","Jun, 2030",True,0.0,False
+"What is the time 2 year and 4 month before Jul, 2023","Mar, 2021","Mar, 2021",True,0.0,False
+"What is the time 9 year and 8 month before May, 2025","Sep, 2015","Sep, 2015",True,0.0,False
+"What is the time 5 year and 2 month before Sep, 2020","Jul, 2015","Jul, 2015",True,0.0,False
+"What is the time 8 years before Aug, 2038","Aug, 2030",":// Aug, 2030",True,0.0,False
+"What is the time 3 years before Nov, 2029","Nov, 2026",":// Nov, 2026",True,0.0,False
+"What is the time 2 year and 7 month before May, 2027","Oct, 2024","Oct, 2024",True,0.0,False
+"What is the time 6 year and 3 month before Sep, 2031","Jun, 2025","Jun, 2025",True,0.0,False
+"What is the time 1 year and 1 month before Jan, 2026","Dec, 2024","Dec, 2024",True,0.0,False
+"What is the time 5 year and 6 month before Aug, 2026","Feb, 2021","Feb, 2021",True,0.0,False
+"What is the time 6 year and 2 month before Apr, 2034","Feb, 2028","Feb, 2028",True,0.0,False
+"What is the time 3 year and 10 month before May, 2040","Jul, 2036","Jul, 2036",True,0.0,False
+"What is the time 7 year and 11 month before Feb, 2038","Mar, 2030","Mar, 2030",True,0.0,False
+"What is the time 10 year and 4 month before Nov, 2026","Jul, 2016","Jul, 2016",True,0.0,False
+"What is the time 2 year and 12 month before Dec, 2036","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 9 year and 7 month before Sep, 2035","Feb, 2026","Feb, 2026",True,0.0,False
+"What is the time 9 year and 4 month before Feb, 2024","Oct, 2014","Oct, 2014",True,0.0,False
+"What is the time 5 years before Dec, 2027","Dec, 2022",":// Dec, 2022",True,0.0,False
+"What is the time 5 year and 9 month before May, 2024","Aug, 2018","Aug, 2018",True,0.0,False
+"What is the time 9 year and 4 month before Aug, 2036","Apr, 2027","Apr, 2027",True,0.0,False
+"What is the time 10 year and 2 month before Nov, 2022","Sep, 2012","Sep, 2012",True,0.0,False
+"What is the time 8 year and 6 month before Sep, 2029","Mar, 2021","Mar, 2021",True,0.0,False
+"What is the time 2 year and 1 month before Aug, 2040","Jul, 2038","Jul, 2038",True,0.0,False
+"What is the time 2 year and 12 month before Oct, 2038","Oct, 2035","Oct, 2035",True,0.0,False
+"What is the time 7 year and 3 month before Sep, 2022","Jun, 2015","Jun, 2015",True,0.0,False
+"What is the time 7 year and 1 month before Apr, 2033","Mar, 2026","Mar, 2026",True,0.0,False
+"What is the time 2 year and 4 month before Jun, 2022","Feb, 2020","Feb, 2020",True,0.0,False
+"What is the time 8 year and 10 month before Oct, 2040","Dec, 2031","Dec, 2031",True,0.0,False
+"What is the time 8 months before Nov, 2032","Mar, 2032",":// Mar, 2032",True,0.0,False
+"What is the time 6 months before Mar, 2024","Sep, 2023",":// Sep, 2023",True,0.0,False
+"What is the time 4 year and 7 month before Jun, 2029","Nov, 2024","Nov, 2024",True,0.0,False
+"What is the time 4 year and 5 month before Feb, 2023","Sep, 2018","Sep, 2018",True,0.0,False
+"What is the time 9 year and 11 month before Feb, 2024","Mar, 2014","Mar, 2014",True,0.0,False
+"What is the time 5 year and 10 month before Jan, 2028","Mar, 2022","Mar, 2022",True,0.0,False
+"What is the time 9 year and 6 month before Sep, 2027","Mar, 2018","Mar, 2018",True,0.0,False
+"What is the time 1 year and 8 month before Nov, 2033","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 5 months before Oct, 2020","May, 2020",":// May, 2020",True,0.0,False
+"What is the time 1 month before Nov, 2029","Oct, 2029",":// Oct, 2029",True,0.0,False
+"What is the time 7 year and 9 month before Jul, 2035","Oct, 2027","Oct, 2027",True,0.0,False
+"What is the time 4 year and 8 month before Feb, 2031","Jun, 2026","Jun, 2026",True,0.0,False
+"What is the time 3 year and 5 month before Dec, 2035","Jul, 2032","Jul, 2032",True,0.0,False
+"What is the time 4 year and 11 month before Jan, 2039","Feb, 2034","Feb, 2034",True,0.0,False
+"What is the time 10 year and 9 month before May, 2033","Aug, 2022","Aug, 2022",True,0.0,False
+"What is the time 2 year and 3 month before Aug, 2028","May, 2026","May, 2026",True,0.0,False
+"What is the time 10 year and 11 month before Jan, 2032","Feb, 2021","Feb, 2021",True,0.0,False
+"What is the time 7 year and 4 month before Apr, 2021","Dec, 2013","Dec, 2013",True,0.0,False
+"What is the time 3 year and 12 month before Jul, 2020","Jul, 2016","Jul, 2016",True,0.0,False
+"What is the time 3 year and 1 month before Apr, 2022","Mar, 2019","Mar, 2019",True,0.0,False
+"What is the time 3 year and 12 month before May, 2039","May, 2035","May, 2035",True,0.0,False
+"What is the time 4 years before Sep, 2035","Sep, 2031","S e p, 2031",False,8.0,False
+"What is the time 10 year and 4 month before Mar, 2033","Nov, 2022","Nov, 2022",True,0.0,False
+"What is the time 4 year and 8 month before Apr, 2034","Aug, 2029","Aug, 2029",True,0.0,False
+"What is the time 9 year and 3 month before May, 2026","Feb, 2017","Feb, 2017",True,0.0,False
+"What is the time 7 months before Jul, 2030","Dec, 2029","AUG, 2029",False,4.0,False
+"What is the time 1 year and 6 month before Jul, 2038","Jan, 2037","Jan, 2037",True,0.0,False
+"What is the time 4 year and 2 month before Oct, 2037","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 1 year and 7 month before Sep, 2023","Feb, 2022","Feb, 2022",True,0.0,False
+"What is the time 1 year and 4 month before Apr, 2026","Dec, 2024","Dec, 2024",True,0.0,False
+"What is the time 2 year and 1 month before Apr, 2026","Mar, 2024","Mar, 2024",True,0.0,False
+"What is the time 7 year and 9 month before May, 2034","Aug, 2026","Aug, 2026",True,0.0,False
+"What is the time 1 year and 3 month before Dec, 2031","Sep, 2030","Sep, 2030",True,0.0,False
+"What is the time 1 year and 7 month before Jan, 2039","Jun, 2037","Jun, 2037",True,0.0,False
+"What is the time 7 year and 4 month before Jul, 2022","Mar, 2015","Mar, 2015",True,0.0,False
+"What is the time 5 months before Nov, 2020","Jun, 2020",":// Jun, 2020",True,0.0,False
+"What is the time 5 year and 7 month before Feb, 2021","Jul, 2015","Jul, 2015",True,0.0,False
+"What is the time 6 year and 6 month before Aug, 2021","Feb, 2015","Feb, 2015",True,0.0,False
+"What is the time 2 year and 4 month before Jan, 2021","Sep, 2018","Sep, 2018",True,0.0,False
+"What is the time 9 year and 11 month before Dec, 2028","Jan, 2019","Jan, 2019",True,0.0,False
+"What is the time 6 year and 7 month before Feb, 2029","Jul, 2022","Jul, 2022",True,0.0,False
+"What is the time 3 year and 3 month before Dec, 2026","Sep, 2023","Sep, 2023",True,0.0,False
+"What is the time 3 year and 12 month before Feb, 2022","Feb, 2018","Feb, 2018",True,0.0,False
+"What is the time 4 years before Apr, 2037","Apr, 2033","A pr, 2033",False,3.0,False
+"What is the time 4 year and 11 month before Feb, 2027","Mar, 2022","Mar, 2022",True,0.0,False
+"What is the time 9 year and 4 month before Apr, 2039","Dec, 2029","Dec, 2029",True,0.0,False
+"What is the time 4 months before Nov, 2038","Jul, 2038",":// Jul, 2038",True,0.0,False
+"What is the time 1 month before Aug, 2039","Jul, 2039",":// Jul, 2039",True,0.0,False
+"What is the time 5 year and 5 month before Dec, 2022","Jul, 2017","Jul, 2017",True,0.0,False
+"What is the time 5 year and 11 month before May, 2039","Jun, 2033","Jun, 2033",True,0.0,False
+"What is the time 9 year and 3 month before Oct, 2025","Jul, 2016","Jul, 2016",True,0.0,False
+"What is the time 10 year and 2 month before Oct, 2034","Aug, 2024","Aug, 2024",True,0.0,False
+"What is the time 5 year and 4 month before Jul, 2025","Mar, 2020","Mar, 2020",True,0.0,False
+"What is the time 7 year and 11 month before Feb, 2023","Mar, 2015","Mar, 2015",True,0.0,False
+"What is the time 3 year and 8 month before Nov, 2037","Mar, 2034","Mar, 2034",True,0.0,False
+"What is the time 4 years before Jul, 2031","Jul, 2027",":// Jul, 2027",True,0.0,False
+"What is the time 8 months before Feb, 2038","Jun, 2037",":// Jun, 2037",True,0.0,False
+"What is the time 10 year and 7 month before Jun, 2036","Nov, 2025","Nov, 2025",True,0.0,False
+"What is the time 4 year and 12 month before Nov, 2029","Nov, 2024","Nov, 2024",True,0.0,False
+"What is the time 3 year and 8 month before Jan, 2037","May, 2033","May, 2033",True,0.0,False
+"What is the time 3 year and 2 month before Sep, 2021","Jul, 2018","Jul, 2018",True,0.0,False
+"What is the time 9 year and 3 month before Feb, 2032","Nov, 2022","Nov, 2022",True,0.0,False
+"What is the time 6 year and 5 month before Oct, 2029","May, 2023","May, 2023",True,0.0,False
+"What is the time 1 year and 8 month before Jan, 2024","May, 2022","May, 2022",True,0.0,False
+"What is the time 10 year and 4 month before Nov, 2039","Jul, 2029","Jul, 2029",True,0.0,False
+"What is the time 4 year and 1 month before Apr, 2040","Mar, 2036","Mar, 2036",True,0.0,False
+"What is the time 8 year and 11 month before Sep, 2038","Oct, 2029","Oct, 2029",True,0.0,False
+"What is the time 7 year and 11 month before Aug, 2025","Sep, 2017","Sep, 2017",True,0.0,False
+"What is the time 10 year and 8 month before Sep, 2028","Jan, 2018","Jan, 2018",True,0.0,False
+"What is the time 10 year and 11 month before Aug, 2026","Sep, 2015","Sep, 2015",True,0.0,False
+"What is the time 4 year and 11 month before Apr, 2025","May, 2020","May, 2020",True,0.0,False
+"What is the time 6 year and 1 month before Oct, 2036","Sep, 2030","Sep, 2030",True,0.0,False
+"What is the time 5 year and 3 month before Jan, 2030","Oct, 2024","Oct, 2024",True,0.0,False
+"What is the time 9 year and 12 month before Jun, 2021","Jun, 2011","Jun, 2011",True,0.0,False
+"What is the time 6 year and 4 month before Jan, 2024","Sep, 2017","Sep, 2017",True,0.0,False
+"What is the time 7 year and 3 month before Jun, 2021","Mar, 2014","Mar, 2014",True,0.0,False
+"What is the time 6 year and 11 month before Jun, 2027","Jul, 2020","Jul, 2020",True,0.0,False
+"What is the time 8 year and 4 month before Jun, 2033","Feb, 2025","Feb, 2025",True,0.0,False
+"What is the time 6 year and 11 month before Jul, 2034","Aug, 2027","Aug, 2027",True,0.0,False
+"What is the time 8 year and 7 month before Dec, 2030","May, 2022","May, 2022",True,0.0,False
+"What is the time 6 year and 3 month before Jan, 2020","Oct, 2013","Oct, 2013",True,0.0,False
+"What is the time 2 year and 9 month before Feb, 2040","May, 2037","May, 2037",True,0.0,False
+"What is the time 10 year and 1 month before May, 2036","Apr, 2026","Apr, 2026",True,0.0,False
+"What is the time 1 year and 4 month before Nov, 2033","Jul, 2032","Jul, 2032",True,0.0,False
+"What is the time 4 year and 4 month before Jul, 2036","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 4 year and 10 month before Aug, 2021","Oct, 2016","Oct, 2016",True,0.0,False
+"What is the time 2 year and 3 month before Mar, 2034","Dec, 2031","Dec, 2031",True,0.0,False
+"What is the time 9 year and 7 month before Jul, 2023","Dec, 2013","Dec, 2013",True,0.0,False
+"What is the time 7 year and 11 month before Feb, 2035","Mar, 2027","Mar, 2027",True,0.0,False
+"What is the time 7 year and 7 month before Sep, 2039","Feb, 2032","Feb, 2032",True,0.0,False
+"What is the time 2 year and 10 month before Nov, 2039","Jan, 2037","Jan, 2037",True,0.0,False
+"What is the time 10 year and 10 month before Aug, 2039","Oct, 2028","Oct, 2028",True,0.0,False
+"What is the time 8 years before Jan, 2021","Jan, 2013",":// Jan, 2013",True,0.0,False
+"What is the time 8 months before Dec, 2021","Apr, 2021",":// Apr, 2021",True,0.0,False
+"What is the time 9 year and 2 month before Apr, 2037","Feb, 2028","Feb, 2028",True,0.0,False
+"What is the time 9 year and 10 month before Nov, 2025","Jan, 2016","Jan, 2016",True,0.0,False
+"What is the time 3 year and 9 month before Sep, 2036","Dec, 2032","Dec, 2032",True,0.0,False
+"What is the time 1 year and 5 month before Apr, 2040","Nov, 2038","Nov, 2038",True,0.0,False
+"What is the time 4 years before Jun, 2020","Jun, 2016",":// Jun, 2016",True,0.0,False
+"What is the time 5 year and 10 month before Dec, 2028","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 10 year and 2 month before Aug, 2039","Jun, 2029","Jun, 2029",True,0.0,False
+"What is the time 10 year and 5 month before Dec, 2020","Jul, 2010","Jul, 2010",True,0.0,False
+"What is the time 9 year and 12 month before May, 2029","May, 2019","May, 2019",True,0.0,False
+"What is the time 4 years before Dec, 2029","Dec, 2025",":// Dec, 2025",True,0.0,False
+"What is the time 7 year and 3 month before Aug, 2034","May, 2027","May, 2027",True,0.0,False
+"What is the time 4 year and 8 month before May, 2038","Sep, 2033","Sep, 2033",True,0.0,False
+"What is the time 3 year and 3 month before Mar, 2029","Dec, 2025","Dec, 2025",True,0.0,False
+"What is the time 7 year and 7 month before Nov, 2034","Apr, 2027","Apr, 2027",True,0.0,False
+"What is the time 2 year and 7 month before Oct, 2029","Mar, 2027","Mar, 2027",True,0.0,False
+"What is the time 11 months before Jun, 2030","Jul, 2029",":// Jul, 2029",True,0.0,False
+"What is the time 6 year and 3 month before Dec, 2027","Sep, 2021","Sep, 2021",True,0.0,False
+"What is the time 8 year and 10 month before Sep, 2039","Nov, 2030","Nov, 2030",True,0.0,False
+"What is the time 6 year and 4 month before Jul, 2030","Mar, 2024","Mar, 2024",True,0.0,False
+"What is the time 6 year and 1 month before Jan, 2030","Dec, 2023","Dec, 2023",True,0.0,False
+"What is the time 6 year and 10 month before Jun, 2027","Aug, 2020","Aug, 2020",True,0.0,False
+"What is the time 6 year and 9 month before Jul, 2025","Oct, 2018","Oct, 2018",True,0.0,False
+"What is the time 3 year and 9 month before Jan, 2021","Apr, 2017","Apr, 2017",True,0.0,False
+"What is the time 3 year and 11 month before Jun, 2037","Jul, 2033","Jul, 2033",True,0.0,False
+"What is the time 4 year and 7 month before Nov, 2035","Apr, 2031","Apr, 2031",True,0.0,False
+"What is the time 9 year and 1 month before Jul, 2030","Jun, 2021","Jun, 2021",True,0.0,False
+"What is the time 2 year and 2 month before Aug, 2021","Jun, 2019","Jun, 2019",True,0.0,False
+"What is the time 4 year and 10 month before Oct, 2027","Dec, 2022","Dec, 2022",True,0.0,False
+"What is the time 1 year and 1 month before Sep, 2038","Aug, 2037","Aug, 2037",True,0.0,False
+"What is the time 7 year and 10 month before Feb, 2025","Apr, 2017","Apr, 2017",True,0.0,False
+"What is the time 6 year and 10 month before Feb, 2021","Apr, 2014","Apr, 2014",True,0.0,False
+"What is the time 4 year and 11 month before Jan, 2022","Feb, 2017","Feb, 2017",True,0.0,False
+"What is the time 4 year and 8 month before Jun, 2025","Oct, 2020","Oct, 2020",True,0.0,False
+"What is the time 2 year and 5 month before Oct, 2035","May, 2033","May, 2033",True,0.0,False
+"What is the time 4 year and 9 month before Sep, 2036","Dec, 2031","Dec, 2031",True,0.0,False
+"What is the time 10 year and 7 month before Jan, 2037","Jun, 2026","Jun, 2026",True,0.0,False
+"What is the time 8 year and 8 month before Jun, 2034","Oct, 2025","Oct, 2025",True,0.0,False
+"What is the time 5 year and 3 month before Oct, 2039","Jul, 2034","Jul, 2034",True,0.0,False
+"What is the time 7 year and 9 month before May, 2025","Aug, 2017","Aug, 2017",True,0.0,False
+"What is the time 7 year and 4 month before Sep, 2032","May, 2025","May, 2025",True,0.0,False
+"What is the time 8 year and 5 month before Jun, 2026","Jan, 2018","Jan, 2018",True,0.0,False
+"What is the time 8 year and 11 month before Apr, 2026","May, 2017","May, 2017",True,0.0,False
+"What is the time 7 year and 10 month before Dec, 2021","Feb, 2014","Feb, 2014",True,0.0,False
+"What is the time 7 year and 12 month before Oct, 2029","Oct, 2021","Oct, 2021",True,0.0,False
+"What is the time 8 year and 8 month before Nov, 2028","Mar, 2020","Mar, 2020",True,0.0,False
+"What is the time 1 year and 8 month before Jun, 2026","Oct, 2024","Oct, 2024",True,0.0,False
+"What is the time 3 year and 12 month before Oct, 2034","Oct, 2030","Oct, 2030",True,0.0,False
+"What is the time 5 year and 6 month before Jun, 2039","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 7 year and 2 month before May, 2030","Mar, 2023","Mar, 2023",True,0.0,False
+"What is the time 4 year and 4 month before Feb, 2040","Oct, 2035","Oct, 2035",True,0.0,False
+"What is the time 3 year and 4 month before Apr, 2039","Dec, 2035","Dec, 2035",True,0.0,False
+"What is the time 2 years before Oct, 2034","Oct, 2032","Sep, 2032",False,1.0,False
+"What is the time 2 year and 9 month before Nov, 2040","Feb, 2038","Feb, 2038",True,0.0,False
+"What is the time 3 months before Jul, 2027","Apr, 2027",":// Apr, 2027",True,0.0,False
+"What is the time 3 year and 10 month before Jan, 2032","Mar, 2028","Mar, 2028",True,0.0,False
+"What is the time 9 year and 4 month before Oct, 2029","Jun, 2020","Jun, 2020",True,0.0,False
+"What is the time 6 year and 12 month before Aug, 2037","Aug, 2030","Aug, 2030",True,0.0,False
+"What is the time 10 year and 4 month before Jul, 2038","Mar, 2028","Mar, 2028",True,0.0,False
+"What is the time 5 year and 4 month before Nov, 2034","Jul, 2029","Jul, 2029",True,0.0,False
+"What is the time 9 year and 8 month before Nov, 2030","Mar, 2021","Mar, 2021",True,0.0,False
+"What is the time 8 year and 9 month before Apr, 2022","Jul, 2013","Jul, 2013",True,0.0,False
+"What is the time 6 year and 2 month before Dec, 2022","Oct, 2016","Oct, 2016",True,0.0,False
+"What is the time 4 year and 3 month before Jun, 2029","Mar, 2025","Mar, 2025",True,0.0,False
+"What is the time 6 year and 1 month before Sep, 2025","Aug, 2019","Aug, 2019",True,0.0,False
+"What is the time 4 year and 10 month before Dec, 2027","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 5 years before Jul, 2040","Jul, 2035",":// Jul, 2035",True,0.0,False
+"What is the time 8 year and 3 month before Sep, 2027","Jun, 2019","Jun, 2019",True,0.0,False
+"What is the time 10 year and 8 month before Mar, 2036","Jul, 2025","Jul, 2025",True,0.0,False
+"What is the time 10 year and 6 month before Mar, 2031","Sep, 2020","Sep, 2020",True,0.0,False
+"What is the time 7 year and 8 month before Sep, 2027","Jan, 2020","Jan, 2020",True,0.0,False
+"What is the time 2 years before Jul, 2027","Jul, 2025",":// Jul, 2025",True,0.0,False
+"What is the time 8 years before Oct, 2029","Oct, 2021",":// Oct, 2021",True,0.0,False
+"What is the time 10 year and 2 month before Jan, 2039","Nov, 2028","Nov, 2028",True,0.0,False
+"What is the time 4 year and 5 month before Apr, 2034","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 10 year and 5 month before May, 2036","Dec, 2025","Dec, 2025",True,0.0,False
+"What is the time 10 years before Aug, 2039","Aug, 2029","A ug, 2029",False,7.0,False
+"What is the time 5 year and 4 month before Sep, 2028","May, 2023","May, 2023",True,0.0,False
+"What is the time 8 year and 5 month before Aug, 2023","Mar, 2015","Mar, 2015",True,0.0,False
+"What is the time 8 year and 8 month before May, 2031","Sep, 2022","Sep, 2022",True,0.0,False
+"What is the time 5 year and 2 month before Jun, 2030","Apr, 2025","Apr, 2025",True,0.0,False
+"What is the time 6 year and 2 month before Jul, 2023","May, 2017","May, 2017",True,0.0,False
+"What is the time 10 year and 2 month before Dec, 2038","Oct, 2028","Oct, 2028",True,0.0,False
+"What is the time 7 months before Nov, 2027","Apr, 2027",":// Apr, 2027",True,0.0,False
+"What is the time 9 year and 8 month before Mar, 2037","Jul, 2027","Jul, 2027",True,0.0,False
+"What is the time 3 year and 4 month before Jun, 2023","Feb, 2020","Feb, 2020",True,0.0,False
+"What is the time 5 years before Nov, 2029","Nov, 2024",":// Nov, 2024",True,0.0,False
+"What is the time 3 year and 10 month before Oct, 2033","Dec, 2029","Dec, 2029",True,0.0,False
+"What is the time 9 year and 7 month before Oct, 2036","Mar, 2027","Mar, 2027",True,0.0,False
+"What is the time 1 year and 12 month before Mar, 2033","Mar, 2031","Mar, 2031",True,0.0,False
+"What is the time 3 year and 7 month before Dec, 2026","May, 2023","May, 2023",True,0.0,False
+"What is the time 7 year and 5 month before Nov, 2040","Jun, 2033","Jun, 2033",True,0.0,False
+"What is the time 8 year and 2 month before Feb, 2032","Dec, 2023","Dec, 2023",True,0.0,False
+"What is the time 5 year and 11 month before Dec, 2020","Jan, 2015","Jan, 2015",True,0.0,False
+"What is the time 9 year and 6 month before Aug, 2030","Feb, 2021","Feb, 2021",True,0.0,False
+"What is the time 10 year and 6 month before Aug, 2037","Feb, 2027","Feb, 2027",True,0.0,False
+"What is the time 10 year and 1 month before Sep, 2023","Aug, 2013","Aug, 2013",True,0.0,False
+"What is the time 3 year and 9 month before Feb, 2031","May, 2027","May, 2027",True,0.0,False
+"What is the time 1 year and 3 month before Jun, 2026","Mar, 2025","Mar, 2025",True,0.0,False
+"What is the time 10 year and 10 month before Aug, 2036","Oct, 2025","Oct, 2025",True,0.0,False
+"What is the time 10 years before Dec, 2035","Dec, 2025","A year before Dec, 2025 is Dec, 2024",True,0.0,False
+"What is the time 3 years before Mar, 2032","Mar, 2029",":// Mar, 2029",True,0.0,False
+"What is the time 3 year and 12 month before Jul, 2025","Jul, 2021","Jul, 2021",True,0.0,False
+"What is the time 5 years before Sep, 2030","Sep, 2025",":// Sep, 2025",True,0.0,False
+"What is the time 5 months before Apr, 2022","Nov, 2021",":// Nov, 2021",True,0.0,False
+"What is the time 8 year and 8 month before Oct, 2033","Feb, 2025","Feb, 2025",True,0.0,False
+"What is the time 4 year and 11 month before Nov, 2032","Dec, 2027","Dec, 2027",True,0.0,False
+"What is the time 3 year and 9 month before Jul, 2021","Oct, 2017","Oct, 2017",True,0.0,False
+"What is the time 5 months before Oct, 2024","May, 2024",":// May, 2024",True,0.0,False
+"What is the time 3 year and 3 month before May, 2036","Feb, 2033","Feb, 2033",True,0.0,False
+"What is the time 6 year and 10 month before May, 2037","Jul, 2030","Jul, 2030",True,0.0,False
+"What is the time 3 year and 6 month before Dec, 2023","Jun, 2020","Jun, 2020",True,0.0,False
+"What is the time 7 year and 10 month before Sep, 2028","Nov, 2020","Nov, 2020",True,0.0,False
+"What is the time 9 year and 4 month before Sep, 2023","May, 2014","May, 2014",True,0.0,False
+"What is the time 1 year and 10 month before Jun, 2035","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 6 year and 6 month before Aug, 2038","Feb, 2032","Feb, 2032",True,0.0,False
+"What is the time 3 year and 9 month before Mar, 2031","Jun, 2027","Jun, 2027",True,0.0,False
+"What is the time 2 year and 8 month before Mar, 2021","Jul, 2018","Jul, 2018",True,0.0,False
+"What is the time 8 years before Oct, 2021","Oct, 2013",":// Oct, 2013",True,0.0,False
+"What is the time 2 years before Jan, 2029","Jan, 2027",":// Jan, 2027",True,0.0,False
+"What is the time 10 years before Nov, 2031","Nov, 2021","Sov, 2021",False,10.0,False
+"What is the time 9 year and 2 month before Oct, 2021","Aug, 2012","Aug, 2012",True,0.0,False
+"What is the time 10 years before Nov, 2024","Nov, 2014",":// Nov, 2014",True,0.0,False
+"What is the time 4 year and 7 month before May, 2023","Oct, 2018","Oct, 2018",True,0.0,False
+"What is the time 12 months before Dec, 2034","Dec, 2033","S Dec, 2033",True,0.0,False
+"What is the time 4 year and 6 month before Aug, 2022","Feb, 2018","Feb, 2018",True,0.0,False
+"What is the time 6 year and 5 month before Jul, 2029","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 1 year and 1 month before Oct, 2039","Sep, 2038","Sep, 2038",True,0.0,False
+"What is the time 7 year and 3 month before Apr, 2039","Jan, 2032","Jan, 2032",True,0.0,False
+"What is the time 2 year and 5 month before Jul, 2030","Feb, 2028","Feb, 2028",True,0.0,False
+"What is the time 5 year and 6 month before Nov, 2037","May, 2032","May, 2032",True,0.0,False
+"What is the time 7 year and 12 month before Sep, 2022","Sep, 2014","Sep, 2014",True,0.0,False
+"What is the time 8 year and 3 month before Jan, 2021","Oct, 2012","Oct, 2012",True,0.0,False
+"What is the time 5 months before Jun, 2024","Jan, 2024",":// Jan, 2024",True,0.0,False
+"What is the time 2 months before Jan, 2021","Nov, 2020",":// Nov, 2020",True,0.0,False
+"What is the time 1 year and 6 month before Aug, 2032","Feb, 2031","Feb, 2031",True,0.0,False
+"What is the time 6 year and 12 month before May, 2038","May, 2031","May, 2031",True,0.0,False
+"What is the time 4 months before Feb, 2022","Oct, 2021","Soc, 2021",False,9.0,False
+"What is the time 6 year and 1 month before Nov, 2040","Oct, 2034","Oct, 2034",True,0.0,False
+"What is the time 9 months before May, 2036","Aug, 2035",".Sep, 2035",False,1.0,True
+"What is the time 7 year and 2 month before May, 2023","Mar, 2016","Mar, 2016",True,0.0,False
+"What is the time 5 year and 7 month before Jun, 2023","Nov, 2017","Nov, 2017",True,0.0,False
+"What is the time 10 year and 6 month before Jul, 2027","Jan, 2017","Jan, 2017",True,0.0,False
+"What is the time 2 year and 8 month before Jul, 2027","Nov, 2024","Nov, 2024",True,0.0,False
+"What is the time 1 year and 2 month before Jul, 2020","May, 2019","May, 2019",True,0.0,False
+"What is the time 4 year and 11 month before Jun, 2038","Jul, 2033","Jul, 2033",True,0.0,False
+"What is the time 10 year and 8 month before May, 2033","Sep, 2022","Sep, 2022",True,0.0,False
+"What is the time 8 year and 2 month before Nov, 2022","Sep, 2014","Sep, 2014",True,0.0,False
+"What is the time 8 year and 9 month before Oct, 2033","Jan, 2025","Jan, 2025",True,0.0,False
+"What is the time 1 year and 5 month before Feb, 2038","Sep, 2036","Sep, 2036",True,0.0,False
+"What is the time 1 year and 6 month before Aug, 2030","Feb, 2029","Feb, 2029",True,0.0,False
+"What is the time 3 year and 12 month before Feb, 2040","Feb, 2036","Feb, 2036",True,0.0,False
+"What is the time 5 year and 10 month before Jun, 2038","Aug, 2032","Aug, 2032",True,0.0,False
+"What is the time 7 year and 5 month before Apr, 2026","Nov, 2018","Nov, 2018",True,0.0,False
+"What is the time 10 year and 3 month before May, 2025","Feb, 2015","Feb, 2015",True,0.0,False
+"What is the time 9 year and 12 month before May, 2039","May, 2029","May, 2029",True,0.0,False
+"What is the time 8 year and 1 month before Dec, 2020","Nov, 2012","Nov, 2012",True,0.0,False
+"What is the time 2 year and 7 month before Jul, 2025","Dec, 2022","Dec, 2022",True,0.0,False
+"What is the time 9 years before Jan, 2031","Jan, 2022","A year before Jan, 2022 is Dec, 2021",True,0.0,False
+"What is the time 7 year and 1 month before Jun, 2031","May, 2024","May, 2024",True,0.0,False
+"What is the time 9 year and 3 month before Aug, 2026","May, 2017","May, 2017",True,0.0,False
+"What is the time 7 months before Jul, 2023","Dec, 2022",":// Dec, 2022",True,0.0,False
+"What is the time 10 year and 12 month before Jul, 2039","Jul, 2028","Jul, 2028",True,0.0,False
+"What is the time 1 year and 12 month before Mar, 2032","Mar, 2030","Mar, 2030",True,0.0,False
+"What is the time 3 year and 12 month before Dec, 2023","Dec, 2019","Dec, 2019",True,0.0,False
+"What is the time 7 year and 10 month before Jan, 2027","Mar, 2019","Mar, 2019",True,0.0,False
+"What is the time 9 year and 11 month before Mar, 2030","Apr, 2020","Apr, 2020",True,0.0,False
+"What is the time 12 months before Oct, 2031","Oct, 2030","Sep, 2030",False,1.0,False
+"What is the time 4 year and 7 month before Oct, 2024","Mar, 2020","Mar, 2020",True,0.0,False
+"What is the time 7 year and 6 month before Oct, 2034","Apr, 2027","Apr, 2027",True,0.0,False
+"What is the time 10 year and 9 month before Jun, 2040","Sep, 2029","Sep, 2029",True,0.0,False
+"What is the time 8 year and 5 month before Jul, 2035","Feb, 2027","Feb, 2027",True,0.0,False
+"What is the time 7 year and 2 month before Sep, 2026","Jul, 2019","Jul, 2019",True,0.0,False
+"What is the time 1 year and 4 month before Oct, 2027","Jun, 2026","Jun, 2026",True,0.0,False
+"What is the time 4 year and 4 month before May, 2037","Jan, 2033","Jan, 2033",True,0.0,False
+"What is the time 8 years before Apr, 2024","Apr, 2016",":// Apr, 2016",True,0.0,False
+"What is the time 5 year and 2 month before Sep, 2033","Jul, 2028","Jul, 2028",True,0.0,False
+"What is the time 12 months before Jan, 2036","Jan, 2035","S Jan, 2035",True,0.0,False
+"What is the time 6 year and 7 month before Sep, 2038","Feb, 2032","Feb, 2032",True,0.0,False
+"What is the time 1 year and 1 month before Oct, 2033","Sep, 2032","Sep, 2032",True,0.0,False
+"What is the time 3 year and 7 month before Oct, 2035","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 6 years before Mar, 2039","Mar, 2033",":// Mar, 2033",True,0.0,False
+"What is the time 7 year and 4 month before Aug, 2037","Apr, 2030","Apr, 2030",True,0.0,False
+"What is the time 9 year and 2 month before Dec, 2034","Oct, 2025","Oct, 2025",True,0.0,False
+"What is the time 3 years before May, 2032","May, 2029",A,False,,False
+"What is the time 7 year and 4 month before Mar, 2033","Nov, 2025","Nov, 2025",True,0.0,False
+"What is the time 7 year and 8 month before Jan, 2027","May, 2019","May, 2019",True,0.0,False
+"What is the time 8 year and 9 month before Nov, 2031","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 4 year and 10 month before May, 2031","Jul, 2026","Jul, 2026",True,0.0,False
+"What is the time 9 year and 11 month before Apr, 2040","May, 2030","May, 2030",True,0.0,False
+"What is the time 1 year and 10 month before May, 2026","Jul, 2024","Jul, 2024",True,0.0,False
+"What is the time 4 year and 9 month before Sep, 2025","Dec, 2020","Dec, 2020",True,0.0,False
+"What is the time 12 months before Apr, 2026","Apr, 2025",":// Apr, 2025",True,0.0,False
+"What is the time 1 year and 3 month before Feb, 2031","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 5 year and 9 month before Aug, 2031","Nov, 2025","Nov, 2025",True,0.0,False
+"What is the time 4 year and 4 month before Sep, 2033","May, 2029","May, 2029",True,0.0,False
+"What is the time 8 year and 9 month before Jan, 2021","Apr, 2012","Apr, 2012",True,0.0,False
+"What is the time 6 year and 4 month before May, 2032","Jan, 2026","Jan, 2026",True,0.0,False
+"What is the time 2 year and 9 month before Nov, 2024","Feb, 2022","Feb, 2022",True,0.0,False
+"What is the time 4 years before Mar, 2039","Mar, 2035",":// Mar, 2035",True,0.0,False
+"What is the time 8 year and 4 month before Jun, 2031","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 9 year and 2 month before Nov, 2029","Sep, 2020","Sep, 2020",True,0.0,False
+"What is the time 10 year and 6 month before Jun, 2023","Dec, 2012","Dec, 2012",True,0.0,False
+"What is the time 7 year and 10 month before May, 2025","Jul, 2017","Jul, 2017",True,0.0,False
+"What is the time 3 year and 9 month before Aug, 2034","Nov, 2030","Nov, 2030",True,0.0,False
+"What is the time 4 year and 4 month before Aug, 2020","Apr, 2016","Apr, 2016",True,0.0,False
+"What is the time 8 year and 8 month before May, 2026","Sep, 2017","Sep, 2017",True,0.0,False
+"What is the time 2 year and 5 month before Aug, 2040","Mar, 2038","Mar, 2038",True,0.0,False
+"What is the time 5 year and 8 month before Nov, 2039","Mar, 2034","Mar, 2034",True,0.0,False
+"What is the time 5 year and 2 month before Jun, 2029","Apr, 2024","Apr, 2024",True,0.0,False
+"What is the time 5 year and 12 month before Nov, 2036","Nov, 2030","Nov, 2030",True,0.0,False
+"What is the time 1 year before Jul, 2037","Jul, 2036",":// Jul, 2036",True,0.0,False
+"What is the time 2 year and 2 month before Feb, 2038","Dec, 2035","Dec, 2035",True,0.0,False
+"What is the time 7 year and 11 month before Mar, 2021","Apr, 2013","Apr, 2013",True,0.0,False
+"What is the time 3 year and 9 month before Jun, 2025","Sep, 2021","Sep, 2021",True,0.0,False
+"What is the time 9 year and 4 month before Sep, 2026","May, 2017","May, 2017",True,0.0,False
+"What is the time 1 year and 2 month before Nov, 2028","Sep, 2027","Sep, 2027",True,0.0,False
+"What is the time 4 year and 7 month before Dec, 2025","May, 2021","May, 2021",True,0.0,False
+"What is the time 9 years before Feb, 2027","Feb, 2018",":// Feb, 2018",True,0.0,False
+"What is the time 3 year and 10 month before Nov, 2023","Jan, 2020","Jan, 2020",True,0.0,False
+"What is the time 4 years before Mar, 2024","Mar, 2020",":// Mar, 2020",True,0.0,False
+"What is the time 10 year and 7 month before Feb, 2040","Jul, 2029","Jul, 2029",True,0.0,False
+"What is the time 7 year and 11 month before Nov, 2026","Dec, 2018","Dec, 2018",True,0.0,False
+"What is the time 3 year and 8 month before Mar, 2030","Jul, 2026","Jul, 2026",True,0.0,False
+"What is the time 9 year and 10 month before Dec, 2037","Feb, 2028","Feb, 2028",True,0.0,False
+"What is the time 6 year and 1 month before Aug, 2026","Jul, 2020","Jul, 2020",True,0.0,False
+"What is the time 8 year and 11 month before Jul, 2031","Aug, 2022","Aug, 2022",True,0.0,False
+"What is the time 6 year and 7 month before Mar, 2023","Aug, 2016","Aug, 2016",True,0.0,False
+"What is the time 9 year and 10 month before Oct, 2022","Dec, 2012","Dec, 2012",True,0.0,False
+"What is the time 4 months before Jan, 2033","Sep, 2032","AUG, 2032",False,1.0,False
+"What is the time 11 months before Oct, 2033","Nov, 2032","Sov, 2022",False,130.0,False
+"What is the time 9 year and 10 month before Jul, 2024","Sep, 2014","Sep, 2014",True,0.0,False
+"What is the time 5 year and 1 month before May, 2034","Apr, 2029","Apr, 2029",True,0.0,False
+"What is the time 2 year and 9 month before Jan, 2020","Apr, 2017","Apr, 2017",True,0.0,False
+"What is the time 6 year and 8 month before May, 2038","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 8 years before Apr, 2029","Apr, 2021",":// Apr, 2021",True,0.0,False
+"What is the time 2 year and 5 month before Jul, 2027","Feb, 2025","Feb, 2025",True,0.0,False
+"What is the time 5 year and 5 month before Jul, 2031","Feb, 2026","Feb, 2026",True,0.0,False
+"What is the time 6 year and 8 month before Jan, 2028","May, 2021","May, 2021",True,0.0,False
+"What is the time 1 year and 10 month before May, 2033","Jul, 2031","Jul, 2031",True,0.0,False
+"What is the time 8 year and 8 month before Aug, 2033","Dec, 2024","Dec, 2024",True,0.0,False
+"What is the time 4 year and 11 month before Jan, 2028","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 2 year and 2 month before Jun, 2036","Apr, 2034","Apr, 2034",True,0.0,False
+"What is the time 9 year and 7 month before Oct, 2029","Mar, 2020","Mar, 2020",True,0.0,False
+"What is the time 9 years before Sep, 2036","Sep, 2027","AUG, 2027",False,1.0,False
+"What is the time 12 months before Nov, 2030","Nov, 2029","Sov, 2029",False,10.0,False
+"What is the time 6 year and 9 month before Oct, 2026","Jan, 2020","Jan, 2020",True,0.0,False
+"What is the time 7 year and 1 month before Aug, 2033","Jul, 2026","Jul, 2026",True,0.0,False
+"What is the time 3 year and 7 month before Sep, 2028","Feb, 2025","Feb, 2025",True,0.0,False
+"What is the time 10 year and 5 month before Apr, 2039","Nov, 2028","Nov, 2028",True,0.0,False
+"What is the time 7 year and 10 month before Jan, 2030","Mar, 2022","Mar, 2022",True,0.0,False
+"What is the time 10 year and 5 month before May, 2020","Dec, 2009","Dec, 2009",True,0.0,False
+"What is the time 8 year and 3 month before Sep, 2036","Jun, 2028","Jun, 2028",True,0.0,False
+"What is the time 8 months before May, 2035","Sep, 2034",":// Sep, 2034",True,0.0,False
+"What is the time 4 year and 2 month before Sep, 2039","Jul, 2035","Jul, 2035",True,0.0,False
+"What is the time 5 years before Sep, 2025","Sep, 2020",":// Sep, 2020",True,0.0,False
+"What is the time 8 months before Mar, 2022","Jul, 2021",":// Jul, 2021",True,0.0,False
+"What is the time 1 year and 8 month before Apr, 2024","Aug, 2022","Aug, 2022",True,0.0,False
+"What is the time 9 year and 6 month before Jun, 2031","Dec, 2021","Dec, 2021",True,0.0,False
+"What is the time 6 year and 11 month before Jun, 2034","Jul, 2027","Jul, 2027",True,0.0,False
+"What is the time 7 months before Nov, 2033","Apr, 2033",":// Apr, 2033",True,0.0,False
+"What is the time 8 year and 3 month before Aug, 2036","May, 2028","May, 2028",True,0.0,False
+"What is the time 9 year and 12 month before Dec, 2032","Dec, 2022","Dec, 2022",True,0.0,False
+"What is the time 9 year and 10 month before Dec, 2024","Feb, 2015","Feb, 2015",True,0.0,False
+"What is the time 5 year and 10 month before Dec, 2027","Feb, 2022","Feb, 2022",True,0.0,False
+"What is the time 4 year and 9 month before May, 2020","Aug, 2015","Aug, 2015",True,0.0,False
+"What is the time 6 year and 11 month before Aug, 2036","Sep, 2029","Sep, 2029",True,0.0,False
+"What is the time 9 year and 3 month before Apr, 2031","Jan, 2022","Jan, 2022",True,0.0,False
+"What is the time 5 year and 3 month before Jun, 2028","Mar, 2023","Mar, 2023",True,0.0,False
+"What is the time 10 year and 12 month before Jul, 2022","Jul, 2011","Jul, 2011",True,0.0,False
+"What is the time 5 year and 10 month before Mar, 2032","May, 2026","May, 2026",True,0.0,False
+"What is the time 1 year and 7 month before Sep, 2027","Feb, 2026","Feb, 2026",True,0.0,False
+"What is the time 10 year and 6 month before Dec, 2034","Jun, 2024","Jun, 2024",True,0.0,False
+"What is the time 7 year and 11 month before Jul, 2030","Aug, 2022","Aug, 2022",True,0.0,False
+"What is the time 10 year and 3 month before Jul, 2020","Apr, 2010","Apr, 2010",True,0.0,False
+"What is the time 8 year and 11 month before Feb, 2039","Mar, 2030","Mar, 2030",True,0.0,False
+"What is the time 5 year and 1 month before Jul, 2037","Jun, 2032","Jun, 2032",True,0.0,False
+"What is the time 5 year and 8 month before Jul, 2026","Nov, 2020","Nov, 2020",True,0.0,False
+"What is the time 5 year and 12 month before Oct, 2037","Oct, 2031","Oct, 2031",True,0.0,False
+"What is the time 5 year and 6 month before Jan, 2030","Jul, 2024","Jul, 2024",True,0.0,False
+"What is the time 8 year and 3 month before Apr, 2025","Jan, 2017","Jan, 2017",True,0.0,False
+"What is the time 8 year and 6 month before Jun, 2028","Dec, 2019","Dec, 2019",True,0.0,False
+"What is the time 6 year and 4 month before Apr, 2031","Dec, 2024","Dec, 2024",True,0.0,False
+"What is the time 9 year and 6 month before Dec, 2033","Jun, 2024","Jun, 2024",True,0.0,False
+"What is the time 9 year and 1 month before Aug, 2036","Jul, 2027","Jul, 2027",True,0.0,False
+"What is the time 3 year and 5 month before Jan, 2031","Aug, 2027","Aug, 2027",True,0.0,False
+"What is the time 9 year and 7 month before May, 2036","Oct, 2026","Oct, 2026",True,0.0,False
+"What is the time 9 year and 6 month before Aug, 2033","Feb, 2024","Feb, 2024",True,0.0,False
+"What is the time 3 year and 8 month before Sep, 2032","Jan, 2029","Jan, 2029",True,0.0,False
+"What is the time 8 year and 2 month before Aug, 2033","Jun, 2025","Jun, 2025",True,0.0,False
+"What is the time 3 months before Dec, 2028","Sep, 2028",":// Sep, 2028",True,0.0,False
+"What is the time 9 year and 3 month before Jan, 2020","Oct, 2010","Oct, 2010",True,0.0,False
+"What is the time 4 year and 6 month before Sep, 2021","Mar, 2017","Mar, 2017",True,0.0,False
+"What is the time 6 year and 7 month before Jun, 2028","Nov, 2021","Nov, 2021",True,0.0,False
+"What is the time 4 year and 4 month before Sep, 2034","May, 2030","May, 2030",True,0.0,False
+"What is the time 5 months before Jun, 2025","Jan, 2025",":// Jan, 2025",True,0.0,False
+"What is the time 9 months before Jul, 2031","Oct, 2030","Aug, 2030",False,2.0,False
+"What is the time 6 year and 9 month before Apr, 2040","Jul, 2033","Jul, 2033",True,0.0,False
+"What is the time 3 months before Oct, 2026","Jul, 2026",":// Jul, 2026",True,0.0,False
+"What is the time 8 year and 6 month before Oct, 2040","Apr, 2032","Apr, 2032",True,0.0,False
+"What is the time 4 years before Sep, 2032","Sep, 2028","S e p, 2028",False,8.0,False
+"What is the time 2 months before Jan, 2029","Nov, 2028",":// Nov, 2028",True,0.0,False
+"What is the time 7 year and 9 month before Dec, 2029","Mar, 2022","Mar, 2022",True,0.0,False
+"What is the time 8 months before Sep, 2040","Jan, 2040",":// Jan, 2040",True,0.0,False
+"What is the time 4 year and 11 month before Apr, 2028","May, 2023","May, 2023",True,0.0,False
+"What is the time 8 year and 12 month before May, 2023","May, 2014","May, 2014",True,0.0,False
+"What is the time 4 year and 4 month before Dec, 2027","Aug, 2023","Aug, 2023",True,0.0,False
+"What is the time 3 year and 10 month before Jul, 2037","Sep, 2033","Sep, 2033",True,0.0,False
+"What is the time 5 year and 8 month before Oct, 2040","Feb, 2035","Feb, 2035",True,0.0,False
+"What is the time 3 year and 2 month before Jan, 2035","Nov, 2031","Nov, 2031",True,0.0,False
+"What is the time 7 year and 7 month before Aug, 2024","Jan, 2017","Jan, 2017",True,0.0,False
+"What is the time 7 months before Oct, 2036","Mar, 2036","Sar, May, 2036",False,2.0,True
+"What is the time 7 year and 3 month before Feb, 2026","Nov, 2018","Nov, 2018",True,0.0,False
+"What is the time 8 year and 2 month before Jan, 2039","Nov, 2030","Nov, 2030",True,0.0,False
+"What is the time 5 year and 1 month before Sep, 2038","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 2 year and 11 month before Jan, 2026","Feb, 2023","Feb, 2023",True,0.0,False
+"What is the time 7 months before Feb, 2037","Jul, 2036","AUG, 2036",False,1.0,True
+"What is the time 10 months before Feb, 2023","Apr, 2022",":// Apr, 2022",True,0.0,False
+"What is the time 1 year and 3 month before Oct, 2023","Jul, 2022","Jul, 2022",True,0.0,False
+"What is the time 8 year and 6 month before Jun, 2036","Dec, 2027","Dec, 2027",True,0.0,False
+"What is the time 3 months before Sep, 2033","Jun, 2033",":// Jun, 2033",True,0.0,False
+"What is the time 7 year and 10 month before Nov, 2027","Jan, 2020","Jan, 2020",True,0.0,False
+"What is the time 1 year and 3 month before May, 2036","Feb, 2035","Feb, 2035",True,0.0,False
+"What is the time 10 year and 9 month before Aug, 2036","Nov, 2025","Nov, 2025",True,0.0,False
+"What is the time 5 year and 11 month before May, 2033","Jun, 2027","Jun, 2027",True,0.0,False
+"What is the time 3 year and 5 month before Mar, 2027","Oct, 2023","Oct, 2023",True,0.0,False
+"What is the time 8 year and 11 month before Jul, 2039","Aug, 2030","Aug, 2030",True,0.0,False
+"What is the time 8 months before Dec, 2024","Apr, 2024",":// Apr, 2024",True,0.0,False
+"What is the time 3 year and 2 month before Aug, 2020","Jun, 2017","Jun, 2017",True,0.0,False
+"What is the time 6 year and 6 month before Dec, 2031","Jun, 2025","Jun, 2025",True,0.0,False
+"What is the time 7 year and 6 month before Apr, 2025","Oct, 2017","Oct, 2017",True,0.0,False
+"What is the time 9 years before May, 2030","May, 2021",A,False,,False
+"What is the time 1 year and 1 month before Sep, 2036","Aug, 2035","Aug, 2035",True,0.0,False
+"What is the time 5 months before Dec, 2022","Jul, 2022",":// Jul, 2022",True,0.0,False
+"What is the time 2 year and 11 month before Oct, 2038","Nov, 2035","Nov, 2035",True,0.0,False
+"What is the time 10 year and 12 month before Sep, 2030","Sep, 2019","Sep, 2019",True,0.0,False
+"What is the time 9 months before Jan, 2026","Apr, 2025",":// Apr, 2025",True,0.0,False
+"What is the time 5 months before Oct, 2023","May, 2023","S May, 2023",True,0.0,False
+"What is the time 1 year and 1 month before Aug, 2026","Jul, 2025","Jul, 2025",True,0.0,False
+"What is the time 2 years before Sep, 2040","Sep, 2038",":// Sep, 2038",True,0.0,False
+"What is the time 4 year and 4 month before Apr, 2031","Dec, 2026","Dec, 2026",True,0.0,False
+"What is the time 4 years before May, 2037","May, 2033",A,False,,False
+"What is the time 8 year and 2 month before Jan, 2027","Nov, 2018","Nov, 2018",True,0.0,False
+"What is the time 9 year and 4 month before Apr, 2030","Dec, 2020","Dec, 2020",True,0.0,False
+"What is the time 5 year and 12 month before Mar, 2023","Mar, 2017","Mar, 2017",True,0.0,False
+"What is the time 3 year and 9 month before Aug, 2026","Nov, 2022","Nov, 2022",True,0.0,False
+"What is the time 3 year and 7 month before Nov, 2025","Apr, 2022","Apr, 2022",True,0.0,False
+"What is the time 9 years before May, 2026","May, 2017",":// May, 2017",True,0.0,False
+"What is the time 9 year and 7 month before Jan, 2034","Jun, 2024","Jun, 2024",True,0.0,False
+"What is the time 6 years before Jan, 2031","Jan, 2025","A year before Jan, 2025",True,0.0,False
+"What is the time 7 year and 12 month before Apr, 2035","Apr, 2027","Apr, 2027",True,0.0,False
+"What is the time 9 year and 7 month before Jun, 2031","Nov, 2021","Nov, 2021",True,0.0,False
+"What is the time 8 years before Jul, 2034","Jul, 2026","AUG, 2026",False,1.0,True
+"What is the time 9 months before Jul, 2035","Oct, 2034","Aug, 2034",False,2.0,False
+"What is the time 3 year and 7 month before Apr, 2033","Sep, 2029","Sep, 2029",True,0.0,False
+"What is the time 7 year and 2 month before Mar, 2037","Jan, 2030","Jan, 2030",True,0.0,False
+"What is the time 2 year and 2 month before Aug, 2037","Jun, 2035","Jun, 2035",True,0.0,False
+"What is the time 10 year and 2 month before Nov, 2031","Sep, 2021","Sep, 2021",True,0.0,False
+"What is the time 8 year and 1 month before Aug, 2024","Jul, 2016","Jul, 2016",True,0.0,False
+"What is the time 8 year and 9 month before Sep, 2039","Dec, 2030","Dec, 2030",True,0.0,False
+"What is the time 9 year and 12 month before Jun, 2025","Jun, 2015","Jun, 2015",True,0.0,False
+"What is the time 5 year and 3 month before Aug, 2024","May, 2019","May, 2019",True,0.0,False
+"What is the time 3 year and 1 month before May, 2028","Apr, 2025","Apr, 2025",True,0.0,False
+"What is the time 6 year and 8 month before Jul, 2025","Nov, 2018","Nov, 2018",True,0.0,False
+"What is the time 10 year and 7 month before Dec, 2020","May, 2010","May, 2010",True,0.0,False
+"What is the time 1 year and 11 month before Nov, 2023","Dec, 2021","Dec, 2021",True,0.0,False
+"What is the time 1 year and 5 month before Nov, 2028","Jun, 2027","Jun, 2027",True,0.0,False
+"What is the time 8 year and 3 month before Aug, 2037","May, 2029","May, 2029",True,0.0,False
+"What is the time 5 year and 10 month before Jan, 2038","Mar, 2032","Mar, 2032",True,0.0,False
+"What is the time 5 year and 12 month before Oct, 2034","Oct, 2028","Oct, 2028",True,0.0,False
+"What is the time 4 year and 11 month before May, 2031","Jun, 2026","Jun, 2026",True,0.0,False
+"What is the time 7 year and 3 month before Sep, 2023","Jun, 2016","Jun, 2016",True,0.0,False
+"What is the time 6 year and 8 month before Oct, 2020","Feb, 2014","Feb, 2014",True,0.0,False
+"What is the time 8 year and 5 month before May, 2025","Dec, 2016","Dec, 2016",True,0.0,False
+"What is the time 7 year and 10 month before Aug, 2033","Oct, 2025","Oct, 2025",True,0.0,False
+"What is the time 9 year and 8 month before Feb, 2029","Jun, 2019","Jun, 2019",True,0.0,False
+"What is the time 9 year and 4 month before Mar, 2029","Nov, 2019","Nov, 2019",True,0.0,False
+"What is the time 1 year before Jul, 2040","Jul, 2039",":// Jul, 2039",True,0.0,False
+"What is the time 3 year and 9 month before Apr, 2026","Jul, 2022","Jul, 2022",True,0.0,False
+"What is the time 9 year and 5 month before Jan, 2032","Aug, 2022","Aug, 2022",True,0.0,False
+"What is the time 2 years before Apr, 2037","Apr, 2035","A pr, 2035",False,3.0,False
+"What is the time 10 year and 4 month before Aug, 2031","Apr, 2021","Apr, 2021",True,0.0,False
+"What is the time 2 year and 4 month before Mar, 2021","Nov, 2018","Nov, 2018",True,0.0,False
+"What is the time 7 year and 1 month before Oct, 2035","Sep, 2028","Sep, 2028",True,0.0,False
+"What is the time 1 year and 9 month before Aug, 2023","Nov, 2021","Nov, 2021",True,0.0,False
+"What is the time 8 years before Aug, 2033","Aug, 2025",":// Aug, 2025",True,0.0,False
+"What is the time 6 year and 11 month before Sep, 2039","Oct, 2032","Oct, 2032",True,0.0,False
+"What is the time 4 year and 4 month before Oct, 2028","Jun, 2024","Jun, 2024",True,0.0,False
+"What is the time 10 year and 2 month before Oct, 2037","Aug, 2027","Aug, 2027",True,0.0,False
+"What is the time 10 year and 7 month before Sep, 2037","Feb, 2027","Feb, 2027",True,0.0,False
+"What is the time 9 year and 8 month before May, 2037","Sep, 2027","Sep, 2027",True,0.0,False
+"What is the time 10 year and 6 month before Sep, 2036","Mar, 2026","Mar, 2026",True,0.0,False
+"What is the time 4 year and 10 month before Dec, 2025","Feb, 2021","Feb, 2021",True,0.0,False
+"What is the time 2 year and 8 month before Jan, 2037","May, 2034","May, 2034",True,0.0,False
+"What is the time 5 year and 12 month before Oct, 2035","Oct, 2029","Oct, 2029",True,0.0,False
+"What is the time 4 year and 7 month before Sep, 2028","Feb, 2024","Feb, 2024",True,0.0,False
+"What is the time 3 year and 10 month before Feb, 2036","Apr, 2032","Apr, 2032",True,0.0,False
+"What is the time 5 year and 5 month before Apr, 2027","Nov, 2021","Nov, 2021",True,0.0,False
+"What is the time 10 year and 9 month before Jan, 2037","Apr, 2026","Apr, 2026",True,0.0,False
+"What is the time 1 year and 2 month before May, 2026","Mar, 2025","Mar, 2025",True,0.0,False
+"What is the time 8 year and 1 month before Apr, 2021","Mar, 2013","Mar, 2013",True,0.0,False
+"What is the time 7 year and 7 month before Mar, 2024","Aug, 2016","Aug, 2016",True,0.0,False
+"What is the time 1 year and 4 month before Dec, 2023","Aug, 2022","Aug, 2022",True,0.0,False
+"What is the time 3 year and 2 month before Feb, 2037","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 2 months before Feb, 2037","Dec, 2036","Saw, 2036",False,11.0,False
+"What is the time 2 year and 4 month before Jul, 2037","Mar, 2035","Mar, 2035",True,0.0,False
+"What is the time 2 year and 1 month before Nov, 2038","Oct, 2036","Oct, 2036",True,0.0,False
+"What is the time 11 months before Dec, 2029","Jan, 2029",":// Jan, 2029",True,0.0,False
+"What is the time 6 year and 4 month before Jan, 2035","Sep, 2028","Sep, 2028",True,0.0,False
+"What is the time 6 year and 7 month before Dec, 2028","May, 2022","May, 2022",True,0.0,False
+"What is the time 4 year and 12 month before Jul, 2027","Jul, 2022","Jul, 2022",True,0.0,False
+"What is the time 4 year and 8 month before Feb, 2034","Jun, 2029","Jun, 2029",True,0.0,False
+"What is the time 2 years before Jan, 2023","Jan, 2021",":// Jan, 2021",True,0.0,False
+"What is the time 9 year and 4 month before Jan, 2035","Sep, 2025","Sep, 2025",True,0.0,False
+"What is the time 8 year and 12 month before Jul, 2034","Jul, 2025","Jul, 2025",True,0.0,False
+"What is the time 3 year and 6 month before Aug, 2025","Feb, 2022","Feb, 2022",True,0.0,False
+"What is the time 4 year and 12 month before Jun, 2031","Jun, 2026","Jun, 2026",True,0.0,False
+"What is the time 6 year and 3 month before Apr, 2033","Jan, 2027","Jan, 2027",True,0.0,False
+"What is the time 9 year and 5 month before May, 2029","Dec, 2019","Dec, 2019",True,0.0,False
+"What is the time 10 year and 1 month before Jul, 2033","Jun, 2023","Jun, 2023",True,0.0,False
+"What is the time 2 year and 7 month before Apr, 2034","Sep, 2031","Sep, 2031",True,0.0,False
+"What is the time 10 year and 1 month before Jan, 2029","Dec, 2018","Dec, 2018",True,0.0,False
+"What is the time 11 months before Feb, 2033","Mar, 2032","Seph, 2032",False,2.0,False
+"What is the time 7 years before Nov, 2029","Nov, 2022",":// Nov, 2022",True,0.0,False
+"What is the time 8 year and 6 month before Oct, 2020","Apr, 2012","Apr, 2012",True,0.0,False
+"What is the time 7 year and 4 month before Apr, 2032","Dec, 2024","Dec, 2024",True,0.0,False
+"What is the time 1 year and 2 month before Mar, 2032","Jan, 2031","Jan, 2031",True,0.0,False
+"What is the time 1 year and 1 month before Jan, 2036","Dec, 2034","Dec, 2034",True,0.0,False
+"What is the time 2 year and 11 month before May, 2032","Jun, 2029","Jun, 2029",True,0.0,False
+"What is the time 5 year and 3 month before Feb, 2029","Nov, 2023","Nov, 2023",True,0.0,False
+"What is the time 9 year and 6 month before Feb, 2025","Aug, 2015","Aug, 2015",True,0.0,False
+"What is the time 7 months before Jul, 2022","Dec, 2021",":// Dec, 2021",True,0.0,False
+"What is the time 4 months before Jun, 2031","Feb, 2031","Apl, 2031",False,1.0,False
+"What is the time 10 year and 6 month before Sep, 2021","Mar, 2011","Mar, 2011",True,0.0,False
+"What is the time 8 year and 9 month before Jan, 2039","Apr, 2030","Apr, 2030",True,0.0,False
+"What is the time 4 year and 10 month before Dec, 2029","Feb, 2025","Feb, 2025",True,0.0,False
+"What is the time 4 year and 1 month before Feb, 2035","Jan, 2031","Jan, 2031",True,0.0,False
+"What is the time 4 year and 9 month before Sep, 2040","Dec, 2035","Dec, 2035",True,0.0,False
+"What is the time 3 year and 2 month before Sep, 2037","Jul, 2034","Jul, 2034",True,0.0,False
+"What is the time 2 year and 12 month before Aug, 2032","Aug, 2029","Aug, 2029",True,0.0,False
+"What is the time 12 months before Nov, 2022","Nov, 2021",":// Nov, 2021",True,0.0,False
+"What is the time 4 year and 9 month before Nov, 2034","Feb, 2030","Feb, 2030",True,0.0,False
+"What is the time 8 year and 2 month before Jul, 2028","May, 2020","May, 2020",True,0.0,False
+"What is the time 9 year and 10 month before Feb, 2034","Apr, 2024","Apr, 2024",True,0.0,False
+"What is the time 3 years before Dec, 2032","Dec, 2029","A year before Dec, 2029 is Dec, 2028
+Dec, 2028 is a year before Dec, 2032",True,0.0,False
+"What is the time 4 year and 7 month before Mar, 2038","Aug, 2033","Aug, 2033",True,0.0,False
+"What is the time 2 year and 10 month before Mar, 2032","May, 2029","May, 2029",True,0.0,False
+"What is the time 7 year and 1 month before May, 2039","Apr, 2032","Apr, 2032",True,0.0,False
+"What is the time 10 year and 5 month before Nov, 2024","Jun, 2014","Jun, 2014",True,0.0,False
+"What is the time 6 year and 11 month before May, 2020","Jun, 2013","Jun, 2013",True,0.0,False
+"What is the time 4 year and 10 month before Jan, 2036","Mar, 2031","Mar, 2031",True,0.0,False
+"What is the time 10 year and 1 month before May, 2024","Apr, 2014","Apr, 2014",True,0.0,False
+"What is the time 8 months before Sep, 2025","Jan, 2025",":// Jan, 2025",True,0.0,False
+"What is the time 5 years before Aug, 2031","Aug, 2026","A ug, 2026",False,7.0,False
+"What is the time 4 year and 1 month before Jun, 2036","May, 2032","May, 2032",True,0.0,False
+"What is the time 2 year and 4 month before Sep, 2040","May, 2038","May, 2038",True,0.0,False
+"What is the time 9 year and 9 month before Aug, 2034","Nov, 2024","Nov, 2024",True,0.0,False
+"What is the time 1 year and 7 month before Jan, 2034","Jun, 2032","Jun, 2032",True,0.0,False
+"What is the time 1 year and 2 month before Feb, 2038","Dec, 2036","Dec, 2036",True,0.0,False
+"What is the time 3 months before Sep, 2023","Jun, 2023",":// Jun, 2023",True,0.0,False
+"What is the time 4 year and 8 month before Sep, 2037","Jan, 2033","Jan, 2033",True,0.0,False
+"What is the time 6 year and 3 month before Apr, 2040","Jan, 2034","Jan, 2034",True,0.0,False
+"What is the time 5 year and 6 month before Nov, 2025","May, 2020","May, 2020",True,0.0,False
+"What is the time 6 year and 9 month before Sep, 2040","Dec, 2033","Dec, 2033",True,0.0,False
+"What is the time 5 year and 4 month before Apr, 2024","Dec, 2018","Dec, 2018",True,0.0,False
+"What is the time 3 year and 9 month before Jul, 2028","Oct, 2024","Oct, 2024",True,0.0,False
+"What is the time 7 year and 4 month before Aug, 2035","Apr, 2028","Apr, 2028",True,0.0,False
+"What is the time 9 year and 6 month before Dec, 2029","Jun, 2020","Jun, 2020",True,0.0,False
+"What is the time 7 year and 5 month before Jun, 2020","Jan, 2013","Jan, 2013",True,0.0,False
+"What is the time 3 year and 8 month before Mar, 2029","Jul, 2025","Jul, 2025",True,0.0,False
+"What is the time 9 year and 2 month before Jun, 2038","Apr, 2029","Apr, 2029",True,0.0,False
+"What is the time 9 year and 2 month before Jan, 2027","Nov, 2017","Nov, 2017",True,0.0,False
+"What is the time 3 year and 11 month before Dec, 2028","Jan, 2025","Jan, 2025",True,0.0,False
+"What is the time 8 year and 5 month before Jan, 2039","Aug, 2030","Aug, 2030",True,0.0,False
+"What is the time 5 year and 9 month before Aug, 2038","Nov, 2032","Nov, 2032",True,0.0,False
+"What is the time 8 years before Mar, 2035","Mar, 2027",":// Mar, 2027",True,0.0,False
+"What is the time 3 years before Dec, 2029","Dec, 2026",":// Dec, 2026",True,0.0,False
+"What is the time 4 year and 2 month before Jun, 2033","Apr, 2029","Apr, 2029",True,0.0,False
+"What is the time 3 year and 1 month before Apr, 2027","Mar, 2024","Mar, 2024",True,0.0,False
+"What is the time 8 year and 10 month before May, 2027","Jul, 2018","Jul, 2018",True,0.0,False
+"What is the time 10 months before Oct, 2023","Dec, 2022",":// Dec, 2022",True,0.0,False
+"What is the time 6 years before Jul, 2038","Jul, 2032","AUG, 2032",False,1.0,True
+"What is the time 3 year and 10 month before Aug, 2030","Oct, 2026","Oct, 2026",True,0.0,False
+"What is the time 10 year and 1 month before Jul, 2027","Jun, 2017","Jun, 2017",True,0.0,False
+"What is the time 1 year and 9 month before Aug, 2024","Nov, 2022","Nov, 2022",True,0.0,False
+"What is the time 9 year and 10 month before Apr, 2031","Jun, 2021","Jun, 2021",True,0.0,False
+"What is the time 2 year and 11 month before Sep, 2032","Oct, 2029","Oct, 2029",True,0.0,False
+"What is the time 8 year and 5 month before Apr, 2037","Nov, 2028","Nov, 2028",True,0.0,False
+"What is the time 8 year and 7 month before Jun, 2040","Nov, 2031","Nov, 2031",True,0.0,False
+"What is the time 6 year and 8 month before Jul, 2024","Nov, 2017","Nov, 2017",True,0.0,False
+"What is the time 8 year and 4 month before Feb, 2023","Oct, 2014","Oct, 2014",True,0.0,False
+"What is the time 6 year and 8 month before Mar, 2034","Jul, 2027","Jul, 2027",True,0.0,False
+"What is the time 9 months before Apr, 2036","Jul, 2035","AUG, 2035",False,1.0,True
+"What is the time 2 year and 8 month before Sep, 2038","Jan, 2036","Jan, 2036",True,0.0,False
+"What is the time 6 year and 6 month before May, 2036","Nov, 2029","Nov, 2029",True,0.0,False
+"What is the time 7 year and 9 month before Jun, 2035","Sep, 2027","Sep, 2027",True,0.0,False
+"What is the time 10 months before Sep, 2032","Nov, 2031","A year before Sep, 2032 is Sep, 2031",False,10.0,True
+"What is the time 7 year and 10 month before Jun, 2035","Aug, 2027","Aug, 2027",True,0.0,False
+"What is the time 3 year and 2 month before Apr, 2035","Feb, 2032","Feb, 2032",True,0.0,False
+"What is the time 1 year and 1 month before Apr, 2024","Mar, 2023","Mar, 2023",True,0.0,False
+"What is the time 2 year and 10 month before Jan, 2026","Mar, 2023","Mar, 2023",True,0.0,False
+"What is the time 9 year and 11 month before Feb, 2021","Mar, 2011","Mar, 2011",True,0.0,False
+"What is the time 4 year and 5 month before May, 2032","Dec, 2027","Dec, 2027",True,0.0,False
+"What is the time 10 year and 4 month before Aug, 2034","Apr, 2024","Apr, 2024",True,0.0,False
+"What is the time 4 year and 6 month before Aug, 2024","Feb, 2020","Feb, 2020",True,0.0,False
+"What is the time 1 year and 9 month before Dec, 2029","Mar, 2028","Mar, 2028",True,0.0,False
+"What is the time 4 years before Jul, 2036","Jul, 2032","AUG, 2032",False,1.0,True
+"What is the time 4 year and 2 month before Dec, 2031","Oct, 2027","Oct, 2027",True,0.0,False
+"What is the time 10 months before May, 2038","Jul, 2037",":// May, 2037",False,2.0,False
+"What is the time 6 months before Sep, 2038","Mar, 2038",":// Mar, 2038",True,0.0,False
+"What is the time 3 year and 12 month before Apr, 2029","Apr, 2025","Apr, 2025",True,0.0,False
+"What is the time 9 year and 8 month before Apr, 2021","Aug, 2011","Aug, 2011",True,0.0,False
+"What is the time 9 year and 9 month before Feb, 2028","May, 2018","May, 2018",True,0.0,False
+"What is the time 7 year and 11 month before Feb, 2037","Mar, 2029","Mar, 2029",True,0.0,False
+"What is the time 3 year and 9 month before Jan, 2028","Apr, 2024","Apr, 2024",True,0.0,False
