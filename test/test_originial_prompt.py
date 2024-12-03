@@ -11,9 +11,9 @@ import os
 from dateutil import parser
 from datetime import datetime
 
-# ------------------------------
-# 1. Load Model with vLLM
-# ------------------------------
+
+## Load Model with vLLM
+
 print("Loading model with vLLM...")
 llm = LLM(
     model="meta-llama/Llama-3.1-8B",
@@ -22,9 +22,9 @@ llm = LLM(
     gpu_memory_utilization=0.9
 )
 
-# ------------------------------
-# 2. Load and Preprocess Datasets
-# ------------------------------
+
+## Load and Preprocess Datasets
+
 test_files = {
     "test_l1": "./test_l1.json",
     "test_l1_future": "./test_l1_future.json",
@@ -38,9 +38,7 @@ for split, path in test_files.items():
     test_datasets[split] = load_dataset("json", data_files=path)["train"]
 
 def preprocess_example(example, dataset_name):
-    """
-    Preprocess each example by structuring it into a conversation format.
-    """
+    # Preprocess each example by structuring it into a conversation format.
     if dataset_name in ["test_l1", "test_l1_future"]:
         system_content = ("You are a date calculation expert. "
                           "Solve the following problem step-by-step and provide the final answer in 'Mon, YYYY' format.")
@@ -63,16 +61,12 @@ for split in test_datasets:
     test_datasets[split] = test_datasets[split].map(
         lambda example: preprocess_example(example, split)
     )
-    # Optional: Print the first preprocessed example for verification
-    print(f"First preprocessed example in {split}: {test_datasets[split][0]}")
 
-# ------------------------------
-# 3. Define Inference Functions
-# ------------------------------
+
+## Define Inference Functions
+
 def generate_prompts(dataset):
-    """
-    Generate prompts by combining the system prompt and user question in a simple format.
-    """
+    # Generate prompts by combining the system prompt and user question in a simple format.
     prompts = []
     for example in dataset:
         system_prompt = example["messages"][0]["content"]
@@ -82,9 +76,7 @@ def generate_prompts(dataset):
     return prompts
 
 def batch_generate_responses_vllm(prompts, batch_size=32, max_length=100):
-    """
-    Generate responses in batches using vLLM.
-    """
+    # Generate responses in batches using vLLM.
     responses = []
     sampling_params = SamplingParams(
         max_tokens=max_length,
@@ -101,11 +93,11 @@ def batch_generate_responses_vllm(prompts, batch_size=32, max_length=100):
 
     return responses
 
-# ------------------------------
-# 4. Define Evaluation Metrics
-# ------------------------------
+
+## Define Evaluation Metrics
+
 def normalize_text(s):
-    """Lowercase, remove punctuation, and extra whitespace."""
+    # Lowercase, remove punctuation, and extra whitespace.
     if not isinstance(s, str):
         return ""
     s = s.lower()
@@ -115,13 +107,13 @@ def normalize_text(s):
 
 # Text-based metric functions
 def compute_exact_match_text(prediction, ground_truth):
-    """Compute exact match between prediction and ground truth for text-based datasets."""
+    # Compute exact match between prediction and ground truth for text-based datasets.
     pred_text = normalize_text(prediction)
     gt_text = normalize_text(ground_truth)
     return pred_text == gt_text
 
 def compute_token_f1_text(prediction, ground_truth):
-    """Compute token-level F1 score between prediction and ground truth for text-based datasets."""
+    # Compute token-level F1 score between prediction and ground truth for text-based datasets.
     pred_tokens = normalize_text(prediction).split()
     gt_tokens = normalize_text(ground_truth).split()
     common_tokens = set(pred_tokens) & set(gt_tokens)
@@ -136,9 +128,7 @@ def compute_token_f1_text(prediction, ground_truth):
     return f1
 
 def compute_average_metrics_text(predictions, ground_truths):
-    """
-    Compute average EM and F1 for text-based datasets.
-    """
+    # Compute average EM and F1 for text-based datasets.
     em_scores = []
     f1_scores = []
     for pred, gt in zip(predictions, ground_truths):
@@ -154,11 +144,10 @@ def compute_average_metrics_text(predictions, ground_truths):
 def extract_all_dates(text):
     """
     Extract all date strings from the given text using regex.
-    Supports multiple formats:
-    - Month and Year (e.g., 'Dec, 2041', 'December 2041')
-    - ISO Format (e.g., '1026-08-03')
-    - Year Only (e.g., '1474')
-    - Full Dates with Time (e.g., '2035-07-05 00:00:00')
+    multiple formats:
+    - Month and Year -> 'Dec, 2041', 'December 2041'
+    - ISO Format -> '1026-08-03'
+    - Full Dates with Time -> '2035-07-05 00:00:00'
     """
     if not isinstance(text, str):
         return []
@@ -178,16 +167,13 @@ def extract_all_dates(text):
     return dates
 
 def clean_prediction(prediction):
-    """
-    Further clean the extracted date if necessary.
-    Removes trailing periods, commas, and extra whitespace.
-    """
+    # Removes trailing periods, commas, and extra whitespace.
     if prediction:
         return prediction.strip("., ").strip()
     return prediction
 
 def parse_date(date_str):
-    """Parse a date string into a timezone-naive datetime object."""
+    # Parse a date string into a datetime object.
     if date_str is None:
         return None
     try:
@@ -199,10 +185,9 @@ def parse_date(date_str):
     except (parser.ParserError, TypeError, ValueError):
         return None  # If parsing fails
 
-def extract_answer_date(prediction):
-    """
-    Extract the calculated answer's date from the model's prediction.
-    """
+def extract_answer_date(prediction,split):
+    # Extract the calculated answer's date from the model's prediction.
+
     if prediction is None:
         return None
     dates = extract_all_dates(prediction)
@@ -211,7 +196,7 @@ def extract_answer_date(prediction):
     # Identify the date that is likely the answer
     # Strategy:
     # 1. If the response contains '=', take the date after '='
-    # 2. Else, take the latest date (assuming it's the calculated result)
+    # 2. Else, take the latest/oldest date based on test dataset
     if '=' in prediction:
         parts = prediction.split('=')
         after_equal = parts[-1]
@@ -225,16 +210,18 @@ def extract_answer_date(prediction):
         if parsed_date:
             parsed_dates.append((parsed_date, date_str))
     if parsed_dates:
+        if split == "test_l1":
+            # Return the oldest date
+            oldest_date = min(parsed_dates, key=lambda x: x[0])
+            return oldest_date
         # Return the latest date
         latest_date = max(parsed_dates, key=lambda x: x[0])
         return clean_prediction(latest_date[1])
     return clean_prediction(dates[-1])  # Fallback to last date
 
-def compute_exact_match_date(prediction, ground_truth):
-    """
-    Compute exact match for date-based datasets.
-    """
-    pred_date_str = extract_answer_date(prediction)
+def compute_exact_match_date(prediction, ground_truth,split):
+    # Compute exact match for date-based datasets.
+    pred_date_str = extract_answer_date(prediction,split)
     gt_dates = extract_all_dates(ground_truth)
     gt_date_str = clean_prediction(gt_dates[0]) if gt_dates else None
 
@@ -254,9 +241,7 @@ def compute_exact_match_date(prediction, ground_truth):
     return False  # If parsing fails
 
 def compute_mae(prediction, ground_truth):
-    """
-    Compute the Mean Absolute Error in months between predicted and ground truth dates.
-    """
+    # Compute the Mean Absolute Error in months between predicted and ground truth dates in months
     pred_date_str = extract_answer_date(prediction)
     gt_dates = extract_all_dates(ground_truth)
     gt_date_str = clean_prediction(gt_dates[0]) if gt_dates else None
@@ -275,10 +260,8 @@ def compute_mae(prediction, ground_truth):
         return abs(total_diff)
     return np.nan  # If parsing fails
 
-def compute_trend_acc(prediction, ground_truth):
-    """
-    Check if the trend (before/after) is correct.
-    """
+def compute_trend_acc(prediction, ground_truth,split):
+    # Check if the trend (before/after) is correct.
     pred_date_str = extract_answer_date(prediction)
     gt_dates = extract_all_dates(ground_truth)
     gt_date_str = clean_prediction(gt_dates[0]) if gt_dates else None
@@ -290,13 +273,13 @@ def compute_trend_acc(prediction, ground_truth):
     gt_date = parse_date(gt_date_str)
 
     if pred_date and gt_date:
+        if split == "test_l1":
+            return (pred_date < gt_date)
         return (pred_date > gt_date)
     return False  # If parsing fails
 
 def compute_average_metrics_text(predictions, ground_truths):
-    """
-    Compute average EM and F1 for text-based datasets.
-    """
+    # Compute average EM and F1 for text-based datasets.
     em_scores = []
     f1_scores = []
     for pred, gt in zip(predictions, ground_truths):
@@ -308,10 +291,8 @@ def compute_average_metrics_text(predictions, ground_truths):
     avg_f1 = np.mean(f1_scores) * 100
     return avg_em, avg_f1, em_scores, f1_scores
 
-def compute_average_metrics_date(predictions, ground_truths):
-    """
-    Compute per-example Exact Match, MAE, and Trend Accuracy for date-based datasets.
-    """
+def compute_average_metrics_date(predictions, ground_truths,split):
+    # Compute per-example Exact Match, MAE, and Trend Accuracy for date-based datasets.
     em_scores = []
     mae_scores = []
     trend_acc_scores = []
@@ -319,9 +300,9 @@ def compute_average_metrics_date(predictions, ground_truths):
         print(f"\nEvaluating Example:")
         print(f"Prediction: {pred}")
         print(f"Ground Truth: {gt}")
-        em = compute_exact_match_date(pred, gt)
+        em = compute_exact_match_date(pred, gt,split)
         mae = compute_mae(pred, gt)
-        trend = compute_trend_acc(pred, gt)
+        trend = compute_trend_acc(pred, gt,split)
         em_scores.append(em)
         mae_scores.append(mae)
         trend_acc_scores.append(trend)
@@ -330,13 +311,11 @@ def compute_average_metrics_date(predictions, ground_truths):
     trend_acc = np.mean(trend_acc_scores) * 100
     return avg_em, avg_mae, trend_acc, em_scores, mae_scores, trend_acc_scores
 
-# ------------------------------
-# 5. Define Saving Functions
-# ------------------------------
+## Define Saving Functions
+
 def save_predictions(dataset, predictions, ground_truths, metrics, split_name, metric_type='f1', threshold=50.0):
-    """
-    Save all predictions and optionally the failed cases.
-    """
+    # Save all predictions and the failed cases.
+
     df = pd.DataFrame({
         "Question": [example["question"] for example in dataset],
         "Ground Truth": ground_truths,
@@ -382,13 +361,11 @@ def save_predictions(dataset, predictions, ground_truths, metrics, split_name, m
     else:
         print(f"No failed predictions for {split_name}.")
 
-# ------------------------------
-# 6. Define Evaluation Functions
-# ------------------------------
+
+## Define Evaluation Functions
+
 def evaluate_f1_em_dataset(dataset, split_name):
-    """
-    Evaluate text-based datasets (test_l2, test_l3) using custom EM and F1.
-    """
+    # Evaluate text-based datasets (test_l2, test_l3) using custom EM and F1.
     print(f"\nEvaluating {split_name} with Exact Match and F1 Score...")
     prompts = generate_prompts(dataset)
     predictions = batch_generate_responses_vllm(prompts, batch_size=32)
@@ -425,9 +402,7 @@ def evaluate_f1_em_dataset(dataset, split_name):
     }
 
 def evaluate_date_dataset_extended(dataset, split_name):
-    """
-    Evaluate date-based datasets (test_l1, test_l1_future) using custom EM, MAE, and Trend Accuracy.
-    """
+    # Evaluate date-based datasets (test_l1, test_l1_future) using custom EM, MAE, and Trend Accuracy.
     print(f"\nEvaluating {split_name} with EM, MAE, and Trend Accuracy...")
     prompts = generate_prompts(dataset)
     predictions = batch_generate_responses_vllm(prompts, batch_size=32)
@@ -435,7 +410,7 @@ def evaluate_date_dataset_extended(dataset, split_name):
     ground_truths = [example["text_answers"]["text"][0] for example in dataset]
     
     # Compute EM, MAE, and Trend Accuracy using the updated functions
-    avg_em, avg_mae, trend_acc, em_scores, mae_scores, trend_acc_scores = compute_average_metrics_date(predictions, ground_truths)
+    avg_em, avg_mae, trend_acc, em_scores, mae_scores, trend_acc_scores = compute_average_metrics_date(predictions, ground_truths,split_name)
     
     print(f"{split_name} - Average Exact Match: {avg_em:.2f}%")
     print(f"{split_name} - Average MAE (Months): {avg_mae:.2f}")
@@ -465,9 +440,9 @@ def evaluate_date_dataset_extended(dataset, split_name):
         "Trend Accuracy": trend_acc
     }
 
-# ------------------------------
-# 7. Run Evaluations
-# ------------------------------
+
+## Run Evaluations
+
 results = {}
 for split in test_datasets:
     if split in ["test_l1", "test_l1_future"]:

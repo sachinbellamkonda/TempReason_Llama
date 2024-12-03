@@ -414,9 +414,8 @@ def evaluate_date_dataset_extended(dataset, split_name):
         "Trend Accuracy": trend_acc
     }
 
-# ------------------------------
-# 7. Run Evaluations
-# ------------------------------
+
+## Run Evaluations
 results = {}
 for split in test_datasets:
     if split in ["test_l1", "test_l1_future"]:
@@ -430,4 +429,3 @@ for split, metrics in results.items():
     print(f"{split}:")
     for metric_name, value in metrics.items():
         print(f"  {metric_name}: {value:.2f}")
-        

@@ -1,4 +1,4 @@
-# Fine tuning with original dataset.
+# fFine tuning with original + torque dataset
 
 import os
 import json
@@ -8,167 +8,149 @@ from transformers import (
     AutoModelForCausalLM,
     TrainingArguments,
     Trainer,
+    DataCollatorForLanguageModeling,
 )
-from datasets import load_dataset, Dataset
+from datasets import load_dataset, Dataset, concatenate_datasets
 from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 
-# ------------------------------
-# 1. Load the Tokenizer
-# ------------------------------
+
+## Load the Tokenizer
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.1-8B", use_fast=False)
 tokenizer.pad_token = tokenizer.eos_token  # Set pad_token_id
 
-# ------------------------------
-# 2. Prepare Your Training Datasets
-# ------------------------------
+
+## Prepare the Training Datasets
+
 def prepare_user_data(filenames):
     texts = []
     for filename in filenames:
         with open(filename, 'r') as f:
-            for line in f:
-                if line.strip():  # Skip empty lines
-                    example = json.loads(line)
+            first_char = f.read(1)
+            f.seek(0)
+            if first_char == '[':
+                # Standard JSON array
+                data = json.load(f)
+                for example in data:
                     question = example['question']
                     answer = example['text_answers']['text'][0]
-                    # Combine question and answer into a single text
                     text = f"Question: {question}\nAnswer: {answer}"
                     texts.append(text)
+            else:
+                # JSON Lines format
+                for line in f:
+                    if line.strip():
+                        example = json.loads(line)
+                        question = example['question']
+                        answer = example['text_answers']['text'][0]
+                        text = f"Question: {question}\nAnswer: {answer}"
+                        texts.append(text)
     return {'text': texts}
 
+def prepare_torque_data(filename):
+    prompts = []
+    responses = []
+    with open(filename, 'r') as f:
+        data = json.load(f)  # Load the JSON array
+        for idx, item in enumerate(data):
+            if 'passages' in item and item['passages']:
+                for passage_item in item['passages']:
+                    passage = passage_item.get('passage', '')
+                    if 'question_answer_pairs' in passage_item and passage_item['question_answer_pairs']:
+                        for qa_pair in passage_item['question_answer_pairs']:
+                            question = qa_pair.get('question', '')
+                            answer_spans = qa_pair.get('answer', {}).get('spans', [])
+                            answer_text = ' '.join(answer_spans)
+                            prompt = f"Passage: {passage}\nQuestion: {question}\nAnswer:"
+                            response = answer_text
+                            prompts.append(prompt)
+                            responses.append(response)
+    return {'text': [f"{p} {r}" for p, r in zip(prompts, responses)]}
+
+# Prepare datasets
 user_filenames = ['train_l1.json', 'train_l2.json', 'train_l3.json']
 user_data_prepared = prepare_user_data(user_filenames)
 user_dataset = Dataset.from_dict(user_data_prepared)
 
-# ------------------------------
-# 3. Tokenize the Dataset
-# ------------------------------
+torque_filename = 'train_tq.json'  
+torque_data_prepared = prepare_torque_data(torque_filename)
+torque_dataset = Dataset.from_dict(torque_data_prepared)
+
+# Concatenate datasets
+combined_dataset = concatenate_datasets([user_dataset, torque_dataset])
+
+# Check dataset sizes
+print(f"Number of user training samples: {len(user_dataset)}")
+print(f"Number of TORQUE training samples: {len(torque_dataset)}")
+print(f"Total training samples: {len(combined_dataset)}")
+
+
+## Tokenize the Dataset
+
 def tokenize_function(examples):
-    return tokenizer(examples['text'], truncation=True, max_length=512)
+    return tokenizer(examples['text'], truncation=True, max_length=256)
 
-tokenized_user_dataset = user_dataset.map(tokenize_function, batched=True, remove_columns=['text'])
+tokenized_dataset = combined_dataset.map(tokenize_function, batched=True, remove_columns=['text'])
 
-# ------------------------------
-# 4. Load the Model and Apply LoRA
-# ------------------------------
-from transformers import AutoModelForCausalLM
 
-# Load the model in 8-bit mode
+## Load the Model and Apply LoRA
+
 model = AutoModelForCausalLM.from_pretrained(
     "meta-llama/Llama-3.1-8B",
     device_map="auto",
     load_in_8bit=True,
     torch_dtype=torch.float16,
 )
-
-# Prepare the model for k-bit (8-bit) training
 model = prepare_model_for_kbit_training(model)
-
-# Configure LoRA
 lora_config = LoraConfig(
-    r=16,  # Rank of the update matrices
-    lora_alpha=32,  # Scaling factor
-    target_modules=["q_proj", "v_proj"],  # Modules to apply LoRA to
-    lora_dropout=0.05,  # Dropout rate
+    r=16,
+    lora_alpha=32,
+    target_modules=["q_proj", "v_proj"],
+    lora_dropout=0.05,
     bias="none",
     task_type="CAUSAL_LM",
 )
-
-# Apply LoRA to the model
 model = get_peft_model(model, lora_config)
+model.to("cuda")
 
-# ------------------------------
-# 5. Set Up Training Arguments
-# ------------------------------
+
+##Set Up Training Arguments
+
+# Adjusted Training Arguments
 training_args = TrainingArguments(
-    output_dir='./results_user',
-    max_steps=1000,
-    per_device_train_batch_size=8,
-    gradient_accumulation_steps=1,  # Adjust as needed
+    output_dir='./results_combined',
+    max_steps=10000,
+    per_device_train_batch_size=4,  
+    gradient_accumulation_steps=4,
     learning_rate=1e-4,
     fp16=True,
     save_total_limit=2,
     logging_steps=50,
     save_steps=200,
     report_to='none',
-    gradient_checkpointing=False,
+    gradient_checkpointing=True,  
 )
 
 
 
-
-# ------------------------------
-# 6. Initialize the Trainer
-# ------------------------------
-from transformers import DataCollatorForLanguageModeling
+## Initialize the Trainer
 
 data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
-
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=tokenized_user_dataset,
+    train_dataset=tokenized_dataset,
     data_collator=data_collator,
 )
 
-# ------------------------------
-# 7. Start Training
-# ------------------------------
+
+## Start Training
+
+torch.cuda.empty_cache()
 trainer.train()
 
-# ------------------------------
-# 8. Save the Final Model
-# ------------------------------
-# Save the PEFT model
-model.save_pretrained('llama_finetuned_user_peft')
 
-# Save the tokenizer
-tokenizer.save_pretrained('llama_finetuned_user_peft')
 
-# ------------------------------
-# 9. Testing the Model
-# ------------------------------
-from peft import PeftModel
+## Save the Final Model
 
-# Load the base model in 8-bit mode
-model = AutoModelForCausalLM.from_pretrained(
-    "meta-llama/Llama-3.1-8B",
-    device_map="auto",
-    load_in_8bit=True,
-    torch_dtype=torch.float16,
-)
-
-# Load the PEFT model
-model = PeftModel.from_pretrained(model, 'llama_finetuned_user_peft')
-
-# Function to generate responses
-def generate_responses(prompts):
-    responses = []
-    for prompt in prompts:
-        inputs = tokenizer(prompt, return_tensors='pt').to('cuda')
-        output = model.generate(
-            **inputs,
-            max_new_tokens=100,
-            pad_token_id=tokenizer.eos_token_id,
-            eos_token_id=tokenizer.eos_token_id,
-            do_sample=False  # For deterministic output
-        )
-        # Extract the generated text after the prompt
-        generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
-        # Remove the prompt from the generated text
-        response = generated_text[len(prompt):].strip()
-        responses.append(response)
-    return responses
-
-# Example usage:
-test_prompts = [
-    "Question: What is the time 6 year and 4 month after Nov, 1185?\nAnswer:",
-    "Question: Which employer did Jaroslav Pelikan work for in Jan, 1948?\nAnswer:",
-    # Add more prompts as needed
-]
-
-# Generate responses
-responses = generate_responses(test_prompts)
-
-# Print responses
-for prompt, response in zip(test_prompts, responses):
-    print(f"Prompt:\n{prompt}\nResponse:\n{response}\n{'-'*50}")
+model.save_pretrained('llama_finetuned_combined_peft')
+tokenizer.save_pretrained('llama_finetuned_combined_peft')
